@@ -1,0 +1,69 @@
+/**
+ * 1. Using the supplied Sencha SCSS variables:
+ * 
+ * Change the base color for your entire app (requires building Sencha Touch CSS yourself - see top of file)
+ * $base_color: #f58942;
+ */
+
+/**
+ * 2. Include Sencha Touch libraries
+ *
+ * This can optionally be uncommented to easily modify how much of the Sencha Touch CSS is included
+ * in your app. By default, new applications are set up to include the Sencha Touch CSS file from
+ * lib/touch/resources/css/ext-touch.css.
+ * 
+ * If you want to build a stripped-down version of the Sencha Touch CSS, remove that include from your
+ * index.html file and uncomment the code below. This will then build the required elements of Sencha 
+ * Touch's CSS along with your own SCSS code below into a single file.
+ * 
+ * This line must remain:
+ */
+ 
+@import 'sencha-touch/default/all';
+ 
+/** 
+ * 3. Optionally Include Component CSS
+ *
+ * Any of these lines can be removed/commented to remove those CSS rules from the generated file
+ */
+
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-carousel;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-form;
+@include sencha-msgbox;
+@include sencha-loading-spinner;
+
+
+/**
+ * 4. Your application's custom SCSS goes here:
+ *
+ * a) Including more icons:
+ *    The Pictos icons can be found under resources/themes/images/default/pictos
+ *    Simply include the name of the file, minus the .png
+ *    They can then be added to items as an iconCls (add iconMask: true for buttons)
+ *
+ *     @include pictos-iconmask('chat');
+ *     @include pictos-iconmask('calendar2');
+ * 
+ * b) To create a new Toolbar ui style:
+ *    More UI mixins: sencha-tabbar-ui, sencha-button-ui
+ * 
+ *     @include sencha-toolbar-ui('orange', #f58942, 'glossy');
+ * 
+ *     In your code:
+ *     new Ext.Toolbar({ui: 'orange'});
+ * 
+ * This is purely for to show a sample of custom SCSS-based styles
+ *      .x-tablet .x-list, .x-desktop .x-list {
+ *        border-right: 1px solid #000;
+ *      }
+ */
