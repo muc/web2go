@@ -5,27 +5,28 @@
  * main viewport. By default this is simply a welcome screen that tells you that the app was 
  * generated correctly.
  */
-web2go.Viewport = Ext.extend(Ext.Panel, {
-  id        : 'viewport',
-  layout    : 'card',
+web2go.views.Viewport = Ext.extend(Ext.Panel, {
+  id: 'viewport',
+  layout: 'card',
   fullscreen: true,
+  cardSwitchAnimation: 'slide',
 
   initComponent: function() {
-    this.dockedItems = [{
-        xtype: 'toolbar',
-        dock : 'bottom',
-        ui: 'dark',
-        items: [{
-            xtype: 'button',
-            itemId: 'homeButton',
-            iconCls: 'home',
-            iconMask: true,
-            ui: 'plain',
-            handler: this.onHomeTap,
-            scope: this
-        }]
-    }];
-    web2go.Viewport.superclass.initComponent.apply(this, arguments);
+    
+    //put instances of cards into web2go.views namespace
+    Ext.apply(web2go.views, {
+      homePanel: new web2go.views.HomePanel(),
+      modul1Panel: new web2go.views.Modul1Panel()
+    });
+    
+    //put instances of cards into viewport
+    Ext.apply(this, {
+      items: [
+        web2go.views.homePanel,
+        web2go.views.modul1Panel
+      ]
+    });
+    web2go.views.Viewport.superclass.initComponent.apply(this, arguments);
   }
 
 });

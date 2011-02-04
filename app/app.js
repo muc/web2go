@@ -10,7 +10,7 @@ Ext.regApplication('web2go', {
     defaultUrl   : 'web2go/home',
     
     launch: function() {
-        this.viewport = new web2go.Viewport({
+        this.views.viewport = new web2go.views.Viewport({
             application: this
         });
     }
