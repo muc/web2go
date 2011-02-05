@@ -16,14 +16,16 @@ web2go.views.Viewport = Ext.extend(Ext.Panel, {
     //put instances of cards into web2go.views namespace
     Ext.apply(web2go.views, {
       homePanel: new web2go.views.HomePanel(),
-      modul1Panel: new web2go.views.Modul1Panel()
+      mensaCampus: new web2go.views.MensaCampus(),
+      mensaDetail: new web2go.views.MensaDetail()
     });
     
     //put instances of cards into viewport
     Ext.apply(this, {
       items: [
         web2go.views.homePanel,
-        web2go.views.modul1Panel
+        web2go.views.mensaCampus,
+        web2go.views.mensaDetail
       ]
     });
     web2go.views.Viewport.superclass.initComponent.apply(this, arguments);

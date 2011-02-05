@@ -1,7 +1,7 @@
 /**
  * @class web2go.views.HomePanel
  * @extends Ext.Panel
- * The panel is the web2go home screen.
+ * This panel is the web2go home screen.
  */
 
 web2go.views.HomePanel = Ext.extend(Ext.Panel, {
@@ -26,15 +26,13 @@ web2go.views.HomePanel = Ext.extend(Ext.Panel, {
             },
             items: {
               xtype: 'button',
-//              itemId: 'modul1Button',
-//              scope: this
-              text: 'Modul1',
+              text: 'Mensa',
               listeners: {
                 'tap': function() {
                   Ext.dispatch({
-                    controller: web2go.controllers.modul1,
+                    controller: web2go.controllers.mensa,
                     action: 'index',
-                    animation: {type: 'slide', direction: 'left'}
+                    animation: {type: 'fade'}
                   });
                 }
               }
