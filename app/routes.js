@@ -16,7 +16,10 @@
 Ext.Router.draw(function(map) {
     
     
-    //These are default fallback routes and can be removed if not needed
+	//These are default fallback routes and can be removed if not needed
+	//map.connect('mensa/index', {controller: web2go.controllers.mensa, action: 'index'});
     map.connect(':controller/:action');
     map.connect(':controller/:action/:id');
+	
+	
 });
