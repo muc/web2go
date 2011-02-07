@@ -112,8 +112,13 @@ web2go.views.MensaDetail = Ext.extend(Ext.Panel, {
             title: 'Pläne',
             store: web2go.stores.mensa,
             itemTpl: '{name}',
-            onItemDisclosure: function(record) {
-                Ext.Msg.alert('Tap', 'PDF for ' + record.get('name') + ' here...');
+            grouped: true,
+            onItemDisclosure: true,
+            listeners: {
+                'itemtap': function(list, index) {
+                    var record = list.getStore().getAt(index);
+                    Ext.Msg.alert('Tap', 'PDF for ' + record.get('name'));
+                }
             }
         };
 
