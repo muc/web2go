@@ -4,11 +4,12 @@
  * Mensa informations and pdf plans
  */
 
-web2go.views.MensaDetail = Ext.extend(Ext.TabPanel, {
+web2go.views.MensaDetail = Ext.extend(Ext.Panel, {
     centered: true,
-    tabBar: {
-        layout: {pack: 'center'}
-    },
+    layout: 'card',
+//    tabBar: {
+//        layout: {pack: 'center'}
+//    },
 
     initComponent: function() {
         this.backBtn = {
@@ -41,17 +42,51 @@ web2go.views.MensaDetail = Ext.extend(Ext.TabPanel, {
                 }
             }
         };
-
-        this.dockedItems = [{
+        
+        this.wwwBtn = {
+            xtype: 'button',
+            iconMask: true,
+            ui: 'plain',
+            iconCls: 'action',
+            listeners: {
+                'tap': function() {
+                    Ext.Msg.alert('Redirect to dhbw-mosbach.de');
+                }
+            }
+        };
+        
+        this.tabBtns = {
+          xtype: 'segmentedbutton',
+          items: [{
+              text: 'Info',
+              pressed: true,
+              scope: this,
+              handler: function() {
+                  this.setActiveItem(0, {type: 'slide',direction: 'right'});
+              }
+          }, {
+              text: 'Pläne',
+              scope: this,
+              handler: function() {
+                  this.setActiveItem(1, {type: 'slide',direction: 'left'});
+              }
+          }]
+        };
+        
+        this.titleBar = {
             xtype: 'toolbar',
             dock : 'top',
-            title: 'Mensa Mosbach',
-            items: [
-                this.backBtn,
-                {xtype: 'spacer'},
-                this.homeBtn
-            ]
-        }];
+            title: 'Mensa',
+            items: [this.homeBtn, {xtype: 'spacer'}, this.wwwBtn]
+        };
+        
+        this.toolBar = {
+            xtype: 'toolbar',
+            dock : 'top',
+            items: [this.backBtn, {xtype: 'spacer'}, this.tabBtns, {xtype: 'spacer'}]
+        };
+
+        this.dockedItems = [this.titleBar, this.toolBar];
 
         this.infoPanel = {
             title: 'Info',

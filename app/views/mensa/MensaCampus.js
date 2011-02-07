@@ -42,16 +42,32 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
             }
         };
         
-        this.dockedItems = [{
+        this.wwwBtn = {
+            xtype: 'button',
+            iconMask: true,
+            ui: 'plain',
+            iconCls: 'action',
+            listeners: {
+                'tap': function() {
+                    Ext.Msg.alert('Redirect to dhbw-mosbach.de');
+                }
+            }
+        };
+        
+        this.titleBar = {
             xtype: 'toolbar',
             dock : 'top',
             title: 'Mensapläne',
-            items: [
-                this.backBtn, 
-                {xtype: 'spacer'},
-                this.homeBtn
-            ]
-        }];
+            items: [this.homeBtn, {xtype: 'spacer'}, this.wwwBtn]
+        };
+        
+        this.toolBar = {
+            xtype: 'toolbar',
+            dock : 'top',
+            items: [this.backBtn]
+        };
+        
+        this.dockedItems = [this.titleBar, this.toolBar];
     
         this.store = web2go.stores.campus;
         
