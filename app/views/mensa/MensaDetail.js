@@ -83,7 +83,7 @@ web2go.views.MensaDetail = Ext.extend(Ext.Panel, {
         this.toolBar = {
             xtype: 'toolbar',
             dock : 'top',
-            items: [this.backBtn, {xtype: 'spacer'}, this.tabBtns, {xtype: 'spacer'}]
+            items: [this.backBtn, {xtype: 'spacer'}, this.tabBtns]
         };
 
         this.dockedItems = [this.titleBar, this.toolBar];
