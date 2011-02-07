@@ -6,28 +6,10 @@
 
 
 web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
-    store: web2go.stores.campus,
     displayField: 'name',
     useToolbar: false,
     onItemDisclosure: true,
-    clearSelectionDelay: 50,
-    listeners: {
-        'leafitemtap' : function(subList, subIdx, el, e, detailCard) {
-            var selModel = subList.getSelectionModel();
-            Ext.defer(selModel.deselectAll, 1, selModel);
-            Ext.dispatch({
-                controller: web2go.controllers.mensa,
-                action: 'detail',
-                animation: {
-                    type: 'slide', 
-                    direction: 'left'
-                },
-                campus: subList.getStore().getAt(subIdx).get('name')
-            });
-        }
-    },
-  
-  
+    
     initComponent: function() {
         this.backBtn = {
             xtype: 'button',
@@ -70,6 +52,22 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
                 this.homeBtn
             ]
         }];
+    
+        this.store = web2go.stores.campus;
+        
+        this.listeners = {
+            'leafitemtap': function(subList, subIdx, el, e, detailCard) {
+                var selModel = subList.getSelectionModel();
+                Ext.defer(selModel.deselectAll, 1, selModel);
+                Ext.dispatch({
+                    controller: web2go.controllers.mensa,
+                    action: 'detail',
+                    animation: {type: 'slide', direction: 'left'},
+                    campus: subList.getStore().getAt(subIdx).get('name')
+                });
+            }
+        };
+        
         //    web2go.stores.campus.load();
         web2go.views.MensaCampus.superclass.initComponent.apply(this, arguments);
     }
