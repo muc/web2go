@@ -49,7 +49,7 @@ web2go.views.HomePanel = Ext.extend(Ext.Panel, {
                 Ext.dispatch({
                   controller: controller,
                   action: action,
-                  animation: {type: 'fade'}
+                  animation: {type: 'slide', direction: 'left'}
                 });
               }
             }

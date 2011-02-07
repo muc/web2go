@@ -7,7 +7,7 @@
 web2go.controllers.web2go = new Ext.Controller({
   home: function(options) {
     web2go.views.viewport.setActiveItem(
-      web2go.views.homePanel, {type: 'fade'}
+      web2go.views.homePanel, options.animation
     );
   }
 });

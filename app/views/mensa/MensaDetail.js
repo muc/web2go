@@ -14,7 +14,7 @@ web2go.views.MensaDetail = Ext.extend(Ext.TabPanel, {
     items: [{
       xtype: 'button',
       ui: 'back',
-      text: 'Campus',
+      text: 'Zurück',
       listeners: {
         'tap': function() {
           Ext.dispatch({
