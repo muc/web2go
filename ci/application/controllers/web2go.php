@@ -9,5 +9,4 @@ class Web2go extends CI_Controller {
     function index() {
         $this->load->view('web2go');
     }
-
 }
