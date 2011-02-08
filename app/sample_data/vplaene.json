@@ -1,0 +1,37 @@
+{
+  "name": "Campus",
+  "items": [{
+      "name": "Mosbach",
+      "items": [{
+          "name": "Onlinemedien",
+          "items": [{
+                  "name": "ON08",
+                  "leaf": true
+          }, {
+                  "name": "ON09",
+                  "leaf": true
+          }, {
+                  "name": "ON10",
+                  "leaf": true
+          }]
+      }, {
+          "name": "Wirtschaftsinformatik",
+          "items": [{
+                  "name": "WI08",
+                  "leaf": true
+          }, {
+                  "name": "WI09",
+                  "leaf": true
+          }, {
+                  "name": "WI10",
+                  "leaf": true
+          }]
+      }]
+  },{
+      "name": "Heilbronn",
+      "leaf": true
+  },{
+      "name": "Bad Dingens",
+      "leaf": true
+  }]
+}
