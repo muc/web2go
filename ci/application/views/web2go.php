@@ -33,9 +33,12 @@
         <div id="sencha-views">
             <script type="text/javascript" src="app/views/Viewport.js"></script>
             <script type="text/javascript" src="app/views/HomePanel.js"></script>
+            <script type="text/javascript" src="app/views/whoiswho/WhoiswhoPanel.js"></script>
             <script type="text/javascript" src="app/views/studiengaenge/StudiengaengePanel.js"></script>
             <script type="text/javascript" src="app/views/firmenliste/FirmenlistePanel.js"></script>
             <script type="text/javascript" src="app/views/vplaene/VplaenePanel.js"></script>
+            <script type="text/javascript" src="app/views/dokumente/DokumentePanel.js"></script>
+            <script type="text/javascript" src="app/views/zimmerboerse/ZimmerboersePanel.js"></script>
             <script type="text/javascript" src="app/views/mensa/MensaCampus.js"></script>
             <script type="text/javascript" src="app/views/mensa/MensaDetail.js"></script>
         </div>
@@ -43,9 +46,12 @@
         <!-- Place your controller files here -->
         <div id="sencha-controllers">
             <script type="text/javascript" src="app/controllers/web2go.js"></script>
+            <script type="text/javascript" src="app/controllers/whoiswho.js"></script>
             <script type="text/javascript" src="app/controllers/firmenliste.js"></script>
             <script type="text/javascript" src="app/controllers/studiengaenge.js"></script>
             <script type="text/javascript" src="app/controllers/vplaene.js"></script>
+            <script type="text/javascript" src="app/controllers/dokumente.js"></script>
+            <script type="text/javascript" src="app/controllers/zimmerboerse.js"></script>
             <script type="text/javascript" src="app/controllers/mensa.js"></script>
         </div>
 
