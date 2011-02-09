@@ -20,7 +20,7 @@
     border-radius: 7px;
 }
 
-.HomeScreenBg{
+.HomeScreenBg {
     background-image: -webkit-gradient(
         linear, 0% 0%, 0% 100%,
         color-stop(0%, #222),
@@ -42,4 +42,12 @@
 .homeScreenButton-body {
     margin: 0;
     padding: 0;
+}
+
+.x-toolbar-title {
+    font-weight: normal;
+}
+.dhbw-red {
+    color: #E0081D;
+    font-weight: bold;
 }

@@ -17,7 +17,7 @@ class Ajax extends CI_Controller {
             'items' => array(
                 array('name' => 'Mosbach', 'id' => 'mos', 'leaf' => true),
                 array('name' => 'Heilbronn', 'id' => 'hn', 'leaf' => true),
-                array('name' => 'Bad Merkentheim', 'id' => 'bm', 'leaf' => true),
+                array('name' => 'Bad Mergentheim', 'id' => 'mgh', 'leaf' => true),
             )
         );
         echo json_encode($response);
@@ -64,7 +64,7 @@ class Ajax extends CI_Controller {
                     )
                 ),
                 array('name' => 'Heilbronn', 'leaf' => true),
-                array('name' => 'Bad Merkentheim', 'leaf' => true),
+                array('name' => 'Bad Mergentheim', 'leaf' => true),
             )
         );
         echo json_encode($response);

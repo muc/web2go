@@ -23,7 +23,7 @@ web2go.views.HomePanel = Ext.extend(Ext.Panel, {
         this.dockedItems = [{
             xtype: 'toolbar',
             dock : 'top',
-            title: 'DHBW Mosbach Web2Go'
+            title: '<span class="dhbw-red">DH</span>BW Mosbach'
         }];
 
         var buttons = [];
