@@ -5,6 +5,10 @@
     margin-bottom:0px;
     margin-left:auto;
     margin-right:auto;
+    border: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0.15em .15em 0.2em;
+    background-image: none;
+    background-color: transparent;
 }
 
 .HomeScreenButton img {
@@ -32,6 +36,7 @@
 
 .buttonlabel span {
     color: white;
+    text-shadow: rgba(0, 0, 0, 1) 0.2em .2em 0.1em;
 }
 
 .homeScreenButton-body {
