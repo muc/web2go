@@ -9,6 +9,7 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
     displayField: 'name',
     useToolbar: false,
     onItemDisclosure: true,
+    store: web2go.stores.campus,
     
     initComponent: function() {
         this.backBtn = {
@@ -69,7 +70,7 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
         
         this.dockedItems = [this.titleBar, this.toolBar];
     
-        this.store = web2go.stores.campus;
+//        this.store = web2go.stores.campus;
         
         this.listeners = {
             'leafitemtap': function(subList, subIdx, el, e, detailCard) {
@@ -79,7 +80,7 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
                     controller: web2go.controllers.mensa,
                     action: 'detail',
                     animation: {type: 'slide', direction: 'left'},
-                    campus: subList.getStore().getAt(subIdx).get('name')
+                    campus: subList.getStore().getAt(subIdx)
                 });
             }
         };

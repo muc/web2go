@@ -22,7 +22,7 @@
  * as this file.
  *
  */
-	$system_path = "system";
+	$system_path = "ci/system";
 
 /*
  *---------------------------------------------------------------
@@ -38,7 +38,7 @@
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = "application";
+	$application_folder = "ci/application";
 
 /*
  * --------------------------------------------------------------------

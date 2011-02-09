@@ -12,21 +12,17 @@ web2go.stores.mensa = new Ext.data.Store({
     getGroupString: function(record) {
         return record.get('kw');
     },
-    data: [{
-        id: 1, 
-        name: 'Alte Mälzerei',
-        kw: 'KW 5'
-    },{
-        id: 2, 
-        name: 'Brauhaus',
-        kw: 'KW 5'
-    },{
-        id: 3, 
-        name: 'Lamm',
-        kw: 'KW 5'
-    },{
-        id: 4, 
-        name: 'Lamm',
-        kw: 'KW 6'
-    }]
+    autoLoad: false,
+    proxy: {
+        type: 'ajax',
+        url: 'ajax/get_mensa',
+        actionMethods: {
+            reader: 'POST'
+        },
+        reader: {
+            type: 'json',
+            root: 'data'
+        }
+    }
+    
 });
