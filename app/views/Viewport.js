@@ -17,6 +17,7 @@ web2go.views.Viewport = Ext.extend(Ext.Panel, {
     Ext.apply(web2go.views, {
       homePanel: new web2go.views.HomePanel(),
       studiengaengePanel: new web2go.views.StudiengaengePanel(),
+      firmenlistePanel: new web2go.views.FirmenlistePanel(),
       vplaenePanel: new web2go.views.VplaenePanel(),
       mensaCampus: new web2go.views.MensaCampus(),
       mensaDetail: new web2go.views.MensaDetail()
@@ -26,6 +27,7 @@ web2go.views.Viewport = Ext.extend(Ext.Panel, {
     Ext.apply(this, {
       items: [
         web2go.views.homePanel,
+        web2go.views.firmenlistePanel,
         web2go.views.studiengaengePanel,
         web2go.views.vplaenePanel,
         web2go.views.mensaCampus,
