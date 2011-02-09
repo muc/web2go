@@ -10,20 +10,17 @@
 
     <link rel="stylesheet" href="lib/touch/resources/css/sencha-touch.css" type="text/css">
     <link rel="stylesheet" href="resources/css/application.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/HomeScreenButton.css" type="text/css">
 </head>
 <body>
-    <!--
-        This is your development file. This should load the debug versions of third party library, and load
-        your application file by file (the Sencha Command generators help automate this). See deploy/index.html
-        for the production version of this file
-     -->
-
     <script type="text/javascript" src="lib/touch/sencha-touch-debug.js"></script>
     <script type="text/javascript" src="lib/touch/pkgs/platform/mvc.js"></script>
 
     <div id="sencha-app">
         <script type="text/javascript" src="app/routes.js"></script>
         <script type="text/javascript" src="app/app.js"></script>
+        <script type="text/javascript" src="lib/ux/HomeScreen.js"></script>
+        <script type="text/javascript" src="lib/ux/HomeScreenButton.js"></script>
 
         <!-- Place your model files here -->
         <div id="sencha-models">
