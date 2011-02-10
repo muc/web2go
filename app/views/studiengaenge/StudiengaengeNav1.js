@@ -6,10 +6,10 @@
 
 
 web2go.views.StudiengaengeNav1 = Ext.extend(Ext.Panel, {
-//    itemTpl : '{title}',
-//    store: web2go.stores.sgnav,
-//    onItemDisclosure: true,
-//    disableSelection: true,
+    scroll:'none',
+    layout:{
+        type:'vbox'
+    },
     
     initComponent: function() {
         
@@ -38,6 +38,8 @@ web2go.views.StudiengaengeNav1 = Ext.extend(Ext.Panel, {
         
         this.items = [{
                 xtype: 'list',
+                flex: 1,
+                scroll: 'vertical',
                 itemTpl : '{title}',
                 store: web2go.stores.sgnav,
                 onItemDisclosure: true,
