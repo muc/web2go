@@ -52,12 +52,12 @@ web2go.views.StudiengaengePanel = Ext.extend(Ext.Panel, {
         this.dockedItems = [this.titleBar];
         
         Ext.apply(web2go.views, {
-            studiengaengeNav1: new web2go.views.StudiengaengeNav1(),
+            studiengaengeFilter: new web2go.views.StudiengaengeFilter(),
             studiengaengeList: new web2go.views.StudiengaengeList()
         });
         Ext.apply(this, {
             items: [
-                web2go.views.studiengaengeNav1,
+                web2go.views.studiengaengeFilter,
                 web2go.views.studiengaengeList
             ]
         });

@@ -8,13 +8,13 @@ web2go.controllers.studiengaenge = new Ext.Controller({
     index: function(options) {
         web2go.stores.sgnav.load();
         
-        var listScroller = web2go.views.studiengaengeNav1.list.scroller;
+        var listScroller = web2go.views.studiengaengeFilter.list.scroller;
         if (listScroller != undefined) {
-            web2go.views.studiengaengeNav1.list.scroller.scrollTo({x:0, y:0});
+            web2go.views.studiengaengeFilter.list.scroller.scrollTo({x:0, y:0});
         }
         if (options.target == 'sub') {
             web2go.views.studiengaengePanel.setActiveItem(
-                web2go.views.studiengaengeNav1, options.animation
+                web2go.views.studiengaengeFilter, options.animation
             );
         }
         else {

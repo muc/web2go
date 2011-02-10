@@ -36,7 +36,7 @@
             <script type="text/javascript" src="app/views/HomePanel.js"></script>
             <script type="text/javascript" src="app/views/whoiswho/WhoiswhoPanel.js"></script>
             <script type="text/javascript" src="app/views/studiengaenge/StudiengaengePanel.js"></script>
-            <script type="text/javascript" src="app/views/studiengaenge/StudiengaengeNav1.js"></script>
+            <script type="text/javascript" src="app/views/studiengaenge/StudiengaengeFilter.js"></script>
             <script type="text/javascript" src="app/views/studiengaenge/StudiengaengeList.js"></script>
             <script type="text/javascript" src="app/views/firmenliste/FirmenlistePanel.js"></script>
             <script type="text/javascript" src="app/views/vplaene/VplaenePanel.js"></script>

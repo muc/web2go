@@ -6,10 +6,6 @@
 
 
 web2go.views.StudiengaengeList = Ext.extend(Ext.Panel, {
-//    itemTpl : '{title}',
-//    store: web2go.stores.sglist,
-//    onItemDisclosure: true,
-//    disableSelection: true,
     
     initComponent: function() {
         
@@ -54,17 +50,6 @@ web2go.views.StudiengaengeList = Ext.extend(Ext.Panel, {
                     }
                 }
         }];
-        
-//        this.listeners = {
-//            itemtap: function(dataView, index) {
-//                Ext.dispatch({
-//                    controller: web2go.controllers.studiengaenge,
-//                    action: 'list',
-//                    animation: {type: 'slide', direction: 'left'},
-//                    filter: this.store.getAt(index).get('id')
-//                });
-//            }
-//        };
         
         web2go.views.StudiengaengeList.superclass.initComponent.apply(this, arguments);
     }
