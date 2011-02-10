@@ -25,6 +25,7 @@
         <!-- Place your model files here -->
         <div id="sencha-models">
             <script type="text/javascript" src="app/models/web2go.js"></script>
+            <script type="text/javascript" src="app/models/studiengaenge.js"></script>
             <script type="text/javascript" src="app/models/vplaene.js"></script>
             <script type="text/javascript" src="app/models/mensa.js"></script>
         </div>
@@ -35,6 +36,8 @@
             <script type="text/javascript" src="app/views/HomePanel.js"></script>
             <script type="text/javascript" src="app/views/whoiswho/WhoiswhoPanel.js"></script>
             <script type="text/javascript" src="app/views/studiengaenge/StudiengaengePanel.js"></script>
+            <script type="text/javascript" src="app/views/studiengaenge/StudiengaengeNav1.js"></script>
+            <script type="text/javascript" src="app/views/studiengaenge/StudiengaengeList.js"></script>
             <script type="text/javascript" src="app/views/firmenliste/FirmenlistePanel.js"></script>
             <script type="text/javascript" src="app/views/vplaene/VplaenePanel.js"></script>
             <script type="text/javascript" src="app/views/dokumente/DokumentePanel.js"></script>

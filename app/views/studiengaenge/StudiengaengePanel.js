@@ -7,25 +7,12 @@
 
 web2go.views.StudiengaengePanel = Ext.extend(Ext.Panel, {
     
-    styleHtmlContent: true,
-    html: '<br/><br/><br/><div style="text-align: center;text-shadow: rgba(0, 0, 0, 0.3) 0.2em .2em 0.2em;"><h3>work in progress&hellip;</h3></div>',
+    layout: 'card',
+    
+//    styleHtmlContent: true,
+//    html: '<br/><br/><br/><div style="text-align: center;text-shadow: rgba(0, 0, 0, 0.3) 0.2em .2em 0.2em;"><h3>work in progress&hellip;</h3></div>',
     
     initComponent: function() {
-        
-        this.backBtn = {
-            xtype: 'button',
-            ui: 'back',
-            text: 'Zurück',
-            listeners: {
-                'tap': function() {
-                    Ext.dispatch({
-                        controller: web2go.controllers.web2go,
-                        action: 'home',
-                        animation: {type: 'slide', direction: 'right'}
-                    });
-                }
-            }
-        };
         
         this.homeBtn = {
             xtype: 'button',
@@ -62,13 +49,18 @@ web2go.views.StudiengaengePanel = Ext.extend(Ext.Panel, {
             items: [this.homeBtn, {xtype: 'spacer'}, this.wwwBtn]
         };
         
-        this.toolBar = {
-            xtype: 'toolbar',
-            dock : 'top',
-            items: [this.backBtn]
-        };
+        this.dockedItems = [this.titleBar];
         
-        this.dockedItems = [this.titleBar, this.toolBar];
+        Ext.apply(web2go.views, {
+            studiengaengeNav1: new web2go.views.StudiengaengeNav1(),
+            studiengaengeList: new web2go.views.StudiengaengeList()
+        });
+        Ext.apply(this, {
+            items: [
+                web2go.views.studiengaengeNav1,
+                web2go.views.studiengaengeList
+            ]
+        });
         
         web2go.views.StudiengaengePanel.superclass.initComponent.apply(this, arguments);
     }

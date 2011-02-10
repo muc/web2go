@@ -70,8 +70,6 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
         
         this.dockedItems = [this.titleBar, this.toolBar];
     
-//        this.store = web2go.stores.campus;
-        
         this.listeners = {
             'leafitemtap': function(subList, subIdx, el, e, detailCard) {
                 var selModel = subList.getSelectionModel();
