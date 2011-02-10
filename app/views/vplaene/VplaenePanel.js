@@ -5,6 +5,10 @@
  web2go.views.VplaenePanel = Ext.extend(Ext.NestedList, {
     displayField: 'name',
     onItemDisclosure: true,
+    toolbar: {
+      ui: 'dark'
+    },
+    
     initComponent: function() {
         this.backBtn = {
             xtype: 'button',
