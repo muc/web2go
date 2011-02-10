@@ -6,11 +6,7 @@
 
 
 web2go.views.StudiengaengePanel = Ext.extend(Ext.Panel, {
-    
     layout: 'card',
-    
-//    styleHtmlContent: true,
-//    html: '<br/><br/><br/><div style="text-align: center;text-shadow: rgba(0, 0, 0, 0.3) 0.2em .2em 0.2em;"><h3>work in progress&hellip;</h3></div>',
     
     initComponent: function() {
         

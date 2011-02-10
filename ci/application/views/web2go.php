@@ -27,6 +27,7 @@
             <script type="text/javascript" src="app/models/web2go.js"></script>
             <script type="text/javascript" src="app/models/studiengaenge.js"></script>
             <script type="text/javascript" src="app/models/vplaene.js"></script>
+            <script type="text/javascript" src="app/models/dokumente.js"></script>
             <script type="text/javascript" src="app/models/mensa.js"></script>
         </div>
 
@@ -41,6 +42,7 @@
             <script type="text/javascript" src="app/views/firmenliste/FirmenlistePanel.js"></script>
             <script type="text/javascript" src="app/views/vplaene/VplaenePanel.js"></script>
             <script type="text/javascript" src="app/views/dokumente/DokumentePanel.js"></script>
+            <script type="text/javascript" src="app/views/dokumente/DokumenteCategory.js"></script>
             <script type="text/javascript" src="app/views/zimmerboerse/ZimmerboersePanel.js"></script>
             <script type="text/javascript" src="app/views/mensa/MensaCampus.js"></script>
             <script type="text/javascript" src="app/views/mensa/MensaDetail.js"></script>
