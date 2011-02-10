@@ -36,37 +36,29 @@ web2go.views.StudiengaengeNav1 = Ext.extend(Ext.Panel, {
         
         this.dockedItems = [this.toolBar];
         
-        this.items = [{
-                xtype: 'list',
-                flex: 1,
-                scroll: 'vertical',
-                itemTpl : '{title}',
-                store: web2go.stores.sgnav,
-                onItemDisclosure: true,
-                disableSelection: true,
-                listeners: {
-                    itemtap: function(dataView, index) {
-                        Ext.dispatch({
-                            controller: web2go.controllers.studiengaenge,
-                            action: 'list',
-                            animation: {type: 'slide', direction: 'left'},
-                            filter: this.store.getAt(index).get('id')
-                        });
-                    }
+        this.list = new Ext.List({
+            flex: 1,
+            scroll: 'vertical',
+            itemTpl : '{title}',
+            store: web2go.stores.sgnav,
+            onItemDisclosure: true,
+            disableSelection: true,
+            listeners: {
+                itemtap: function(dataView, index) {
+                    Ext.dispatch({
+                        controller: web2go.controllers.studiengaenge,
+                        action: 'list',
+                        animation: {type: 'slide', direction: 'left'},
+                        filter: this.store.getAt(index).get('id')
+                    });
                 }
-        }];
+            }
+            
+        });
         
-//        this.listeners = {
-//            itemtap: function(dataView, index) {
-//                Ext.dispatch({
-//                    controller: web2go.controllers.studiengaenge,
-//                    action: 'list',
-//                    animation: {type: 'slide', direction: 'left'},
-//                    filter: this.store.getAt(index).get('id')
-//                });
-//            }
-//        };
+        this.items = [this.list];
         
         web2go.views.StudiengaengeNav1.superclass.initComponent.apply(this, arguments);
     }
+    
 });
