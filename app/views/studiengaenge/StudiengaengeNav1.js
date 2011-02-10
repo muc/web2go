@@ -6,11 +6,9 @@
 
 
 web2go.views.StudiengaengeNav1 = Ext.extend(Ext.Panel, {
-//    scroll:'none',
     layout: Ext.isPhone ? 'fit' : {
         type:'vbox',
-        align: 'center',
-        pack: 'center'
+        align: 'stretch'
     },
     
     initComponent: function() {

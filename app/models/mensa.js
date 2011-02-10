@@ -15,7 +15,7 @@ web2go.stores.mensa = new Ext.data.Store({
     autoLoad: false,
     proxy: {
         type: 'ajax',
-        url: 'ajax/get_mensa',
+        url: 'mensa/ajax/get_mensa',
         actionMethods: {
             reader: 'POST'
         },

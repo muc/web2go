@@ -23,19 +23,6 @@ class Ajax extends CI_Controller {
         echo json_encode($response);
     }
     
-    function get_mensa() {
-        if (!IS_AJAX) redirect('');
-        $response = array(
-            'data' => array(
-                array('id' => 1, 'name' => 'Alte Mälzerei', 'kw' => 'KW 5'),
-                array('id' => 2, 'name' => 'Brauhaus', 'kw' => 'KW 5'),
-                array('id' => 3, 'name' => 'Lamm', 'kw' => 'KW 5'),
-                array('id' => 4, 'name' => 'Lamm', 'kw' => 'KW 6'),
-            )
-        );
-        echo json_encode($response);
-    }
-    
     function get_vplaene() {
         if (!IS_AJAX) redirect('');
         

@@ -12,10 +12,10 @@ class Studiengaenge extends CI_Controller {
     
     function ajax($fn) {
         if (!IS_AJAX) $this->index();
-        echo json_encode(call_user_func(array($this, $fn)));
+        echo json_encode(call_user_func(array($this, '_' . $fn)));
     }
     
-    function get_nav1() {
+    function _get_nav1() {
         return array(
             'data' => array(
                 array('id' => 1, 'title' => 'Alle Angebote'),
@@ -33,7 +33,7 @@ class Studiengaenge extends CI_Controller {
         );
     }
     
-    function get_list() {
+    function _get_list() {
         $filter = $this->input->post('filter');
         return array(
             'data' => array(
