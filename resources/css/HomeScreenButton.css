@@ -52,3 +52,9 @@
     color: #E0081D;
     font-weight: bold;
 }
+
+.title-btn span.x-button-label {
+    font-size: 1.15em !important;
+    padding-top: 2px;
+    font-weight: normal;
+}
