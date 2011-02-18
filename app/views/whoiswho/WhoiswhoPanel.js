@@ -6,70 +6,59 @@
 
 
 web2go.views.WhoiswhoPanel = Ext.extend(Ext.Panel, {
-    
-    styleHtmlContent: true,
-    html: '<br/><br/><br/><div style="text-align: center;text-shadow: rgba(0, 0, 0, 0.3) 0.2em .2em 0.2em;"><h3>work in progress&hellip;</h3></div>',
+    layout: 'card',
     
     initComponent: function() {
-        
+
         this.backBtn = {
             xtype: 'button',
             ui: 'back',
             text: 'Zurück',
-            listeners: {
-                'tap': function() {
-                    Ext.dispatch({
-                        controller: web2go.controllers.web2go,
-                        action: 'home',
-                        animation: {type: 'slide', direction: 'right'}
-                    });
-                }
+            scope: this,
+            handler: function() {
+                var currCard = this.getCardIndex();
+                currCard == 0 ? this.switchToHome() : this.setActiveItem(currCard - 1);
             }
         };
-        
+
         this.homeBtn = {
             xtype: 'button',
             iconMask: true,
             ui: 'plain',
             iconCls: 'home',
-            listeners: {
-                'tap': function() {
-                    Ext.dispatch({
-                        controller: web2go.controllers.web2go,
-                        action: 'home',
-                        animation: {type: 'slide', direction: 'right'}
-                    });
-                }
-            }
-        };
-        
-        this.wwwBtn = {
-            xtype: 'button',
-            iconMask: true,
-            ui: 'plain',
-            iconCls: 'action',
-            listeners: {
-                'tap': function() {
-                    Ext.Msg.alert('Redirect to dhbw-mosbach.de');
-                }
-            }
-        };
-        
-        this.titleBar = {
-            xtype: 'toolbar',
-            dock : 'top',
-            title: 'Who is who',
-            items: [this.homeBtn, {xtype: 'spacer'}, this.wwwBtn]
+            handler: this.switchToHome
         };
         
         this.toolBar = {
             xtype: 'toolbar',
             dock : 'top',
-            items: [this.backBtn]
+            title: 'Who is who',
+            items: [this.backBtn, {xtype: 'spacer'}, this.homeBtn]
         };
         
-        this.dockedItems = [this.titleBar, this.toolBar];
+        this.dockedItems = [this.toolBar];
+
+        Ext.apply(web2go.views, {
+            whoiswhoForm: new web2go.views.WhoiswhoForm()
+        });
+        Ext.apply(this, {
+            items: [
+                web2go.views.whoiswhoForm
+            ]
+        });
         
         web2go.views.WhoiswhoPanel.superclass.initComponent.apply(this, arguments);
+    },
+
+    getCardIndex: function() {
+        return this.items.indexOf(this.getActiveItem());
+    },
+
+    switchToHome: function() {
+        Ext.dispatch({
+            controller: web2go.controllers.web2go,
+            action: 'home',
+            animation: {type: 'slide', direction: 'right'}
+        });
     }
 });

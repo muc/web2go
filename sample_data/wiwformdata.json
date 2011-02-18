@@ -1,0 +1,295 @@
+{
+    "wiw": {
+        "locations": [
+            {
+                "id": 0,
+                "name": "Mosbach",
+                "leaf": "true"
+            },
+            {
+                "id": 1,
+                "name": "Bad Mergentheim",
+                "leaf": "true"
+            },
+            {
+                "id": 2,
+                "name": "Heilbronn",
+                "leaf": "true"
+            },
+            {
+                "id": 3,
+                "name": "(Alle)",
+                "leaf": "true"
+            }
+        ],
+        "departments": [
+            {
+                "id": 0,
+                "name": "Rektorat",
+                "leaf": "true"
+            },
+            {
+                "id": 10,
+                "name": "Verwaltung",
+                "leaf": "true"
+            },
+            {
+                "id": 20,
+                "name": "Hochschulkommunikation",
+                "leaf": "true"
+            },
+            {
+                "id": 70,
+                "name": "Auslandsamt",
+                "leaf": "true"
+            },
+            {
+                "id": 80,
+                "name": "Pr\u00fcfungsamt",
+                "leaf": "true"
+            },
+            {
+                "id": 90,
+                "name": "Bibliothek",
+                "leaf": "true"
+            },
+            {
+                "id": 100,
+                "name": "Rechenzentrum",
+                "leaf": "true"
+            },
+            {
+                "id": 110,
+                "name": "Webteam",
+                "leaf": "true"
+            },
+            {
+                "id": 130,
+                "name": "Haustechnik",
+                "leaf": "true"
+            },
+            {
+                "id": 141,
+                "name": "(Alle)",
+                "leaf": "true"
+            }
+        ],
+        "courses": [
+            {
+                "id": null,
+                "name": "(Alle)",
+                "leaf": "true"
+            },
+            {
+                "id": 69,
+                "name": "Angewandte Informatik",
+                "leaf": "true"
+            },
+            {
+                "id": 67,
+                "name": "Bank",
+                "leaf": "true"
+            },
+            {
+                "id": 74,
+                "name": "Bauwesen - Fassadentechnik",
+                "leaf": "true"
+            },
+            {
+                "id": 70,
+                "name": "Bauwesen - Projektmanagement",
+                "leaf": "true"
+            },
+            {
+                "id": 71,
+                "name": "Dienstleistungsmanagement",
+                "leaf": "true"
+            },
+            {
+                "id": 75,
+                "name": "Electronic Business",
+                "leaf": "true"
+            },
+            {
+                "id": 115,
+                "name": "Elektromobilit\u00e4t",
+                "leaf": "true"
+            },
+            {
+                "id": 72,
+                "name": "Elektrotechnik",
+                "leaf": "true"
+            },
+            {
+                "id": 77,
+                "name": "Food Management",
+                "leaf": "true"
+            },
+            {
+                "id": 79,
+                "name": "Gesundheitsmanagement",
+                "leaf": "true"
+            },
+            {
+                "id": 81,
+                "name": "Handel",
+                "leaf": "true"
+            },
+            {
+                "id": 68,
+                "name": "Healthcare Industry",
+                "leaf": "true"
+            },
+            {
+                "id": 83,
+                "name": "Holz-Betriebswirtschaft",
+                "leaf": "true"
+            },
+            {
+                "id": 85,
+                "name": "Holztechnik",
+                "leaf": "true"
+            },
+            {
+                "id": 76,
+                "name": "Industrie",
+                "leaf": "true"
+            },
+            {
+                "id": 116,
+                "name": "Industrielles Service Management",
+                "leaf": "true"
+            },
+            {
+                "id": 82,
+                "name": "Informationstechnik",
+                "leaf": "true"
+            },
+            {
+                "id": 84,
+                "name": "International Business - Angewandte Technik",
+                "leaf": "true"
+            },
+            {
+                "id": 86,
+                "name": "International Business - Change Management",
+                "leaf": "true"
+            },
+            {
+                "id": 87,
+                "name": "International Business - Interkult. Management",
+                "leaf": "true"
+            },
+            {
+                "id": 88,
+                "name": "Internationaler Handel",
+                "leaf": "true"
+            },
+            {
+                "id": 95,
+                "name": "Internationales Projekt Engineering",
+                "leaf": "true"
+            },
+            {
+                "id": 89,
+                "name": "Junior Program",
+                "leaf": "true"
+            },
+            {
+                "id": 73,
+                "name": "Konsumg\u00fcter-Handel",
+                "leaf": "true"
+            },
+            {
+                "id": 90,
+                "name": "Kunststofftechnik",
+                "leaf": "true"
+            },
+            {
+                "id": 91,
+                "name": "Maschinenbau",
+                "leaf": "true"
+            },
+            {
+                "id": 92,
+                "name": "Mechatronik",
+                "leaf": "true"
+            },
+            {
+                "id": 93,
+                "name": "Mechatronik - Fahrzeugelektronik",
+                "leaf": "true"
+            },
+            {
+                "id": 258,
+                "name": "Mechatronik - Service-Ingenieur",
+                "leaf": "true"
+            },
+            {
+                "id": 117,
+                "name": "Medienmanagement",
+                "leaf": "true"
+            },
+            {
+                "id": 94,
+                "name": "Onlinemedien",
+                "leaf": "true"
+            },
+            {
+                "id": 119,
+                "name": "Personalmanagement",
+                "leaf": "true"
+            },
+            {
+                "id": 118,
+                "name": "Sportmanagement",
+                "leaf": "true"
+            },
+            {
+                "id": 96,
+                "name": "Steuern und Pr\u00fcfungswesen",
+                "leaf": "true"
+            },
+            {
+                "id": 120,
+                "name": "Verbandsmanagement",
+                "leaf": "true"
+            },
+            {
+                "id": 97,
+                "name": "Verfahrenstechnik",
+                "leaf": "true"
+            },
+            {
+                "id": 98,
+                "name": "Vertriebs- und Kooperationsmanagement",
+                "leaf": "true"
+            },
+            {
+                "id": 99,
+                "name": "Virtual Engineering",
+                "leaf": "true"
+            },
+            {
+                "id": 100,
+                "name": "Warenwirtschaft und Logistik",
+                "leaf": "true"
+            },
+            {
+                "id": 101,
+                "name": "Wirtschaftsinformatik",
+                "leaf": "true"
+            },
+            {
+                "id": 102,
+                "name": "Wirtschaftsing. Internationale Produktion & Logistik",
+                "leaf": "true"
+            },
+            {
+                "id": 103,
+                "name": "Wirtschaftsing. Internationales Technisches Vertriebsmanagement",
+                "leaf": "true"
+            }
+        ]
+    }
+}
