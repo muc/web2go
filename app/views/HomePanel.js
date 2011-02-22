@@ -5,13 +5,13 @@
  */
 
 web2go.Modules = [
-  {name: 'Who-is-Who', controller: 'web2go.controllers.whoiswho', action: 'index', icon: 'icon1.jpg'},
-  {name: 'Studiengänge', controller: 'web2go.controllers.studiengaenge', action: 'index', icon: 'icon2.png'},
-  {name: 'Firmenliste', controller: 'web2go.controllers.firmenliste', action: 'index', icon: 'icon3.jpg'},
   {name: 'Vorlesungspläne', controller: 'web2go.controllers.vplaene', action: 'index', icon: 'icon4.png'},
-  {name: 'Dokumente', controller: 'web2go.controllers.dokumente', action: 'index', icon: 'icon5.jpg'},
-  {name: 'Zimmerbörse', controller: 'web2go.controllers.zimmerboerse', action: 'index', icon: 'icon6.jpg'},
   {name: 'Mensa', controller: 'web2go.controllers.mensa', action: 'index', icon: 'icon7.jpg'},
+  {name: 'Who-is-Who', controller: 'web2go.controllers.whoiswho', action: 'index', icon: 'icon1.jpg'},
+  {name: 'Zimmerbörse', controller: 'web2go.controllers.zimmerboerse', action: 'index', icon: 'icon6.jpg'},
+  {name: 'Firmenliste', controller: 'web2go.controllers.firmenliste', action: 'index', icon: 'icon3.jpg'},
+  {name: 'Dokumente', controller: 'web2go.controllers.dokumente', action: 'index', icon: 'icon5.jpg'},
+  {name: 'Studiengänge', controller: 'web2go.controllers.studiengaenge', action: 'index', icon: 'icon2.png'},
 ];
 
 web2go.views.HomePanel = Ext.extend(Ext.Panel, {

@@ -62,28 +62,24 @@
             ui: 'plain',
             cls: 'title-btn',
             scope: this,
-            handler: function() {
+            handler: function(btn) {
                 if (!this.modulSheet) {
                     this.modulSheet = new Ext.ActionSheet({
                         hideOnMaskTap: true,
-                        enter: 'left',
-                        items: [{
-                            text: 'Vorlesungspläne',
-                            ui: 'confirm-round'
-                        }, {
-                            text: 'Mensapläne'
-                        }, {
-                            text: 'Who-is-who'
-                        }, {
-                            text: 'Zimmerbörse'
-                        }, {
-                            text: 'Firmenliste'
-                        }, {
-                            text: 'Dokumente'
-                        }, {
-                            text: 'Studiengänge'
-                        }]
+                        enter: 'left'
                     });
+                    var modules = [];
+                    console.log(btn);
+                    Ext.each(web2go.Modules, function(module) {
+                        modules.push({
+                            text: module.name,
+                            ui: module.name == btn.text ? 'confirm-round' : 'normal'
+                        });
+                    });
+                    for (i = 0; i < modules.length; i++) {
+                        this.modulSheet.add(modules[i]);
+                    }
+                    
                 }
                 this.modulSheet.show();
             }
