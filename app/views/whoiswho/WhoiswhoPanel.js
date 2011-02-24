@@ -29,11 +29,25 @@ web2go.views.WhoiswhoPanel = Ext.extend(Ext.Panel, {
             handler: this.switchToHome
         };
         
+        this.modulMenu = this.createModulMenu('Who-is-Who');
+        
+        this.titleBtn = {
+            xtype: 'button',
+            text: 'Who is Who',
+            iconMask: true,
+            ui: 'plain',
+            cls: 'title-btn',
+            scope: this,
+            handler: function(btn) {
+                this.modulMenu.show();
+            }
+        };
+        
         this.toolBar = {
             xtype: 'toolbar',
-            dock : 'top',
-            title: 'Who is who',
-            items: [this.backBtn, {xtype: 'spacer'}, this.homeBtn]
+            dock: 'top',
+            ui: 'dark',
+            items: [this.backBtn, {xtype: 'spacer'}, this.titleBtn, {xtype: 'spacer'}, this.homeBtn]
         };
         
         this.dockedItems = [this.toolBar];
@@ -48,6 +62,30 @@ web2go.views.WhoiswhoPanel = Ext.extend(Ext.Panel, {
         });
         
         web2go.views.WhoiswhoPanel.superclass.initComponent.apply(this, arguments);
+    },
+    
+    createModulMenu: function(currentModul) {
+        var mm = new Ext.ActionSheet({
+            hideOnMaskTap: true,
+            enter: 'bottom'
+        });
+        Ext.each(web2go.Modules, function(module) {
+            mm.add({
+                text: module.name,
+                ui: module.name == currentModul ? 'confirm-round' : 'normal',
+                dispatchController: eval(module.controller),
+                dispatchAction: module.action,
+                handler: function() {
+                    mm.hide();
+                    Ext.dispatch({
+                        controller: this.dispatchController,
+                        action: this.dispatchAction,
+                        animation: {type: 'slide', direction: 'down'}
+                    });
+                }
+            });
+        });
+        return mm;
     },
 
     getCardIndex: function() {

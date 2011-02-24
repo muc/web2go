@@ -43,33 +43,53 @@ web2go.views.ZimmerboersePanel = Ext.extend(Ext.Panel, {
             }
         };
         
-        this.wwwBtn = {
+        this.modulMenu = this.createModulMenu('Zimmerbörse');
+        
+        this.titleBtn = {
             xtype: 'button',
+            text: 'Zimmerbörse',
             iconMask: true,
             ui: 'plain',
-            iconCls: 'action',
-            listeners: {
-                'tap': function() {
-                    Ext.Msg.alert('Redirect to dhbw-mosbach.de');
-                }
+            cls: 'title-btn',
+            scope: this,
+            handler: function(btn) {
+                this.modulMenu.show();
             }
-        };
-        
-        this.titleBar = {
-            xtype: 'toolbar',
-            dock : 'top',
-            title: 'Zimmerbörse',
-            items: [this.homeBtn, {xtype: 'spacer'}, this.wwwBtn]
         };
         
         this.toolBar = {
             xtype: 'toolbar',
-            dock : 'top',
-            items: [this.backBtn]
+            dock: 'top',
+            ui: 'dark',
+            items: [this.backBtn, {xtype: 'spacer'}, this.titleBtn, {xtype: 'spacer'}, this.homeBtn]
         };
-        
-        this.dockedItems = [this.titleBar, this.toolBar];
+
+        this.dockedItems = [this.toolBar];
         
         web2go.views.ZimmerboersePanel.superclass.initComponent.apply(this, arguments);
+    },
+    
+    createModulMenu: function(currentModul) {
+        var mm = new Ext.ActionSheet({
+            hideOnMaskTap: true,
+            enter: 'bottom'
+        });
+        Ext.each(web2go.Modules, function(module) {
+            mm.add({
+                text: module.name,
+                ui: module.name == currentModul ? 'confirm-round' : 'normal',
+                dispatchController: eval(module.controller),
+                dispatchAction: module.action,
+                handler: function() {
+                    mm.hide();
+                    Ext.dispatch({
+                        controller: this.dispatchController,
+                        action: this.dispatchAction,
+                        animation: {type: 'slide', direction: 'down'}
+                    });
+                }
+            });
+        });
+        return mm;
     }
 });

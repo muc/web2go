@@ -27,34 +27,9 @@
             iconCls: 'home',
             handler: this.switchToHome
         };
-
-        this.wwwBtn = {
-            xtype: 'button',
-            iconMask: true,
-            ui: 'plain',
-            iconCls: 'action',
-            listeners: {
-                'tap': function() {
-                    Ext.Msg.alert('Redirect to dhbw-mosbach.de');
-                }
-            }
-        };
-
-//        this.titleBar = {
-//            xtype: 'toolbar',
-//            dock : 'top',
-//            title: 'Vorlesungspläne',
-//            items: [this.homeBtn, {xtype: 'spacer'}, this.wwwBtn]
-//        };
-//
-//        this.toolBar = {
-//            xtype: 'toolbar',
-//            ui: 'dark',
-//            dock: 'top',
-//            items: [this.backBtn]
-//        };
         
-
+        this.modulMenu = this.createModulMenu('Vorlesungspläne');
+        
         this.titleBtn = {
             xtype: 'button',
             text: 'Vorlesungspläne',
@@ -63,25 +38,7 @@
             cls: 'title-btn',
             scope: this,
             handler: function(btn) {
-                if (!this.modulSheet) {
-                    this.modulSheet = new Ext.ActionSheet({
-                        hideOnMaskTap: true,
-                        enter: 'left'
-                    });
-                    var modules = [];
-                    console.log(btn);
-                    Ext.each(web2go.Modules, function(module) {
-                        modules.push({
-                            text: module.name,
-                            ui: module.name == btn.text ? 'confirm-round' : 'normal'
-                        });
-                    });
-                    for (i = 0; i < modules.length; i++) {
-                        this.modulSheet.add(modules[i]);
-                    }
-                    
-                }
-                this.modulSheet.show();
+                this.modulMenu.show();
             }
         };
         
@@ -89,13 +46,36 @@
             xtype: 'toolbar',
             dock: 'top',
             ui: 'dark',
-//            title: 'Vorlesungspläne',
             items: [this.backBtn, {xtype: 'spacer'}, this.titleBtn, {xtype: 'spacer'}, this.homeBtn]
         };
 
         this.dockedItems = [this.toolBar];
 
         web2go.views.VplaenePanel.superclass.initComponent.apply(this, arguments);
+    },
+    
+    createModulMenu: function(currentModul) {
+        var mm = new Ext.ActionSheet({
+            hideOnMaskTap: true,
+            enter: 'bottom'
+        });
+        Ext.each(web2go.Modules, function(module) {
+            mm.add({
+                text: module.name,
+                ui: module.name == currentModul ? 'confirm-round' : 'normal',
+                dispatchController: eval(module.controller),
+                dispatchAction: module.action,
+                handler: function() {
+                    mm.hide();
+                    Ext.dispatch({
+                        controller: this.dispatchController,
+                        action: this.dispatchAction,
+                        animation: {type: 'slide', direction: 'down'}
+                    });
+                }
+            });
+        });
+        return mm;
     },
     
     getListIndex: function() {

@@ -43,32 +43,28 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
             }
         };
         
-        this.wwwBtn = {
+        this.modulMenu = this.createModulMenu('Mensa');
+        
+        this.titleBtn = {
             xtype: 'button',
+            text: 'Mensapläne',
             iconMask: true,
             ui: 'plain',
-            iconCls: 'action',
-            listeners: {
-                'tap': function() {
-                    Ext.Msg.alert('Redirect to dhbw-mosbach.de');
-                }
+            cls: 'title-btn',
+            scope: this,
+            handler: function(btn) {
+                this.modulMenu.show();
             }
-        };
-        
-        this.titleBar = {
-            xtype: 'toolbar',
-            dock : 'top',
-            title: 'Mensapläne',
-            items: [this.homeBtn, {xtype: 'spacer'}, this.wwwBtn]
         };
         
         this.toolBar = {
             xtype: 'toolbar',
-            dock : 'top',
-            items: [this.backBtn]
+            dock: 'top',
+            ui: 'dark',
+            items: [this.backBtn, {xtype: 'spacer'}, this.titleBtn, {xtype: 'spacer'}, this.homeBtn]
         };
         
-        this.dockedItems = [this.titleBar, this.toolBar];
+        this.dockedItems = [this.toolBar];
     
         this.listeners = {
             'leafitemtap': function(subList, subIdx, el, e, detailCard) {
@@ -83,7 +79,29 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
             }
         };
         
-        //    web2go.stores.campus.load();
         web2go.views.MensaCampus.superclass.initComponent.apply(this, arguments);
+    },
+    createModulMenu: function(currentModul) {
+        var mm = new Ext.ActionSheet({
+            hideOnMaskTap: true,
+            enter: 'bottom'
+        });
+        Ext.each(web2go.Modules, function(module) {
+            mm.add({
+                text: module.name,
+                ui: module.name == currentModul ? 'confirm-round' : 'normal',
+                dispatchController: eval(module.controller),
+                dispatchAction: module.action,
+                handler: function() {
+                    mm.hide();
+                    Ext.dispatch({
+                        controller: this.dispatchController,
+                        action: this.dispatchAction,
+                        animation: {type: 'slide', direction: 'down'}
+                    });
+                }
+            });
+        });
+        return mm;
     }
 });
