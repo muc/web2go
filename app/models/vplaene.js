@@ -14,9 +14,6 @@ web2go.stores.vplaene = new Ext.data.TreeStore({
     proxy: {
         type: 'ajax',
         url: 'sample_data/vplaene.json',
-        actionMethods: {
-            reader: 'GET'
-        },
         reader: {
             type: 'tree',
             root: 'items'

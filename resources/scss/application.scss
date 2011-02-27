@@ -6,6 +6,7 @@
  */
 $base_color: #3C3C3C;
 $base-gradient: 'glossy';
+$active-color: #385373;
 
 /**
  * 2. Include Sencha Touch libraries
@@ -43,6 +44,7 @@ $base-gradient: 'glossy';
 @include sencha-form;
 @include sencha-msgbox;
 @include sencha-loading-spinner;
+
 
 /**
  * 4. Your application's custom SCSS goes here:
