@@ -62,3 +62,15 @@
     padding-top: 2px;
     font-weight: normal;
 }
+
+.x-list .x-list-disclosure {
+    margin-right: 0.3em;
+    overflow: visible;
+    -webkit-mask: 0 0 url('../img/disclosure.png') no-repeat;
+    -webkit-mask-size: 1.7em;
+    background-color: #555;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #555), color-stop(50%, #555), color-stop(51%, #555), color-stop(100%, #555));
+    background-image: linear-gradient(top, #555 0%, #555 50%, #555 51%, #555 100%);
+    width: 1.7em;
+    height: 1.7em;
+}
