@@ -7,7 +7,7 @@
 web2go.controllers.whoiswho = new Ext.Controller({
   index: function(options) {
     Ext.Ajax.request({
-        method: 'POST',
+        method: 'GET',
         url: 'sample_data/wiwformdata.json',
         success: function(response, opts) {
             var obj = Ext.decode(response.responseText);
