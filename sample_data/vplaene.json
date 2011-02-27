@@ -1,0 +1,141 @@
+{
+    "name": "studiengaenge",
+    "items": [
+        {
+          "name": "Angewandte Informatik",
+          "items": [
+            {
+              "name": "AI08",
+              "leaf": true
+            },
+            {
+              "name": "AI09",
+              "leaf": true
+            },
+            {
+              "name": "AI10",
+              "leaf": true
+            }
+          ]
+        },
+        {
+          "name": "Bank",
+          "items": [
+            {
+              "name": "BK08",
+              "leaf": true
+            },
+            {
+              "name": "BK09",
+              "leaf": true
+            },
+            {
+              "name": "BK10",
+              "leaf": true
+            }
+          ]
+        },
+        {
+          "name": "Bauwesen - Fassadentechnik",
+          "items": [
+            {
+              "name": "FS08",
+              "leaf": true
+            },
+            {
+              "name": "FS09",
+              "leaf": true
+            },
+            {
+              "name": "FS10",
+              "leaf": true
+            }
+          ]
+        },
+        {
+          "name": "Bauwesen - Projektmanagement",
+          "items": [
+            {
+              "name": "PM08",
+              "leaf": true
+            },
+            {
+              "name": "PM09",
+              "leaf": true
+            },
+            {
+              "name": "PM10",
+              "leaf": true
+            }
+          ]
+        },
+        {
+          "name": "Maschinenbau",
+          "items": [
+            {
+              "name": "PM08",
+              "leaf": true
+            },
+            {
+              "name": "PM09",
+              "leaf": true
+            },
+            {
+              "name": "PM10",
+              "leaf": true
+            }
+          ]
+        },
+        {
+          "name": "Mechatronik",
+          "items": [
+            {
+              "name": "PM08",
+              "leaf": true
+            },
+            {
+              "name": "PM09",
+              "leaf": true
+            },
+            {
+              "name": "PM10",
+              "leaf": true
+            }
+          ]
+        },
+        {
+          "name": "Medienmanagement",
+          "items": [
+            {
+              "name": "PM08",
+              "leaf": true
+            },
+            {
+              "name": "PM09",
+              "leaf": true
+            },
+            {
+              "name": "PM10",
+              "leaf": true
+            }
+          ]
+        },
+        {
+          "name": "Onlinemedien",
+          "items": [
+            {
+              "name": "ON08",
+              "leaf": true
+            },
+            {
+              "name": "ON09",
+              "leaf": true
+            },
+            {
+              "name": "ON10",
+              "leaf": true
+            }
+          ]
+        }
+    ]
+}

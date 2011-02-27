@@ -7,11 +7,15 @@ web2go.models.Vplaene = Ext.regModel("web2go.models.Vplaene", {
 web2go.stores.vplaene = new Ext.data.TreeStore({
     autoLoad: false,
     model: 'web2go.models.Vplaene',
+    sorters: 'name',
+    getGroupString: function(record) {
+        return record.get('name');
+    },
     proxy: {
         type: 'ajax',
-        url: 'ajax/get_vplaene',
+        url: 'sample_data/vplaene.json',
         actionMethods: {
-            reader: 'POST'
+            reader: 'GET'
         },
         reader: {
             type: 'tree',
