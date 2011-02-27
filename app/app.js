@@ -6,6 +6,9 @@
 Ext.regApplication('web2go', {
     defaultTarget: "viewport",
     name         : "web2go",
+    icon         : "resources/img/app_icon.png",
+    phoneStartupScreen: "resources/img/loading_screen.png",
+    glossOnIcon: false,
     useHistory   : true,
 //    defaultUrl   : 'web2go/home',
     
