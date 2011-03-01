@@ -19,7 +19,7 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
            dock: 'bottom',
            ui: 'dark',
            items: [{xtype: 'spacer'}, {
-               text: 'Reset',
+               text: 'Zurücksetzen',
                scope: this,
                handler: function() {
                    this.reset();

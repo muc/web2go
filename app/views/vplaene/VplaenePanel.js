@@ -8,6 +8,9 @@
     onItemDisclosure: true,
     useToolbar: false,
     store: web2go.stores.vplaene,
+    getDetailCard: function(record, parentRecord) {
+      return new web2go.views.VplaeneZeit();
+    },
     
     initComponent: function() {
         this.backBtn = {
@@ -50,6 +53,14 @@
         };
 
         this.dockedItems = [this.toolBar];
+
+        this.listeners = {
+          leafitemtap: function(subList, subIdx, el, e, detailCard) {
+            var ds = subList.getStore(),
+                r  = ds.getAt(subIdx).get('name');
+            detailCard.setCourse(r);
+          }
+        };
 
         web2go.views.VplaenePanel.superclass.initComponent.apply(this, arguments);
     },
