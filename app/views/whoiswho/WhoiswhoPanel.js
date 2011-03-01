@@ -54,12 +54,14 @@ web2go.views.WhoiswhoPanel = Ext.extend(Ext.Panel, {
 
         Ext.apply(web2go.views, {
             whoiswhoForm: new web2go.views.WhoiswhoForm(),
-            whoiswhoList: new web2go.views.WhoiswhoList()
+            whoiswhoList: new web2go.views.WhoiswhoList(),
+            whoiswhoDetail: new web2go.views.WhoiswhoDetail()
         });
         Ext.apply(this, {
             items: [
                 web2go.views.whoiswhoForm,
-                web2go.views.whoiswhoList
+                web2go.views.whoiswhoList,
+                web2go.views.whoiswhoDetail
             ]
         });
         

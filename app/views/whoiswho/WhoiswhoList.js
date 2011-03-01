@@ -19,6 +19,16 @@ web2go.views.WhoiswhoList = Ext.extend(Ext.List, {
     indexBar: true,
     
     initComponent: function() {
+        this.listeners = {
+            itemtap: function(dataview, index) {
+                Ext.dispatch({
+                    controller: web2go.controllers.whoiswho,
+                    action: 'detail',
+                    animation: {type: 'slide', direction: 'left'},
+                    person: this.store.getAt(index).get('id')
+                });
+            }
+        };
         web2go.views.WhoiswhoList.superclass.initComponent.apply(this, arguments);
     }
 });

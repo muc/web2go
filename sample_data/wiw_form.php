@@ -1,5 +1,3869 @@
 <?php
 
-echo '{"success":true,"wiwlist":{"persons":[{"id":199,"gender":"Frau","title":"Prof. Dr.","firstname":"Christine","surname":"Azarmi","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Christine Azarmi","fullnamereverse":"Azarmi, Prof. Dr. Christine","positions":[{"id":347,"name":"Professorin Fakult\u00e4t Wirtschaft","leaf":"true"}]},{"id":214,"gender":"Frau","title":"","firstname":"Birgit","surname":"B\u00e4hr","suffix":"","campus":"Mosbach","fullname":"Birgit B\u00e4hr","fullnamereverse":"B\u00e4hr, Birgit","positions":[{"id":391,"name":"Verwaltung","leaf":"true"}]},{"id":180,"gender":"Frau","title":"","firstname":"Isabel","surname":"Banschbach","suffix":"","campus":"Mosbach","fullname":"Isabel Banschbach","fullnamereverse":"Banschbach, Isabel","positions":[{"id":11,"name":"Sekretariat Handel","leaf":"true"}]},{"id":127,"gender":"Herr","title":"","firstname":"Karlheinz","surname":"Barth","suffix":"","campus":"Mosbach","fullname":"Karlheinz Barth","fullnamereverse":"Barth, Karlheinz","positions":[{"id":7,"name":"Labor Wirtschaftsinformatik","leaf":"true"}]},{"id":183,"gender":"Frau","title":"","firstname":"Nicole","surname":"Bastian","suffix":"","campus":"Heilbronn","fullname":"Nicole Bastian","fullnamereverse":"Bastian, Nicole","positions":[{"id":55,"name":"Hochschulkommunikation","leaf":"true"}]},{"id":211,"gender":"Herr","title":"Prof. Dr.","firstname":"Thomas","surname":"Batz","suffix":"","campus":"Heilbronn","fullname":"Prof. Dr. Thomas Batz","fullnamereverse":"Batz, Prof. Dr. Thomas","positions":[{"id":397,"name":"Studiengangsleitung Dienstleistungsmanagement","leaf":"true"}]},{"id":15,"gender":"Herr","title":"","firstname":"Christof","surname":"Bauer","suffix":"","campus":"Bad Mergentheim","fullname":"Christof Bauer","fullnamereverse":"Bauer, Christof","positions":[{"id":8,"name":"Leiter Verwaltung","leaf":"true"}]},{"id":37,"gender":"Herr","title":"","firstname":"Stefan","surname":"Bauer","suffix":"","campus":"Mosbach","fullname":"Stefan Bauer","fullnamereverse":"Bauer, Stefan","positions":[{"id":9,"name":"Labor Elektrotechnik","leaf":"true"}]},{"id":23,"gender":"Frau","title":"","firstname":"Sabine","surname":"Bennebach","suffix":"","campus":"Mosbach","fullname":"Sabine Bennebach","fullnamereverse":"Bennebach, Sabine","positions":[{"id":323,"name":"Veranstaltungsmanagement","leaf":"true"}]},{"id":202,"gender":"Frau","title":"","firstname":"Anne Katrin","surname":"Borchert","suffix":"","campus":"Bad Mergentheim","fullname":"Anne Katrin Borchert","fullnamereverse":"Borchert, Anne Katrin","positions":[{"id":357,"name":"Leiterin Bibliothek","leaf":"true"}]},{"id":79,"gender":"Frau","title":"","firstname":"Anna-Magdalena","surname":"Br\u00f6ckl","suffix":"","campus":"Bad Mergentheim","fullname":"Anna-Magdalena Br\u00f6ckl","fullnamereverse":"Br\u00f6ckl, Anna-Magdalena","positions":[{"id":14,"name":"Auslandsamt","leaf":"true"}]},{"id":45,"gender":"Frau","title":"","firstname":"Siglinde","surname":"Brunner","suffix":"","campus":"Mosbach","fullname":"Siglinde Brunner","fullnamereverse":"Brunner, Siglinde","positions":[{"id":15,"name":"Sekretariat Verwaltung","leaf":"true"}]},{"id":126,"gender":"Herr","title":"","firstname":"Alexander","surname":"Bubeck","suffix":"","campus":"Mosbach","fullname":"Alexander Bubeck","fullnamereverse":"Bubeck, Alexander","positions":[{"id":16,"name":"Labor Elektrotechnik","leaf":"true"},{"id":17,"name":"Labor Mechatronik","leaf":"true"}]},{"id":31,"gender":"Frau","title":"","firstname":"Annerose","surname":"B\u00fcchler","suffix":"","campus":"Mosbach","fullname":"Annerose B\u00fcchler","fullnamereverse":"B\u00fcchler, Annerose","positions":[{"id":21,"name":"Sekretariat Mechatronik","leaf":"true"},{"id":216,"name":"Sekretariat Mechatronik - Fahrzeugelektronik","leaf":"true"},{"id":254,"name":"Sekretariat Elektromobilit\u00e4t","leaf":"true"}]},{"id":47,"gender":"Frau","title":"","firstname":"Erica","surname":"Bucur","suffix":"","campus":"Mosbach","fullname":"Erica Bucur","fullnamereverse":"Bucur, Erica","positions":[{"id":18,"name":"Sekretariat Internationales Projekt Engineering","leaf":"true"},{"id":19,"name":"Sekretariat Wirtschaftsing. Internationale Produktion & Logistik","leaf":"true"},{"id":20,"name":"Sekretariat Wirtschaftsing. Internationales Technisches Vertriebsmanagement","leaf":"true"}]},{"id":61,"gender":"Herr","title":"","firstname":"Peter","surname":"Busch","suffix":"","campus":"Mosbach","fullname":"Peter Busch","fullnamereverse":"Busch, Peter","positions":[{"id":23,"name":"Labor Elektrotechnik","leaf":"true"}]},{"id":25,"gender":"Herr","title":"Prof. Dr.","firstname":"Klaus-Georg","surname":"Deck","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Klaus-Georg Deck","fullnamereverse":"Deck, Prof. Dr. Klaus-Georg","positions":[{"id":24,"name":"Professor Wirtschaftsinformatik","leaf":"true"},{"id":26,"name":"ADH-Beauftragter","leaf":"true"}]},{"id":140,"gender":"Frau","title":"","firstname":"Erika","surname":"Deimling","suffix":"","campus":"Mosbach","fullname":"Erika Deimling","fullnamereverse":"Deimling, Erika","positions":[{"id":27,"name":"Mediendidaktik","leaf":"true"},{"id":354,"name":"Ansprechpartnerin der Zentralen Beauftragten f\u00fcr Chancengleichheit","leaf":"true"}]},{"id":86,"gender":"Herr","title":"Prof. Dr.","firstname":"Frank","surname":"Deser","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Frank Deser","fullnamereverse":"Deser, Prof. Dr. Frank","positions":[{"id":28,"name":"Studiengangsleitung Industrie","leaf":"true"}]},{"id":137,"gender":"Frau","title":"","firstname":"Dagmar","surname":"Dierolf","suffix":"","campus":"Bad Mergentheim","fullname":"Dagmar Dierolf","fullnamereverse":"Dierolf, Dagmar","positions":[{"id":29,"name":"Sekretariat Food Management","leaf":"true"}]},{"id":192,"gender":"Herr","title":"","firstname":"Andreas","surname":"Dietz","suffix":"","campus":"Mosbach","fullname":"Andreas Dietz","fullnamereverse":"Dietz, Andreas","positions":[{"id":333,"name":"Qualit\u00e4tsmanagement","leaf":"true"}]},{"id":18,"gender":"Herr","title":"Prof. Dr.","firstname":"Albrecht","surname":"Dinkelacker","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Albrecht Dinkelacker","fullnamereverse":"Dinkelacker, Prof. Dr. Albrecht","positions":[{"id":30,"name":"Studiengangsleitung Internationales Projekt Engineering","leaf":"true"}]},{"id":69,"gender":"Frau","title":"","firstname":"Anita","surname":"Dinyer-Selariu","suffix":"","campus":"Mosbach","fullname":"Anita Dinyer-Selariu","fullnamereverse":"Dinyer-Selariu, Anita","positions":[{"id":31,"name":"Bibliothek","leaf":"true"}]},{"id":109,"gender":"Frau","title":"","firstname":"Viktoria","surname":"Dopf","suffix":"","campus":"Bad Mergentheim","fullname":"Viktoria Dopf","fullnamereverse":"Dopf, Viktoria","positions":[{"id":32,"name":"Sekretariat International Business - Angewandte Technik","leaf":"true"},{"id":33,"name":"Sekretariat International Business - Change Management","leaf":"true"}]},{"id":32,"gender":"Frau","title":"","firstname":"Carola","surname":"Dziedzic","suffix":"","campus":"Mosbach","fullname":"Carola Dziedzic","fullnamereverse":"Dziedzic, Carola","positions":[{"id":36,"name":"Sekretariat Onlinemedien","leaf":"true"}]},{"id":38,"gender":"Herr","title":"","firstname":"J\u00fcrgen","surname":"Eckert","suffix":"","campus":"Mosbach","fullname":"J\u00fcrgen Eckert","fullnamereverse":"Eckert, J\u00fcrgen","positions":[{"id":37,"name":"Labor Elektrotechnik","leaf":"true"},{"id":38,"name":"Labor Mechatronik","leaf":"true"}]},{"id":186,"gender":"Frau","title":"","firstname":"Katja","surname":"Eickert","suffix":"","campus":"Heilbronn","fullname":"Katja Eickert","fullnamereverse":"Eickert, Katja","positions":[{"id":305,"name":"Programmmanagement Konsumg\u00fcter-Handel","leaf":"true"}]},{"id":63,"gender":"Herr","title":"","firstname":"Klemens","surname":"Elser","suffix":"","campus":"Mosbach","fullname":"Klemens Elser","fullnamereverse":"Elser, Klemens","positions":[{"id":410,"name":"Hausmeister","leaf":"true"}]},{"id":218,"gender":"Herr","title":"Prof. Dr. Dr.","firstname":"Frank","surname":"Elste","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Dr. Frank Elste","fullnamereverse":"Elste, Prof. Dr. Dr. Frank","positions":[{"id":415,"name":"Professor Healthcare Industry","leaf":"true"}]},{"id":77,"gender":"Frau","title":"","firstname":"Irmgard","surname":"Emmert","suffix":"","campus":"Bad Mergentheim","fullname":"Irmgard Emmert","fullnamereverse":"Emmert, Irmgard","positions":[{"id":229,"name":"Sekretariat International Business - Interkult. Management","leaf":"true"}]},{"id":46,"gender":"Frau","title":"","firstname":"Daniela","surname":"Englisch","suffix":"","campus":"Mosbach","fullname":"Daniela Englisch","fullnamereverse":"Englisch, Daniela","positions":[{"id":43,"name":"Leiterin Auslandsamt","leaf":"true"}]},{"id":141,"gender":"Frau","title":"","firstname":"Sandra","surname":"Erb","suffix":"","campus":"Mosbach","fullname":"Sandra Erb","fullnamereverse":"Erb, Sandra","positions":[{"id":44,"name":"Bibliothek","leaf":"true"}]},{"id":179,"gender":"Herr","title":"","firstname":"Hans-Dieter","surname":"Ernst","suffix":"","campus":"Heilbronn","fullname":"Hans-Dieter Ernst","fullnamereverse":"Ernst, Hans-Dieter","positions":[{"id":244,"name":"Haustechnik","leaf":"true"}]},{"id":2,"gender":"Frau","title":"","firstname":"Sybille","surname":"Fass","suffix":"","campus":"Mosbach","fullname":"Sybille Fass","fullnamereverse":"Fass, Sybille","positions":[{"id":45,"name":"Sekretariat Industrie","leaf":"true"},{"id":250,"name":"Sekretariat Electronic Business","leaf":"true"},{"id":282,"name":"Sekretariat Industrielles Service Management","leaf":"true"}]},{"id":189,"gender":"Herr","title":"","firstname":"Christian","surname":"Ferstl","suffix":"","campus":"Mosbach","fullname":"Christian Ferstl","fullnamereverse":"Ferstl, Christian","positions":[{"id":315,"name":"Wissenschaftlicher Mitarbeiter Handel","leaf":"true"}]},{"id":130,"gender":"Frau","title":"","firstname":"Isolde","surname":"Fichtner","suffix":"","campus":"Mosbach","fullname":"Isolde Fichtner","fullnamereverse":"Fichtner, Isolde","positions":[{"id":46,"name":"Sekretariat Steuern und Pr\u00fcfungswesen","leaf":"true"}]},{"id":60,"gender":"Herr","title":"","firstname":"Marius","surname":"Friedrich","suffix":"","campus":"Mosbach","fullname":"Marius Friedrich","fullnamereverse":"Friedrich, Marius","positions":[{"id":47,"name":"Labor Maschinenbau","leaf":"true"}]},{"id":10,"gender":"Frau","title":"Prof.","firstname":"Erika","surname":"Gauch","suffix":"","campus":"Mosbach","fullname":"Prof. Erika Gauch","fullnamereverse":"Gauch, Prof. Erika","positions":[{"id":61,"name":"Professorin Fakult\u00e4t Wirtschaft","leaf":"true"}]},{"id":44,"gender":"Herr","title":"Prof.","firstname":"Reinhold","surname":"Geilsd\u00f6rfer","suffix":"","campus":"Mosbach","fullname":"Prof. Reinhold Geilsd\u00f6rfer","fullnamereverse":"Geilsd\u00f6rfer, Prof. Reinhold","positions":[{"id":291,"name":"Rektor","leaf":"true"}]},{"id":88,"gender":"Frau","title":"","firstname":"Silvia","surname":"Geissler","suffix":"","campus":"Bad Mergentheim","fullname":"Silvia Geissler","fullnamereverse":"Geissler, Silvia","positions":[{"id":423,"name":"Auslandsamt","leaf":"true"}]},{"id":13,"gender":"Herr","title":"Prof. Dr.","firstname":"Axel","surname":"Gerloff","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Axel Gerloff","fullnamereverse":"Gerloff, Prof. Dr. Axel","positions":[{"id":63,"name":"Studiengangsleitung International Business - Interkult. Management","leaf":"true"}]},{"id":142,"gender":"Herr","title":"","firstname":"Martin","surname":"Gimber","suffix":"","campus":"Mosbach","fullname":"Martin Gimber","fullnamereverse":"Gimber, Martin","positions":[{"id":50,"name":"Labor Informationstechnik","leaf":"true"}]},{"id":30,"gender":"Herr","title":"","firstname":"Siegfried","surname":"Glier","suffix":"","campus":"Mosbach","fullname":"Siegfried Glier","fullnamereverse":"Glier, Siegfried","positions":[{"id":302,"name":"Verwaltungsdirektor","leaf":"true"}]},{"id":55,"gender":"Herr","title":"Prof. Dr.","firstname":"Alois","surname":"G\u00f6pfert","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Alois G\u00f6pfert","fullnamereverse":"G\u00f6pfert, Prof. Dr. Alois","positions":[{"id":51,"name":"Professor Informationstechnik","leaf":"true"}]},{"id":58,"gender":"Frau","title":"Prof. Dr.","firstname":"Nicole","surname":"Graf","suffix":"","campus":"Heilbronn","fullname":"Prof. Dr. Nicole Graf","fullnamereverse":"Graf, Prof. Dr. Nicole","positions":[{"id":53,"name":"Prorektorin","leaf":"true"},{"id":365,"name":"Leiterin Campus Heilbronn","leaf":"true"}]},{"id":51,"gender":"Herr","title":"Prof.","firstname":"Werner","surname":"Greiner","suffix":"","campus":"Mosbach","fullname":"Prof. Werner Greiner","fullnamereverse":"Greiner, Prof. Werner","positions":[{"id":75,"name":"Studiengangsleitung Elektrotechnik","leaf":"true"}]},{"id":36,"gender":"Herr","title":"","firstname":"Dietmar","surname":"Guttwein","suffix":"","campus":"Mosbach","fullname":"Dietmar Guttwein","fullnamereverse":"Guttwein, Dietmar","positions":[{"id":68,"name":"Rechenzentrum","leaf":"true"}]},{"id":100,"gender":"Frau","title":"","firstname":"Beate","surname":"H\u00e4gele","suffix":"","campus":"Mosbach","fullname":"Beate H\u00e4gele","fullnamereverse":"H\u00e4gele, Beate","positions":[{"id":69,"name":"Sekretariat Verwaltung","leaf":"true"}]},{"id":204,"gender":"Herr","title":"Prof. Dr.","firstname":"Stephan","surname":"H\u00e4hre","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Stephan H\u00e4hre","fullnamereverse":"H\u00e4hre, Prof. Dr. Stephan","positions":[{"id":360,"name":"Professor Wirtschaftsing. Internationale Produktion & Logistik","leaf":"true"},{"id":361,"name":"Professor Wirtschaftsing. Internationales Technisches Vertriebsmanagement","leaf":"true"}]},{"id":59,"gender":"Herr","title":"","firstname":"Achim","surname":"Hantschel","suffix":"","campus":"Mosbach","fullname":"Achim Hantschel","fullnamereverse":"Hantschel, Achim","positions":[{"id":70,"name":"Labor Maschinenbau","leaf":"true"}]},{"id":136,"gender":"Frau","title":"","firstname":"Silvia","surname":"Harrer","suffix":"","campus":"Mosbach","fullname":"Silvia Harrer","fullnamereverse":"Harrer, Silvia","positions":[{"id":71,"name":"Verwaltung","leaf":"true"}]},{"id":42,"gender":"Herr","title":"Prof.","firstname":"Karl-J\u00fcrgen","surname":"Hausch","suffix":"","campus":"Mosbach","fullname":"Prof. Karl-J\u00fcrgen Hausch","fullnamereverse":"Hausch, Prof. Karl-J\u00fcrgen","positions":[{"id":72,"name":"Studiengangsleitung Maschinenbau","leaf":"true"}]},{"id":190,"gender":"Herr","title":"","firstname":"Axel","surname":"Hecker","suffix":"","campus":"Bad Mergentheim","fullname":"Axel Hecker","fullnamereverse":"Hecker, Axel","positions":[{"id":314,"name":"Studiengangsmanagement Healthcare Industry","leaf":"true"}]},{"id":9,"gender":"Herr","title":"Prof. Dr.","firstname":"Bernd","surname":"Heilig","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Bernd Heilig","fullnamereverse":"Heilig, Prof. Dr. Bernd","positions":[{"id":73,"name":"Professor Fakult\u00e4t Wirtschaft","leaf":"true"}]},{"id":110,"gender":"Herr","title":"","firstname":"J\u00f6rg","surname":"Hein","suffix":"","campus":"Mosbach","fullname":"J\u00f6rg Hein","fullnamereverse":"Hein, J\u00f6rg","positions":[{"id":74,"name":"Hochschulkommunikation","leaf":"true"}]},{"id":106,"gender":"Frau","title":"Prof. Dr.","firstname":"Swantje","surname":"Heischkel","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Swantje Heischkel","fullnamereverse":"Heischkel, Prof. Dr. Swantje","positions":[{"id":223,"name":"Studiengangsleitung Healthcare Industry","leaf":"true"},{"id":395,"name":"(derzeit vertreten durch Herrn Prof. Dr. Troche)","leaf":"true"}]},{"id":75,"gender":"Frau","title":"Prof. Dr.","firstname":"Elke","surname":"Heizmann","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Elke Heizmann","fullnamereverse":"Heizmann, Prof. Dr. Elke","positions":[{"id":77,"name":"Studiengangsleitung Steuern und Pr\u00fcfungswesen","leaf":"true"}]},{"id":64,"gender":"Herr","title":"","firstname":"Roland","surname":"Henn","suffix":"","campus":"Mosbach","fullname":"Roland Henn","fullnamereverse":"Henn, Roland","positions":[{"id":79,"name":"Haustechnik","leaf":"true"}]},{"id":133,"gender":"Frau","title":"","firstname":"Elke","surname":"Hennrich","suffix":"","campus":"Mosbach","fullname":"Elke Hennrich","fullnamereverse":"Hennrich, Elke","positions":[{"id":436,"name":"Sekretariat Maschinenbau","leaf":"true"}]},{"id":193,"gender":"Herr","title":"","firstname":"Matthias","surname":"Herb","suffix":"","campus":"Mosbach","fullname":"Matthias Herb","fullnamereverse":"Herb, Matthias","positions":[{"id":322,"name":"Labor Holztechnik","leaf":"true"}]},{"id":1,"gender":"Frau","title":"","firstname":"Birgit","surname":"Herhoff","suffix":"","campus":"Mosbach","fullname":"Birgit Herhoff","fullnamereverse":"Herhoff, Birgit","positions":[{"id":57,"name":"Zentrale Information","leaf":"true"}]},{"id":200,"gender":"Herr","title":"Prof. Dr.","firstname":"Marcus","surname":"Hoffmann","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Marcus Hoffmann","fullnamereverse":"Hoffmann, Prof. Dr. Marcus","positions":[{"id":406,"name":"Professor International Business - Industrial Sales and Marketing","leaf":"true"},{"id":424,"name":"","leaf":"true"},{"id":425,"name":"","leaf":"true"},{"id":426,"name":"","leaf":"true"}]},{"id":84,"gender":"Frau","title":"","firstname":"Monika","surname":"Hofmann","suffix":"","campus":"Bad Mergentheim","fullname":"Monika Hofmann","fullnamereverse":"Hofmann, Monika","positions":[{"id":306,"name":"Sekretariat Rektorat","leaf":"true"}]},{"id":120,"gender":"Frau","title":"","firstname":"Nicole","surname":"H\u00f6ge","suffix":"","campus":"Mosbach","fullname":"Nicole H\u00f6ge","fullnamereverse":"H\u00f6ge, Nicole","positions":[{"id":82,"name":"Sekretariat Bauwesen - Fassadentechnik","leaf":"true"},{"id":303,"name":"Sekretariat Bauwesen - Projektmanagement","leaf":"true"}]},{"id":41,"gender":"Herr","title":"Prof. Dr.","firstname":"Horst","surname":"Holtmann","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Horst Holtmann","fullnamereverse":"Holtmann, Prof. Dr. Horst","positions":[{"id":83,"name":"Studiengangsleitung Wirtschaftsinformatik","leaf":"true"}]},{"id":28,"gender":"Frau","title":"","firstname":"Christiane","surname":"Horsch-Hei\u00df","suffix":"","campus":"Mosbach","fullname":"Christiane Horsch-Hei\u00df","fullnamereverse":"Horsch-Hei\u00df, Christiane","positions":[{"id":84,"name":"Sekretariat Maschinenbau","leaf":"true"},{"id":262,"name":"Sekretariat Kunststofftechnik","leaf":"true"},{"id":275,"name":"Sekretariat Verfahrenstechnik","leaf":"true"},{"id":279,"name":"Sekretariat Virtual Engineering","leaf":"true"}]},{"id":209,"gender":"Herr","title":"","firstname":"Benjamin","surname":"H\u00f6tzel","suffix":"","campus":"Bad Mergentheim","fullname":"Benjamin H\u00f6tzel","fullnamereverse":"H\u00f6tzel, Benjamin","positions":[{"id":376,"name":"Hochschulkommunikation und Organisation","leaf":"true"}]},{"id":135,"gender":"Herr","title":"","firstname":"Peter","surname":"H\u00fclsebusch","suffix":"","campus":"Mosbach","fullname":"Peter H\u00fclsebusch","fullnamereverse":"H\u00fclsebusch, Peter","positions":[{"id":85,"name":"Labor Mechatronik","leaf":"true"}]},{"id":220,"gender":"Frau","title":"","firstname":"Ute","surname":"Jaeger","suffix":"","campus":"Bad Mergentheim","fullname":"Ute Jaeger","fullnamereverse":"Jaeger, Ute","positions":[{"id":417,"name":"Sekretariat Healthcare Industry","leaf":"true"}]},{"id":210,"gender":"Herr","title":"Prof. Dr.","firstname":"Oliver","surname":"Janz","suffix":"","campus":"Heilbronn","fullname":"Prof. Dr. Oliver Janz","fullnamereverse":"Janz, Prof. Dr. Oliver","positions":[{"id":398,"name":"Studiengangsleitung Konsumg\u00fcter-Handel","leaf":"true"}]},{"id":12,"gender":"Frau","title":"Prof. Dr.","firstname":"Gabi","surname":"Jeck-Schlottmann","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Gabi Jeck-Schlottmann","fullnamereverse":"Jeck-Schlottmann, Prof. Dr. Gabi","positions":[{"id":87,"name":"Prorektorin","leaf":"true"},{"id":88,"name":"Dekanin Fakult\u00e4t Wirtschaft","leaf":"true"}]},{"id":83,"gender":"Herr","title":"Prof. Dr.","firstname":"Rainer","surname":"Jochum","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Rainer Jochum","fullnamereverse":"Jochum, Prof. Dr. Rainer","positions":[{"id":89,"name":"Studiengangsleitung International Business - Angewandte Technik","leaf":"true"}]},{"id":103,"gender":"Frau","title":"","firstname":"Tamara","surname":"Kaiser","suffix":"","campus":"Mosbach","fullname":"Tamara Kaiser","fullnamereverse":"Kaiser, Tamara","positions":[{"id":292,"name":"Gesch\u00e4ftsstelle Rektorenkonferenz der DHBW","leaf":"true"}]},{"id":148,"gender":"Herr","title":"Prof. Dr.","firstname":"Norbert","surname":"Kallis","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Norbert Kallis","fullnamereverse":"Kallis, Prof. Dr. Norbert","positions":[{"id":337,"name":"Studiengangsleitung Maschinenbau","leaf":"true"},{"id":336,"name":"Studiengangsleitung Verfahrenstechnik","leaf":"true"}]},{"id":92,"gender":"Frau","title":"","firstname":"Manuela","surname":"Kapler","suffix":"","campus":"Mosbach","fullname":"Manuela Kapler","fullnamereverse":"Kapler, Manuela","positions":[{"id":95,"name":"Sekretariat Handel","leaf":"true"},{"id":257,"name":"Sekretariat Holz-Betriebswirtschaft","leaf":"true"},{"id":280,"name":"Sekretariat Warenwirtschaft und Logistik","leaf":"true"},{"id":332,"name":"Sekretariat Internationaler Handel","leaf":"true"}]},{"id":156,"gender":"Frau","title":"","firstname":"Vanessa","surname":"Kappes","suffix":"","campus":"Mosbach","fullname":"Vanessa Kappes","fullnamereverse":"Kappes, Vanessa","positions":[{"id":96,"name":"Verwaltung","leaf":"true"}]},{"id":160,"gender":"Herr","title":"Prof. Dr.","firstname":"G\u00fcnter","surname":"K\u00e4\u00dfer-Pawelka","suffix":"","campus":"Heilbronn","fullname":"Prof. Dr. G\u00fcnter K\u00e4\u00dfer-Pawelka","fullnamereverse":"K\u00e4\u00dfer-Pawelka, Prof. Dr. G\u00fcnter","positions":[{"id":92,"name":"Studiendekan Dienstleistungsmanagement","leaf":"true"}]},{"id":172,"gender":"Frau","title":"","firstname":"Alexandra","surname":"Kass-K\u00f6gel","suffix":"","campus":"Heilbronn","fullname":"Alexandra Kass-K\u00f6gel","fullnamereverse":"Kass-K\u00f6gel, Alexandra","positions":[{"id":97,"name":"Sekretariat Dienstleistungsmanagement","leaf":"true"}]},{"id":72,"gender":"Frau","title":"","firstname":"Simone","surname":"Keller-L\u00f6ser","suffix":"","campus":"Mosbach","fullname":"Simone Keller-L\u00f6ser","fullnamereverse":"Keller-L\u00f6ser, Simone","positions":[{"id":98,"name":"Sekretariat Rektorat","leaf":"true"}]},{"id":71,"gender":"Frau","title":"","firstname":"Iris","surname":"Kilian","suffix":"","campus":"Bad Mergentheim","fullname":"Iris Kilian","fullnamereverse":"Kilian, Iris","positions":[{"id":100,"name":"Auslandsamt","leaf":"true"}]},{"id":169,"gender":"Herr","title":"Prof. Dr.","firstname":"Seon-Su","surname":"Kim","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Seon-Su Kim","fullnamereverse":"Kim, Prof. Dr. Seon-Su","positions":[{"id":378,"name":"Studiengangsleitung Industrie","leaf":"true"},{"id":379,"name":"Studiengangsleitung Industrielles Service Management","leaf":"true"}]},{"id":52,"gender":"Herr","title":"Prof. Dr.","firstname":"Rainer","surname":"Klein","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Rainer Klein","fullnamereverse":"Klein, Prof. Dr. Rainer","positions":[{"id":103,"name":"Studiengangsleitung Mechatronik","leaf":"true"},{"id":252,"name":"Studiengangsleitung Elektromobilit\u00e4t","leaf":"true"}]},{"id":81,"gender":"Herr","title":"","firstname":"Wolfgang","surname":"Knapp","suffix":"","campus":"Mosbach","fullname":"Wolfgang Knapp","fullnamereverse":"Knapp, Wolfgang","positions":[{"id":104,"name":"Labor Maschinenbau","leaf":"true"}]},{"id":139,"gender":"Herr","title":"Prof. Dr.","firstname":"Gangolf","surname":"Kohnen","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Gangolf Kohnen","fullnamereverse":"Kohnen, Prof. Dr. Gangolf","positions":[{"id":105,"name":"Studiengangsleitung Maschinenbau","leaf":"true"},{"id":335,"name":"Studiengangsleitung Virtual Engineering","leaf":"true"}]},{"id":118,"gender":"Herr","title":"","firstname":"Bastian","surname":"Kratzer","suffix":"","campus":"Mosbach","fullname":"Bastian Kratzer","fullnamereverse":"Kratzer, Bastian","positions":[{"id":108,"name":"Entwickler Webteam","leaf":"true"}]},{"id":27,"gender":"Frau","title":"","firstname":"Doris","surname":"Kraus","suffix":"","campus":"Mosbach","fullname":"Doris Kraus","fullnamereverse":"Kraus, Doris","positions":[{"id":109,"name":"Sekretariat Maschinenbau","leaf":"true"},{"id":263,"name":"Sekretariat Kunststofftechnik","leaf":"true"},{"id":274,"name":"Sekretariat Verfahrenstechnik","leaf":"true"},{"id":278,"name":"Sekretariat Virtual Engineering","leaf":"true"}]},{"id":163,"gender":"Frau","title":"","firstname":"Stefanie","surname":"Kraus","suffix":"","campus":"Mosbach","fullname":"Stefanie Kraus","fullnamereverse":"Kraus, Stefanie","positions":[{"id":110,"name":"Verwaltung","leaf":"true"}]},{"id":3,"gender":"Frau","title":"","firstname":"Anita","surname":"Krug","suffix":"","campus":"Mosbach","fullname":"Anita Krug","fullnamereverse":"Krug, Anita","positions":[{"id":111,"name":"Sekretariat Bank","leaf":"true"}]},{"id":164,"gender":"Frau","title":"","firstname":"Sabine","surname":"Kuhn","suffix":"","campus":"Mosbach","fullname":"Sabine Kuhn","fullnamereverse":"Kuhn, Sabine","positions":[{"id":112,"name":"Sekretariat Wirtschaftsing. Internationales Technisches Vertriebsmanagement","leaf":"true"},{"id":113,"name":"Sekretariat Wirtschaftsing. Internationale Produktion & Logistik","leaf":"true"}]},{"id":157,"gender":"Frau","title":"","firstname":"Barbara","surname":"K\u00fchne","suffix":"","campus":"Mosbach","fullname":"Barbara K\u00fchne","fullnamereverse":"K\u00fchne, Barbara","positions":[{"id":231,"name":"Sekretariat Maschinenbau","leaf":"true"},{"id":276,"name":"Sekretariat Verfahrenstechnik","leaf":"true"}]},{"id":117,"gender":"Herr","title":"","firstname":"Bernd","surname":"Kunzmann","suffix":"","campus":"Mosbach","fullname":"Bernd Kunzmann","fullnamereverse":"Kunzmann, Bernd","positions":[{"id":114,"name":"Haustechnik","leaf":"true"}]},{"id":191,"gender":"Herr","title":"Dr.","firstname":"Martin","surname":"Lang","suffix":"","campus":"Bad Mergentheim","fullname":"Dr. Martin Lang","fullnamereverse":"Lang, Dr. Martin","positions":[{"id":318,"name":"Studiengangsmanagement Gesundheitsmanagement","leaf":"true"}]},{"id":62,"gender":"Herr","title":"","firstname":"Andreas","surname":"Lang","suffix":"","campus":"Mosbach","fullname":"Andreas Lang","fullnamereverse":"Lang, Andreas","positions":[{"id":116,"name":"Labor Maschinenbau","leaf":"true"}]},{"id":175,"gender":"Frau","title":"","firstname":"Andrea","surname":"L\u00e4ssing","suffix":"","campus":"Heilbronn","fullname":"Andrea L\u00e4ssing","fullnamereverse":"L\u00e4ssing, Andrea","positions":[{"id":115,"name":"Sekretariat Rektorat","leaf":"true"}]},{"id":128,"gender":"Herr","title":"Prof. Dr.","firstname":"Stefan","surname":"Leukel","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Stefan Leukel","fullnamereverse":"Leukel, Prof. Dr. Stefan","positions":[{"id":118,"name":"Professor Steuern und Pr\u00fcfungswesen","leaf":"true"}]},{"id":198,"gender":"Frau","title":"","firstname":"Sandra","surname":"Lin\u00df","suffix":"","campus":"Mosbach","fullname":"Sandra Lin\u00df","fullnamereverse":"Lin\u00df, Sandra","positions":[{"id":341,"name":"Sekretariat Maschinenbau","leaf":"true"}]},{"id":108,"gender":"Frau","title":"","firstname":"Brigitte","surname":"Lonscher","suffix":"","campus":"Bad Mergentheim","fullname":"Brigitte Lonscher","fullnamereverse":"Lonscher, Brigitte","positions":[{"id":119,"name":"Sekretariat Food Management","leaf":"true"}]},{"id":168,"gender":"Frau","title":"","firstname":"Catrin","surname":"Luithle","suffix":"","campus":"Heilbronn","fullname":"Catrin Luithle","fullnamereverse":"Luithle, Catrin","positions":[{"id":232,"name":"Programmmanagement Dienstleistungsmanagement","leaf":"true"},{"id":304,"name":"Programmmanagement Konsumg\u00fcter-Handel","leaf":"true"}]},{"id":151,"gender":"Frau","title":"","firstname":"Martina","surname":"Mark","suffix":"","campus":"Mosbach","fullname":"Martina Mark","fullnamereverse":"Mark, Martina","positions":[{"id":120,"name":"Sekretariat Industrie","leaf":"true"},{"id":283,"name":"Sekretariat Industrielles Service Management","leaf":"true"}]},{"id":19,"gender":"Herr","title":"Prof. Dr.","firstname":"Arnulf","surname":"Mester","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Arnulf Mester","fullnamereverse":"Mester, Prof. Dr. Arnulf","positions":[{"id":121,"name":"Studiengangsleitung Onlinemedien","leaf":"true"}]},{"id":219,"gender":"Frau","title":"","firstname":"Silke","surname":"Metzger","suffix":"","campus":"Bad Mergentheim","fullname":"Silke Metzger","fullnamereverse":"Metzger, Silke","positions":[{"id":416,"name":"Sekretariat Gesundheitsmanagement","leaf":"true"}]},{"id":24,"gender":"Herr","title":"Prof. Dr.","firstname":"Simon","surname":"M\u00f6hringer","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Simon M\u00f6hringer","fullnamereverse":"M\u00f6hringer, Prof. Dr. Simon","positions":[{"id":123,"name":"Studiengangsleitung Wirtschaftsing. Internationales Technisches Vertriebsmanagement","leaf":"true"},{"id":124,"name":"Studiengangsleitung Wirtschaftsing. Internationale Produktion & Logistik","leaf":"true"}]},{"id":34,"gender":"Herr","title":"Prof. Dr.","firstname":"Karl-Heinz","surname":"Moos","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Karl-Heinz Moos","fullnamereverse":"Moos, Prof. Dr. Karl-Heinz","positions":[{"id":125,"name":"Studiengangsleitung Maschinenbau","leaf":"true"},{"id":261,"name":"Studiengangsleitung Kunststofftechnik","leaf":"true"}]},{"id":173,"gender":"Frau","title":"Prof. Dr.","firstname":"Petra","surname":"Morschheuser","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Petra Morschheuser","fullnamereverse":"Morschheuser, Prof. Dr. Petra","positions":[{"id":369,"name":"Studiengangsleitung Handel","leaf":"true"}]},{"id":196,"gender":"Herr","title":"Prof. Dr.","firstname":"Max","surname":"M\u00fchlh\u00e4user","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Max M\u00fchlh\u00e4user","fullnamereverse":"M\u00fchlh\u00e4user, Prof. Dr. Max","positions":[{"id":344,"name":"Prorektor","leaf":"true"},{"id":345,"name":"Dekan Fakult\u00e4t Technik","leaf":"true"}]},{"id":154,"gender":"Frau","title":"","firstname":"Claudia","surname":"M\u00fcnch-Dinkel","suffix":"","campus":"Bad Mergentheim","fullname":"Claudia M\u00fcnch-Dinkel","fullnamereverse":"M\u00fcnch-Dinkel, Claudia","positions":[{"id":317,"name":"Studiengangsmanagement Food Management","leaf":"true"}]},{"id":158,"gender":"Herr","title":"Dr.","firstname":"Albrecht","surname":"Mund","suffix":"","campus":"Mosbach","fullname":"Dr. Albrecht Mund","fullnamereverse":"Mund, Dr. Albrecht","positions":[{"id":128,"name":"Labor Verfahrenstechnik","leaf":"true"}]},{"id":113,"gender":"Frau","title":"","firstname":"Marion","surname":"M\u00fcnig","suffix":"","campus":"Bad Mergentheim","fullname":"Marion M\u00fcnig","fullnamereverse":"M\u00fcnig, Marion","positions":[{"id":127,"name":"Leiterin Verwaltung","leaf":"true"}]},{"id":178,"gender":"Herr","title":"","firstname":"Igor","surname":"Naab","suffix":"","campus":"Mosbach","fullname":"Igor Naab","fullnamereverse":"Naab, Igor","positions":[{"id":129,"name":"Rechenzentrum","leaf":"true"}]},{"id":216,"gender":"Herr","title":"","firstname":"Mario van","surname":"Nassau","suffix":"","campus":"Mosbach","fullname":"Mario van Nassau","fullnamereverse":"Nassau, Mario van","positions":[{"id":401,"name":"Hausmeister","leaf":"true"}]},{"id":20,"gender":"Herr","title":"Prof. Dr.","firstname":"Herbert","surname":"Neuendorf","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Herbert Neuendorf","fullnamereverse":"Neuendorf, Prof. Dr. Herbert","positions":[{"id":133,"name":"Professor Wirtschaftsinformatik","leaf":"true"}]},{"id":6,"gender":"Herr","title":"Prof. Dr.","firstname":"Alexander","surname":"Neumann","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Alexander Neumann","fullnamereverse":"Neumann, Prof. Dr. Alexander","positions":[{"id":130,"name":"Studiengangsleitung Handel","leaf":"true"},{"id":131,"name":"Studiengangsleitung Vertriebs- und Kooperationsmanagement","leaf":"true"},{"id":132,"name":"QM-Beauftragter","leaf":"true"}]},{"id":195,"gender":"Herr","title":"","firstname":"Chris","surname":"Neumann","suffix":"","campus":"Mosbach","fullname":"Chris Neumann","fullnamereverse":"Neumann, Chris","positions":[{"id":338,"name":"Leiter Bereich Finanzen","leaf":"true"}]},{"id":54,"gender":"Herr","title":"Prof.","firstname":"Bernhard","surname":"Nicolin","suffix":"","campus":"Mosbach","fullname":"Prof. Bernhard Nicolin","fullnamereverse":"Nicolin, Prof. Bernhard","positions":[{"id":248,"name":"Studiengangsleitung Angewandte Informatik","leaf":"true"},{"id":249,"name":"Studiengangsleitung Informationstechnik","leaf":"true"}]},{"id":176,"gender":"Frau","title":"","firstname":"Cornelia","surname":"Nising","suffix":"","campus":"Heilbronn","fullname":"Cornelia Nising","fullnamereverse":"Nising, Cornelia","positions":[{"id":135,"name":"Verwaltung","leaf":"true"}]},{"id":67,"gender":"Frau","title":"","firstname":"Claudia","surname":"\u00d6hlschl\u00e4ger","suffix":"","campus":"Mosbach","fullname":"Claudia \u00d6hlschl\u00e4ger","fullnamereverse":"\u00d6hlschl\u00e4ger, Claudia","positions":[{"id":136,"name":"Sekretariat Bauwesen - Fassadentechnik","leaf":"true"},{"id":137,"name":"Sekretariat Bauwesen - Projektmanagement","leaf":"true"}]},{"id":177,"gender":"Herr","title":"","firstname":"Christian","surname":"\u00d6ppling","suffix":"","campus":"Mosbach","fullname":"Christian \u00d6ppling","fullnamereverse":"\u00d6ppling, Christian","positions":[{"id":138,"name":"Rechenzentrum","leaf":"true"}]},{"id":49,"gender":"Frau","title":"","firstname":"Gabriela","surname":"Oprica","suffix":"","campus":"Mosbach","fullname":"Gabriela Oprica","fullnamereverse":"Oprica, Gabriela","positions":[{"id":139,"name":"Sekretariat Wirtschaftsinformatik","leaf":"true"},{"id":140,"name":"Schwerbehindertenbeauftragte","leaf":"true"}]},{"id":201,"gender":"Herr","title":"Prof. Dr.","firstname":"Dirk","surname":"Palleduhn","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Dirk Palleduhn","fullnamereverse":"Palleduhn, Prof. Dr. Dirk","positions":[{"id":350,"name":"Studiengangsleitung Wirtschaftsinformatik","leaf":"true"}]},{"id":170,"gender":"Herr","title":"","firstname":"Karsten","surname":"Pflug-Suhr","suffix":"","campus":"Heilbronn","fullname":"Karsten Pflug-Suhr","fullnamereverse":"Pflug-Suhr, Karsten","positions":[{"id":234,"name":"Programmmanagement Dienstleistungsmanagement","leaf":"true"}]},{"id":43,"gender":"Herr","title":"Prof. Dr.","firstname":"Klaus","surname":"Pfuhl","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Klaus Pfuhl","fullnamereverse":"Pfuhl, Prof. Dr. Klaus","positions":[{"id":141,"name":"Studiengangsleitung Holztechnik","leaf":"true"}]},{"id":26,"gender":"Herr","title":"Prof. Dr.","firstname":"Dietmar W.","surname":"Polzin","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Dietmar W. Polzin","fullnamereverse":"Polzin, Prof. Dr. Dietmar W.","positions":[{"id":142,"name":"Studiengangsleitung Handel","leaf":"true"},{"id":143,"name":"Studiengangsleitung Warenwirtschaft und Logistik","leaf":"true"}]},{"id":162,"gender":"Herr","title":"Dr.","firstname":"Thomas","surname":"Queisser","suffix":"","campus":"Mosbach","fullname":"Dr. Thomas Queisser","fullnamereverse":"Queisser, Dr. Thomas","positions":[{"id":284,"name":"Studiengangsleitung Junior Program","leaf":"true"}]},{"id":78,"gender":"Frau","title":"","firstname":"Inge","surname":"Rauscher","suffix":"","campus":"Bad Mergentheim","fullname":"Inge Rauscher","fullnamereverse":"Rauscher, Inge","positions":[{"id":418,"name":"Sekretariat Rektorat","leaf":"true"}]},{"id":68,"gender":"Frau","title":"","firstname":"Bettina","surname":"Rehle","suffix":"","campus":"Mosbach","fullname":"Bettina Rehle","fullnamereverse":"Rehle, Bettina","positions":[{"id":147,"name":"Leiterin Bibliothek","leaf":"true"}]},{"id":82,"gender":"Frau","title":"","firstname":"Diana","surname":"Reichert","suffix":"","campus":"Mosbach","fullname":"Diana Reichert","fullnamereverse":"Reichert, Diana","positions":[{"id":150,"name":"Sekretariat Informationstechnik","leaf":"true"}]},{"id":94,"gender":"Frau","title":"Prof.","firstname":"Gudrun","surname":"Reichert","suffix":"","campus":"Mosbach","fullname":"Prof. Gudrun Reichert","fullnamereverse":"Reichert, Prof. Gudrun","positions":[{"id":235,"name":"Professorin Allgemeine BWL Fakult\u00e4t Wirtschaft","leaf":"true"}]},{"id":165,"gender":"Herr","title":"Prof. Dr.","firstname":"Andreas","surname":"Reichert","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Andreas Reichert","fullnamereverse":"Reichert, Prof. Dr. Andreas","positions":[{"id":407,"name":"Studiengangsleitung Wirtschaftsing. Internationales Technisches Vertriebsmanagement","leaf":"true"},{"id":408,"name":"Studiengangsleitung Wirtschaftsing. Internationale Produktion & Logistik","leaf":"true"}]},{"id":93,"gender":"Herr","title":"Prof. Dr.","firstname":"Reinhard","surname":"Reimann","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Reinhard Reimann","fullnamereverse":"Reimann, Prof. Dr. Reinhard","positions":[{"id":151,"name":"Studiengangsleitung Mechatronik","leaf":"true"},{"id":152,"name":"Studiengangsleitung Mechatronik - Fahrzeugelektronik","leaf":"true"},{"id":253,"name":"Studiengangsleitung Elektromobilit\u00e4t","leaf":"true"}]},{"id":145,"gender":"Frau","title":"","firstname":"Andrea","surname":"Reinhard","suffix":"","campus":"Mosbach","fullname":"Andrea Reinhard","fullnamereverse":"Reinhard, Andrea","positions":[{"id":153,"name":"Controlling","leaf":"true"}]},{"id":119,"gender":"Frau","title":"","firstname":"Joan","surname":"Repkes","suffix":"","campus":"Mosbach","fullname":"Joan Repkes","fullnamereverse":"Repkes, Joan","positions":[{"id":154,"name":"Entwicklerin Webteam","leaf":"true"}]},{"id":112,"gender":"Frau","title":"","firstname":"Caroline","surname":"Ritter","suffix":"","campus":"Mosbach","fullname":"Caroline Ritter","fullnamereverse":"Ritter, Caroline","positions":[{"id":155,"name":"Sekretariat Wirtschaftsing. Internationales Technisches Vertriebsmanagement","leaf":"true"},{"id":156,"name":"Sekretariat Wirtschaftsing. Internationale Produktion & Logistik","leaf":"true"}]},{"id":76,"gender":"Herr","title":"","firstname":"Markus","surname":"Rollwa","suffix":"","campus":"Mosbach","fullname":"Markus Rollwa","fullnamereverse":"Rollwa, Markus","positions":[{"id":5,"name":"Labor Onlinemedien","leaf":"true"},{"id":6,"name":"Entwickler Webteam","leaf":"true"}]},{"id":35,"gender":"Herr","title":"","firstname":"Hermann","surname":"R\u00f6mer","suffix":"","campus":"Mosbach","fullname":"Hermann R\u00f6mer","fullnamereverse":"R\u00f6mer, Hermann","positions":[{"id":157,"name":"Leiter Rechenzentrum","leaf":"true"}]},{"id":132,"gender":"Frau","title":"Dipl.-Ing.","firstname":"Mariana","surname":"R\u00f6mer","suffix":"","campus":"Mosbach","fullname":"Dipl.-Ing. Mariana R\u00f6mer","fullnamereverse":"R\u00f6mer, Dipl.-Ing. Mariana","positions":[{"id":158,"name":"Labor Elektrotechnik","leaf":"true"},{"id":159,"name":"Labor Mechatronik","leaf":"true"}]},{"id":134,"gender":"Herr","title":"","firstname":"Ren\u00e9","surname":"Rosche","suffix":"","campus":"Mosbach","fullname":"Ren\u00e9 Rosche","fullnamereverse":"Rosche, Ren\u00e9","positions":[{"id":160,"name":"Rechenzentrum","leaf":"true"}]},{"id":159,"gender":"Herr","title":"","firstname":"Jan","surname":"Roth","suffix":"","campus":"Mosbach","fullname":"Jan Roth","fullnamereverse":"Roth, Jan","positions":[{"id":4,"name":"Webmaster","leaf":"true"}]},{"id":187,"gender":"Herr","title":"Prof. Dr.","firstname":"Jens","surname":"Saffenreuther","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Jens Saffenreuther","fullnamereverse":"Saffenreuther, Prof. Dr. Jens","positions":[{"id":307,"name":"Professor Bank","leaf":"true"}]},{"id":203,"gender":"Frau","title":"","firstname":"Melanie","surname":"Sch\u00e4fer","suffix":"","campus":"Mosbach","fullname":"Melanie Sch\u00e4fer","fullnamereverse":"Sch\u00e4fer, Melanie","positions":[{"id":371,"name":"Fakult\u00e4tsmanagement","leaf":"true"}]},{"id":74,"gender":"Frau","title":"Prof. Dr.","firstname":"Beate","surname":"Scheubrein","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Beate Scheubrein","fullnamereverse":"Scheubrein, Prof. Dr. Beate","positions":[{"id":161,"name":"Studiengangsleitung Gesundheitsmanagement","leaf":"true"}]},{"id":153,"gender":"Herr","title":"Prof. Dr.","firstname":"Ralph","surname":"Scheubrein","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Ralph Scheubrein","fullnamereverse":"Scheubrein, Prof. Dr. Ralph","positions":[{"id":356,"name":"Professor Fakult\u00e4t Wirtschaft","leaf":"true"}]},{"id":197,"gender":"Herr","title":"Prof. Dr.","firstname":"Thomas","surname":"Schmidt","suffix":"","campus":"Heilbronn","fullname":"Prof. Dr. Thomas Schmidt","fullnamereverse":"Schmidt, Prof. Dr. Thomas","positions":[{"id":342,"name":"Studiengangsleitung Konsumg\u00fcter-Handel","leaf":"true"}]},{"id":70,"gender":"Herr","title":"Prof. Dr.","firstname":"Johannes","surname":"Schmidt","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Johannes Schmidt","fullnamereverse":"Schmidt, Prof. Dr. Johannes","positions":[{"id":237,"name":"Professor Volkswirtschaftslehre Fakult\u00e4t Wirtschaft","leaf":"true"}]},{"id":167,"gender":"Frau","title":"","firstname":"Lisa","surname":"Schneider","suffix":"","campus":"Mosbach","fullname":"Lisa Schneider","fullnamereverse":"Schneider, Lisa","positions":[{"id":165,"name":"Sekretariat Rektorat","leaf":"true"}]},{"id":65,"gender":"Herr","title":"","firstname":"J\u00fcrgen","surname":"Schr\u00f6der","suffix":"","campus":"Mosbach","fullname":"J\u00fcrgen Schr\u00f6der","fullnamereverse":"Schr\u00f6der, J\u00fcrgen","positions":[{"id":166,"name":"Haustechnik","leaf":"true"}]},{"id":85,"gender":"Frau","title":"","firstname":"Ursula","surname":"Sch\u00fcrle","suffix":"","campus":"Heilbronn","fullname":"Ursula Sch\u00fcrle","fullnamereverse":"Sch\u00fcrle, Ursula","positions":[{"id":167,"name":"Leiterin Bibliothek","leaf":"true"}]},{"id":215,"gender":"Herr","title":"Prof. Dr.","firstname":"Jens","surname":"Sch\u00fctte","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Jens Sch\u00fctte","fullnamereverse":"Sch\u00fctte, Prof. Dr. Jens","positions":[{"id":431,"name":"Professor International Business - Finanz- und Rechnungswesen","leaf":"true"},{"id":433,"name":"","leaf":"true"},{"id":434,"name":"","leaf":"true"},{"id":435,"name":"","leaf":"true"}]},{"id":56,"gender":"Herr","title":"Prof. Dr.","firstname":"Wolfgang","surname":"Schwalbe","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Wolfgang Schwalbe","fullnamereverse":"Schwalbe, Prof. Dr. Wolfgang","positions":[{"id":168,"name":"Studiengangsleitung Bauwesen - Fassadentechnik","leaf":"true"},{"id":169,"name":"Studiengangsleitung Bauwesen - Projektmanagement","leaf":"true"}]},{"id":213,"gender":"Herr","title":"Prof. Dr.","firstname":"Dirk","surname":"Schwarzer","suffix":"","campus":"Heilbronn","fullname":"Prof. Dr. Dirk Schwarzer","fullnamereverse":"Schwarzer, Prof. Dr. Dirk","positions":[{"id":399,"name":"Studiengangsleitung Sportmanagement","leaf":"true"}]},{"id":143,"gender":"Frau","title":"","firstname":"Heike","surname":"Schwerdtfeger","suffix":"","campus":"Bad Mergentheim","fullname":"Heike Schwerdtfeger","fullnamereverse":"Schwerdtfeger, Heike","positions":[{"id":170,"name":"Verwaltung","leaf":"true"}]},{"id":102,"gender":"Herr","title":"","firstname":"Robin","surname":"Seizinger","suffix":"","campus":"Mosbach","fullname":"Robin Seizinger","fullnamereverse":"Seizinger, Robin","positions":[{"id":172,"name":"Bibliothek","leaf":"true"}]},{"id":39,"gender":"Herr","title":"","firstname":"Mircea","surname":"Selariu","suffix":"","campus":"Mosbach","fullname":"Mircea Selariu","fullnamereverse":"Selariu, Mircea","positions":[{"id":173,"name":"Rechenzentrum","leaf":"true"}]},{"id":99,"gender":"Frau","title":"","firstname":"Emel","surname":"Selek","suffix":"","campus":"Mosbach","fullname":"Emel Selek","fullnamereverse":"Selek, Emel","positions":[{"id":174,"name":"Sekretariat Holztechnik","leaf":"true"}]},{"id":14,"gender":"Herr","title":"","firstname":"Michael","surname":"Selent","suffix":"","campus":"Bad Mergentheim","fullname":"Michael Selent","fullnamereverse":"Selent, Michael","positions":[{"id":175,"name":"Rechenzentrum","leaf":"true"}]},{"id":181,"gender":"Herr","title":"","firstname":"Cosmin","surname":"Serbanescu","suffix":"","campus":"Heilbronn","fullname":"Cosmin Serbanescu","fullnamereverse":"Serbanescu, Cosmin","positions":[{"id":176,"name":"Rechenzentrum","leaf":"true"}]},{"id":166,"gender":"Frau","title":"Prof. Dr.","firstname":"Isabelle","surname":"Simons","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Isabelle Simons","fullnamereverse":"Simons, Prof. Dr. Isabelle","positions":[{"id":177,"name":"Professorin Bauwesen - Fassadentechnik","leaf":"true"},{"id":178,"name":"Professorin Bauwesen - Projektmanagement","leaf":"true"}]},{"id":97,"gender":"Herr","title":"Prof. Dr.","firstname":"Heiko","surname":"Sinnhold","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Heiko Sinnhold","fullnamereverse":"Sinnhold, Prof. Dr. Heiko","positions":[{"id":180,"name":"Studiengangsleitung International Business - Change Management","leaf":"true"}]},{"id":21,"gender":"Frau","title":"","firstname":"Sylvia","surname":"Smarzly","suffix":"","campus":"Mosbach","fullname":"Sylvia Smarzly","fullnamereverse":"Smarzly, Sylvia","positions":[{"id":289,"name":"Studiengangsmanagement Handel","leaf":"true"}]},{"id":188,"gender":"Frau","title":"Prof. Dr.","firstname":"Sybille","surname":"Sobczak","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Sybille Sobczak","fullnamereverse":"Sobczak, Prof. Dr. Sybille","positions":[{"id":319,"name":"Professorin Food Management","leaf":"true"}]},{"id":122,"gender":"Frau","title":"","firstname":"Diana","surname":"S\u00f6hner","suffix":"","campus":"Mosbach","fullname":"Diana S\u00f6hner","fullnamereverse":"S\u00f6hner, Diana","positions":[{"id":184,"name":"Auslandsamt","leaf":"true"},{"id":285,"name":"Sekretariat Junior Program","leaf":"true"}]},{"id":107,"gender":"Frau","title":"","firstname":"Ruth","surname":"Sommer","suffix":"","campus":"Bad Mergentheim","fullname":"Ruth Sommer","fullnamereverse":"Sommer, Ruth","positions":[{"id":185,"name":"Bibliothek","leaf":"true"}]},{"id":96,"gender":"Herr","title":"Prof. Dr.","firstname":"Hubert","surname":"Speth","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Hubert Speth","fullnamereverse":"Speth, Prof. Dr. Hubert","positions":[{"id":186,"name":"Studiendekan Handel","leaf":"true"},{"id":256,"name":"Studiengangsleitung Holz-Betriebswirtschaft","leaf":"true"},{"id":258,"name":"Studiengangsleitung Internationaler Handel","leaf":"true"}]},{"id":123,"gender":"Herr","title":"Prof. Dr.","firstname":"Volker","surname":"Stadie","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Volker Stadie","fullnamereverse":"Stadie, Prof. Dr. Volker","positions":[{"id":239,"name":"Professor Recht Fakult\u00e4t Wirtschaft","leaf":"true"}]},{"id":194,"gender":"Herr","title":"Prof. Dr.","firstname":"Christian","surname":"Steurer","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Christian Steurer","fullnamereverse":"Steurer, Prof. Dr. Christian","positions":[{"id":329,"name":"Professor Wirtschaftsing. Internationales Technisches Vertriebsmanagement","leaf":"true"},{"id":328,"name":"Professor Wirtschaftsing. Internationale Produktion & Logistik","leaf":"true"}]},{"id":149,"gender":"Herr","title":"Prof. Dr.","firstname":"Ralf","surname":"Stiehler","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Ralf Stiehler","fullnamereverse":"Stiehler, Prof. Dr. Ralf","positions":[{"id":187,"name":"Studiengangsleitung Elektrotechnik","leaf":"true"}]},{"id":89,"gender":"Frau","title":"","firstname":"Cindy","surname":"St\u00f6ger","suffix":"","campus":"Mosbach","fullname":"Cindy St\u00f6ger","fullnamereverse":"St\u00f6ger, Cindy","positions":[{"id":188,"name":"Sekretariat Elektrotechnik","leaf":"true"}]},{"id":121,"gender":"Herr","title":"Prof. Dr.","firstname":"Karl Albert","surname":"Strecker","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Karl Albert Strecker","fullnamereverse":"Strecker, Prof. Dr. Karl Albert","positions":[{"id":189,"name":"Studiengangsleitung Bank","leaf":"true"}]},{"id":129,"gender":"Frau","title":"","firstname":"Ulrike","surname":"Stroisch","suffix":"","campus":"Heilbronn","fullname":"Ulrike Stroisch","fullnamereverse":"Stroisch, Ulrike","positions":[{"id":190,"name":"Sekretariat Konsumg\u00fcter-Handel","leaf":"true"}]},{"id":150,"gender":"Frau","title":"","firstname":"Daniela","surname":"Sturm","suffix":"","campus":"Mosbach","fullname":"Daniela Sturm","fullnamereverse":"Sturm, Daniela","positions":[{"id":191,"name":"Hochschulkommunikation","leaf":"true"}]},{"id":90,"gender":"Herr","title":"","firstname":"Josef","surname":"Teufel","suffix":"","campus":"Bad Mergentheim","fullname":"Josef Teufel","fullnamereverse":"Teufel, Josef","positions":[{"id":192,"name":"Haustechnik","leaf":"true"}]},{"id":155,"gender":"Frau","title":"","firstname":"Nicole","surname":"Then-Plannasch","suffix":"","campus":"Bad Mergentheim","fullname":"Nicole Then-Plannasch","fullnamereverse":"Then-Plannasch, Nicole","positions":[{"id":316,"name":"Studiengangsmanagement Food Management","leaf":"true"}]},{"id":147,"gender":"Frau","title":"","firstname":"Juliett","surname":"Triller","suffix":"","campus":"Bad Mergentheim","fullname":"Juliett Triller","fullnamereverse":"Triller, Juliett","positions":[{"id":194,"name":"Bibliothek","leaf":"true"}]},{"id":206,"gender":"Herr","title":"Prof. Dr.","firstname":"Clemens","surname":"Troche","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Clemens Troche","fullnamereverse":"Troche, Prof. Dr. Clemens","positions":[{"id":366,"name":"Prorektor","leaf":"true"},{"id":367,"name":"Leiter Campus Bad Mergentheim","leaf":"true"}]},{"id":125,"gender":"Herr","title":"","firstname":"Bernhard","surname":"Vilgis","suffix":"","campus":"Mosbach","fullname":"Bernhard Vilgis","fullnamereverse":"Vilgis, Bernhard","positions":[{"id":195,"name":"Labor Maschinenbau","leaf":"true"}]},{"id":171,"gender":"Frau","title":"","firstname":"Sabine","surname":"Vogt","suffix":"","campus":"Heilbronn","fullname":"Sabine Vogt","fullnamereverse":"Vogt, Sabine","positions":[{"id":196,"name":"Sekretariat Rektorat","leaf":"true"}]},{"id":53,"gender":"Herr","title":"Prof.","firstname":"Thomas","surname":"Wais","suffix":"","campus":"Mosbach","fullname":"Prof. Thomas Wais","fullnamereverse":"Wais, Prof. Thomas","positions":[{"id":240,"name":"Professor Fakult\u00e4t Technik","leaf":"true"}]},{"id":217,"gender":"Herr","title":"","firstname":"Caroline","surname":"Weber","suffix":"","campus":"Mosbach","fullname":"Caroline Weber","fullnamereverse":"Weber, Caroline","positions":[{"id":404,"name":"Auslandsamt","leaf":"true"}]},{"id":146,"gender":"Frau","title":"","firstname":"Simone","surname":"Weber","suffix":"","campus":"Mosbach","fullname":"Simone Weber","fullnamereverse":"Weber, Simone","positions":[{"id":197,"name":"Sekretariat Bank","leaf":"true"}]},{"id":11,"gender":"Herr","title":"Prof. Dr.","firstname":"Otto","surname":"Weidmann","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Otto Weidmann","fullnamereverse":"Weidmann, Prof. Dr. Otto","positions":[{"id":198,"name":"Studiengangsleitung Bank","leaf":"true"}]},{"id":22,"gender":"Herr","title":"","firstname":"Manfred","surname":"Weigler","suffix":"","campus":"Mosbach","fullname":"Manfred Weigler","fullnamereverse":"Weigler, Manfred","positions":[{"id":295,"name":"Organisationsmanagement","leaf":"true"}]},{"id":115,"gender":"Herr","title":"","firstname":"J\u00fcrgen","surname":"Weiland","suffix":"","campus":"Bad Mergentheim","fullname":"J\u00fcrgen Weiland","fullnamereverse":"Weiland, J\u00fcrgen","positions":[{"id":204,"name":"Rechenzentrum","leaf":"true"}]},{"id":161,"gender":"Herr","title":"Prof.","firstname":"Andreas","surname":"Wei\u00dfenbach","suffix":"","campus":"Mosbach","fullname":"Prof. Andreas Wei\u00dfenbach","fullnamereverse":"Wei\u00dfenbach, Prof. Andreas","positions":[{"id":396,"name":"Studiengangsleitung Maschinenbau","leaf":"true"}]},{"id":50,"gender":"Herr","title":"Prof. Dr.","firstname":"Hartmut","surname":"Werner","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Hartmut Werner","fullnamereverse":"Werner, Prof. Dr. Hartmut","positions":[{"id":201,"name":"Professor Holztechnik","leaf":"true"},{"id":202,"name":"Professor Bauwesen - Fassadentechnik","leaf":"true"},{"id":203,"name":"Professor Bauwesen - Projektmanagement","leaf":"true"}]},{"id":105,"gender":"Herr","title":"","firstname":"Philipp","surname":"Wettling","suffix":"","campus":"Mosbach","fullname":"Philipp Wettling","fullnamereverse":"Wettling, Philipp","positions":[{"id":205,"name":"Leiter Pr\u00fcfungsamt","leaf":"true"}]},{"id":73,"gender":"Herr","title":"Prof. Dr.","firstname":"Thomas","surname":"Wirth","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Thomas Wirth","fullnamereverse":"Wirth, Prof. Dr. Thomas","positions":[{"id":3,"name":"Professor Onlinemedien","leaf":"true"},{"id":372,"name":"Medienbeauftragter","leaf":"true"}]},{"id":7,"gender":"Herr","title":"Prof. Dr.","firstname":"Volkhard","surname":"Wolf","suffix":"","campus":"Mosbach","fullname":"Prof. Dr. Volkhard Wolf","fullnamereverse":"Wolf, Prof. Dr. Volkhard","positions":[{"id":206,"name":"Studiengangsleitung Industrie","leaf":"true"},{"id":207,"name":"Studiengangsleitung Electronic Business","leaf":"true"}]},{"id":184,"gender":"Frau","title":"","firstname":"Heike","surname":"Wolf","suffix":"","campus":"Heilbronn","fullname":"Heike Wolf","fullnamereverse":"Wolf, Heike","positions":[{"id":246,"name":"Sekretariat Konsumg\u00fcter-Handel","leaf":"true"}]},{"id":8,"gender":"Herr","title":"Prof.","firstname":"Wolf","surname":"W\u00f6ssner","suffix":"","campus":"Mosbach","fullname":"Prof. Wolf W\u00f6ssner","fullnamereverse":"W\u00f6ssner, Prof. Wolf","positions":[{"id":209,"name":"Studiengangsleitung Bank","leaf":"true"}]},{"id":91,"gender":"Frau","title":"Prof. Dr.","firstname":"Sabine","surname":"Woydt","suffix":"","campus":"Bad Mergentheim","fullname":"Prof. Dr. Sabine Woydt","fullnamereverse":"Woydt, Prof. Dr. Sabine","positions":[{"id":208,"name":"Studiengangsleitung Food Management","leaf":"true"}]},{"id":16,"gender":"Frau","title":"","firstname":"Marianne","surname":"Wyes","suffix":"","campus":"Bad Mergentheim","fullname":"Marianne Wyes","fullnamereverse":"Wyes, Marianne","positions":[{"id":210,"name":"Sekretariat Verwaltung","leaf":"true"}]},{"id":17,"gender":"Herr","title":"Prof. Dr.","firstname":"Ulrich","surname":"Zeyer","suffix":"","campus":"Heilbronn","fullname":"Prof. Dr. Ulrich Zeyer","fullnamereverse":"Zeyer, Prof. Dr. Ulrich","positions":[{"id":334,"name":"Studiendekan Konsumg\u00fcter-Handel","leaf":"true"}]},{"id":114,"gender":"Frau","title":"","firstname":"Carolin","surname":"Ziegelhofer","suffix":"","campus":"Heilbronn","fullname":"Carolin Ziegelhofer","fullnamereverse":"Ziegelhofer, Carolin","positions":[{"id":370,"name":"Sekretariat Verwaltung","leaf":"true"}]},{"id":48,"gender":"Frau","title":"","firstname":"Ivonne","surname":"Zilling","suffix":"","campus":"Mosbach","fullname":"Ivonne Zilling","fullnamereverse":"Zilling, Ivonne","positions":[{"id":213,"name":"Auslandsamt","leaf":"true"}]},{"id":144,"gender":"Frau","title":"","firstname":"Christine","surname":"Zimmer","suffix":"","campus":"Mosbach","fullname":"Christine Zimmer","fullnamereverse":"Zimmer, Christine","positions":[{"id":298,"name":"Stellvertretende Verwaltungsdirektorin","leaf":"true"}]},{"id":95,"gender":"Frau","title":"","firstname":"Nicole","surname":"Zipf","suffix":"","campus":"Heilbronn","fullname":"Nicole Zipf","fullnamereverse":"Zipf, Nicole","positions":[{"id":327,"name":"Leiterin Verwaltung","leaf":"true"}]},{"id":185,"gender":"Frau","title":"","firstname":"Diana","surname":"Zwickl","suffix":"","campus":"Heilbronn","fullname":"Diana Zwickl","fullnamereverse":"Zwickl, Diana","positions":[{"id":247,"name":"Sekretariat Dienstleistungsmanagement","leaf":"true"},{"id":313,"name":"Sekretariat Konsumg\u00fcter-Handel","leaf":"true"}]}]}}';
+echo '{
+    "success": true,
+    "wiwlist": {
+        "persons": [
+            {
+                "id": 199,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Christine",
+                "surname": "Azarmi",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Christine Azarmi",
+                "fullnamereverse": "Azarmi, Prof. Dr. Christine",
+                "positions": [
+                    {
+                        "id": 347,
+                        "name": "Professorin Fakult\u00e4t Wirtschaft",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 214,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Birgit",
+                "surname": "B\u00e4hr",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Birgit B\u00e4hr",
+                "fullnamereverse": "B\u00e4hr, Birgit",
+                "positions": [
+                    {
+                        "id": 391,
+                        "name": "Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 180,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Isabel",
+                "surname": "Banschbach",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Isabel Banschbach",
+                "fullnamereverse": "Banschbach, Isabel",
+                "positions": [
+                    {
+                        "id": 11,
+                        "name": "Sekretariat Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 127,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Karlheinz",
+                "surname": "Barth",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Karlheinz Barth",
+                "fullnamereverse": "Barth, Karlheinz",
+                "positions": [
+                    {
+                        "id": 7,
+                        "name": "Labor Wirtschaftsinformatik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 183,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Nicole",
+                "surname": "Bastian",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Nicole Bastian",
+                "fullnamereverse": "Bastian, Nicole",
+                "positions": [
+                    {
+                        "id": 55,
+                        "name": "Hochschulkommunikation",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 211,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Thomas",
+                "surname": "Batz",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Prof. Dr. Thomas Batz",
+                "fullnamereverse": "Batz, Prof. Dr. Thomas",
+                "positions": [
+                    {
+                        "id": 397,
+                        "name": "Studiengangsleitung Dienstleistungsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Christof",
+                "surname": "Bauer",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Christof Bauer",
+                "fullnamereverse": "Bauer, Christof",
+                "positions": [
+                    {
+                        "id": 8,
+                        "name": "Leiter Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Stefan",
+                "surname": "Bauer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Stefan Bauer",
+                "fullnamereverse": "Bauer, Stefan",
+                "positions": [
+                    {
+                        "id": 9,
+                        "name": "Labor Elektrotechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Sabine",
+                "surname": "Bennebach",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Sabine Bennebach",
+                "fullnamereverse": "Bennebach, Sabine",
+                "positions": [
+                    {
+                        "id": 323,
+                        "name": "Veranstaltungsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 202,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Anne Katrin",
+                "surname": "Borchert",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Anne Katrin Borchert",
+                "fullnamereverse": "Borchert, Anne Katrin",
+                "positions": [
+                    {
+                        "id": 357,
+                        "name": "Leiterin Bibliothek",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 79,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Anna-Magdalena",
+                "surname": "Br\u00f6ckl",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Anna-Magdalena Br\u00f6ckl",
+                "fullnamereverse": "Br\u00f6ckl, Anna-Magdalena",
+                "positions": [
+                    {
+                        "id": 14,
+                        "name": "Auslandsamt",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 45,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Siglinde",
+                "surname": "Brunner",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Siglinde Brunner",
+                "fullnamereverse": "Brunner, Siglinde",
+                "positions": [
+                    {
+                        "id": 15,
+                        "name": "Sekretariat Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 126,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Alexander",
+                "surname": "Bubeck",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Alexander Bubeck",
+                "fullnamereverse": "Bubeck, Alexander",
+                "positions": [
+                    {
+                        "id": 16,
+                        "name": "Labor Elektrotechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 17,
+                        "name": "Labor Mechatronik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 31,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Annerose",
+                "surname": "B\u00fcchler",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Annerose B\u00fcchler",
+                "fullnamereverse": "B\u00fcchler, Annerose",
+                "positions": [
+                    {
+                        "id": 21,
+                        "name": "Sekretariat Mechatronik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 216,
+                        "name": "Sekretariat Mechatronik - Fahrzeugelektronik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 254,
+                        "name": "Sekretariat Elektromobilit\u00e4t",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 47,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Erica",
+                "surname": "Bucur",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Erica Bucur",
+                "fullnamereverse": "Bucur, Erica",
+                "positions": [
+                    {
+                        "id": 18,
+                        "name": "Sekretariat Internationales Projekt Engineering",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 19,
+                        "name": "Sekretariat Wirtschaftsing. Internationale Produktion & Logistik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 20,
+                        "name": "Sekretariat Wirtschaftsing. Internationales Technisches Vertriebsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 61,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Peter",
+                "surname": "Busch",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Peter Busch",
+                "fullnamereverse": "Busch, Peter",
+                "positions": [
+                    {
+                        "id": 23,
+                        "name": "Labor Elektrotechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Klaus-Georg",
+                "surname": "Deck",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Klaus-Georg Deck",
+                "fullnamereverse": "Deck, Prof. Dr. Klaus-Georg",
+                "positions": [
+                    {
+                        "id": 24,
+                        "name": "Professor Wirtschaftsinformatik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 26,
+                        "name": "ADH-Beauftragter",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 140,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Erika",
+                "surname": "Deimling",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Erika Deimling",
+                "fullnamereverse": "Deimling, Erika",
+                "positions": [
+                    {
+                        "id": 27,
+                        "name": "Mediendidaktik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 354,
+                        "name": "Ansprechpartnerin der Zentralen Beauftragten f\u00fcr Chancengleichheit",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 86,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Frank",
+                "surname": "Deser",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Frank Deser",
+                "fullnamereverse": "Deser, Prof. Dr. Frank",
+                "positions": [
+                    {
+                        "id": 28,
+                        "name": "Studiengangsleitung Industrie",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 137,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Dagmar",
+                "surname": "Dierolf",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Dagmar Dierolf",
+                "fullnamereverse": "Dierolf, Dagmar",
+                "positions": [
+                    {
+                        "id": 29,
+                        "name": "Sekretariat Food Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 192,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Andreas",
+                "surname": "Dietz",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Andreas Dietz",
+                "fullnamereverse": "Dietz, Andreas",
+                "positions": [
+                    {
+                        "id": 333,
+                        "name": "Qualit\u00e4tsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Albrecht",
+                "surname": "Dinkelacker",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Albrecht Dinkelacker",
+                "fullnamereverse": "Dinkelacker, Prof. Dr. Albrecht",
+                "positions": [
+                    {
+                        "id": 30,
+                        "name": "Studiengangsleitung Internationales Projekt Engineering",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 69,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Anita",
+                "surname": "Dinyer-Selariu",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Anita Dinyer-Selariu",
+                "fullnamereverse": "Dinyer-Selariu, Anita",
+                "positions": [
+                    {
+                        "id": 31,
+                        "name": "Bibliothek",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 109,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Viktoria",
+                "surname": "Dopf",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Viktoria Dopf",
+                "fullnamereverse": "Dopf, Viktoria",
+                "positions": [
+                    {
+                        "id": 32,
+                        "name": "Sekretariat International Business - Angewandte Technik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 33,
+                        "name": "Sekretariat International Business - Change Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Carola",
+                "surname": "Dziedzic",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Carola Dziedzic",
+                "fullnamereverse": "Dziedzic, Carola",
+                "positions": [
+                    {
+                        "id": 36,
+                        "name": "Sekretariat Onlinemedien",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 38,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "J\u00fcrgen",
+                "surname": "Eckert",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "J\u00fcrgen Eckert",
+                "fullnamereverse": "Eckert, J\u00fcrgen",
+                "positions": [
+                    {
+                        "id": 37,
+                        "name": "Labor Elektrotechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 38,
+                        "name": "Labor Mechatronik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 186,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Katja",
+                "surname": "Eickert",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Katja Eickert",
+                "fullnamereverse": "Eickert, Katja",
+                "positions": [
+                    {
+                        "id": 305,
+                        "name": "Programmmanagement Konsumg\u00fcter-Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 63,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Klemens",
+                "surname": "Elser",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Klemens Elser",
+                "fullnamereverse": "Elser, Klemens",
+                "positions": [
+                    {
+                        "id": 410,
+                        "name": "Hausmeister",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 218,
+                "gender": "Herr",
+                "title": "Prof. Dr. Dr.",
+                "firstname": "Frank",
+                "surname": "Elste",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Dr. Frank Elste",
+                "fullnamereverse": "Elste, Prof. Dr. Dr. Frank",
+                "positions": [
+                    {
+                        "id": 415,
+                        "name": "Professor Healthcare Industry",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 77,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Irmgard",
+                "surname": "Emmert",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Irmgard Emmert",
+                "fullnamereverse": "Emmert, Irmgard",
+                "positions": [
+                    {
+                        "id": 229,
+                        "name": "Sekretariat International Business - Interkult. Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 46,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Daniela",
+                "surname": "Englisch",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Daniela Englisch",
+                "fullnamereverse": "Englisch, Daniela",
+                "positions": [
+                    {
+                        "id": 43,
+                        "name": "Leiterin Auslandsamt",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 141,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Sandra",
+                "surname": "Erb",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Sandra Erb",
+                "fullnamereverse": "Erb, Sandra",
+                "positions": [
+                    {
+                        "id": 44,
+                        "name": "Bibliothek",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 179,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Hans-Dieter",
+                "surname": "Ernst",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Hans-Dieter Ernst",
+                "fullnamereverse": "Ernst, Hans-Dieter",
+                "positions": [
+                    {
+                        "id": 244,
+                        "name": "Haustechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Sybille",
+                "surname": "Fass",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Sybille Fass",
+                "fullnamereverse": "Fass, Sybille",
+                "positions": [
+                    {
+                        "id": 45,
+                        "name": "Sekretariat Industrie",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 250,
+                        "name": "Sekretariat Electronic Business",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 282,
+                        "name": "Sekretariat Industrielles Service Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 189,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Christian",
+                "surname": "Ferstl",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Christian Ferstl",
+                "fullnamereverse": "Ferstl, Christian",
+                "positions": [
+                    {
+                        "id": 315,
+                        "name": "Wissenschaftlicher Mitarbeiter Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 130,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Isolde",
+                "surname": "Fichtner",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Isolde Fichtner",
+                "fullnamereverse": "Fichtner, Isolde",
+                "positions": [
+                    {
+                        "id": 46,
+                        "name": "Sekretariat Steuern und Pr\u00fcfungswesen",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 60,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Marius",
+                "surname": "Friedrich",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Marius Friedrich",
+                "fullnamereverse": "Friedrich, Marius",
+                "positions": [
+                    {
+                        "id": 47,
+                        "name": "Labor Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "gender": "Frau",
+                "title": "Prof.",
+                "firstname": "Erika",
+                "surname": "Gauch",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Erika Gauch",
+                "fullnamereverse": "Gauch, Prof. Erika",
+                "positions": [
+                    {
+                        "id": 61,
+                        "name": "Professorin Fakult\u00e4t Wirtschaft",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "gender": "Herr",
+                "title": "Prof.",
+                "firstname": "Reinhold",
+                "surname": "Geilsd\u00f6rfer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Reinhold Geilsd\u00f6rfer",
+                "fullnamereverse": "Geilsd\u00f6rfer, Prof. Reinhold",
+                "positions": [
+                    {
+                        "id": 291,
+                        "name": "Rektor",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 88,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Silvia",
+                "surname": "Geissler",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Silvia Geissler",
+                "fullnamereverse": "Geissler, Silvia",
+                "positions": [
+                    {
+                        "id": 423,
+                        "name": "Auslandsamt",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Axel",
+                "surname": "Gerloff",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Axel Gerloff",
+                "fullnamereverse": "Gerloff, Prof. Dr. Axel",
+                "positions": [
+                    {
+                        "id": 63,
+                        "name": "Studiengangsleitung International Business - Interkult. Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 142,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Martin",
+                "surname": "Gimber",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Martin Gimber",
+                "fullnamereverse": "Gimber, Martin",
+                "positions": [
+                    {
+                        "id": 50,
+                        "name": "Labor Informationstechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Siegfried",
+                "surname": "Glier",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Siegfried Glier",
+                "fullnamereverse": "Glier, Siegfried",
+                "positions": [
+                    {
+                        "id": 302,
+                        "name": "Verwaltungsdirektor",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 55,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Alois",
+                "surname": "G\u00f6pfert",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Alois G\u00f6pfert",
+                "fullnamereverse": "G\u00f6pfert, Prof. Dr. Alois",
+                "positions": [
+                    {
+                        "id": 51,
+                        "name": "Professor Informationstechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 58,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Nicole",
+                "surname": "Graf",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Prof. Dr. Nicole Graf",
+                "fullnamereverse": "Graf, Prof. Dr. Nicole",
+                "positions": [
+                    {
+                        "id": 53,
+                        "name": "Prorektorin",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 365,
+                        "name": "Leiterin Campus Heilbronn",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 51,
+                "gender": "Herr",
+                "title": "Prof.",
+                "firstname": "Werner",
+                "surname": "Greiner",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Werner Greiner",
+                "fullnamereverse": "Greiner, Prof. Werner",
+                "positions": [
+                    {
+                        "id": 75,
+                        "name": "Studiengangsleitung Elektrotechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 36,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Dietmar",
+                "surname": "Guttwein",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Dietmar Guttwein",
+                "fullnamereverse": "Guttwein, Dietmar",
+                "positions": [
+                    {
+                        "id": 68,
+                        "name": "Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 100,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Beate",
+                "surname": "H\u00e4gele",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Beate H\u00e4gele",
+                "fullnamereverse": "H\u00e4gele, Beate",
+                "positions": [
+                    {
+                        "id": 69,
+                        "name": "Sekretariat Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 204,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Stephan",
+                "surname": "H\u00e4hre",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Stephan H\u00e4hre",
+                "fullnamereverse": "H\u00e4hre, Prof. Dr. Stephan",
+                "positions": [
+                    {
+                        "id": 360,
+                        "name": "Professor Wirtschaftsing. Internationale Produktion & Logistik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 361,
+                        "name": "Professor Wirtschaftsing. Internationales Technisches Vertriebsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Achim",
+                "surname": "Hantschel",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Achim Hantschel",
+                "fullnamereverse": "Hantschel, Achim",
+                "positions": [
+                    {
+                        "id": 70,
+                        "name": "Labor Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 136,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Silvia",
+                "surname": "Harrer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Silvia Harrer",
+                "fullnamereverse": "Harrer, Silvia",
+                "positions": [
+                    {
+                        "id": 71,
+                        "name": "Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "gender": "Herr",
+                "title": "Prof.",
+                "firstname": "Karl-J\u00fcrgen",
+                "surname": "Hausch",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Karl-J\u00fcrgen Hausch",
+                "fullnamereverse": "Hausch, Prof. Karl-J\u00fcrgen",
+                "positions": [
+                    {
+                        "id": 72,
+                        "name": "Studiengangsleitung Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 190,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Axel",
+                "surname": "Hecker",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Axel Hecker",
+                "fullnamereverse": "Hecker, Axel",
+                "positions": [
+                    {
+                        "id": 314,
+                        "name": "Studiengangsmanagement Healthcare Industry",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Bernd",
+                "surname": "Heilig",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Bernd Heilig",
+                "fullnamereverse": "Heilig, Prof. Dr. Bernd",
+                "positions": [
+                    {
+                        "id": 73,
+                        "name": "Professor Fakult\u00e4t Wirtschaft",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 110,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "J\u00f6rg",
+                "surname": "Hein",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "J\u00f6rg Hein",
+                "fullnamereverse": "Hein, J\u00f6rg",
+                "positions": [
+                    {
+                        "id": 74,
+                        "name": "Hochschulkommunikation",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 106,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Swantje",
+                "surname": "Heischkel",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Swantje Heischkel",
+                "fullnamereverse": "Heischkel, Prof. Dr. Swantje",
+                "positions": [
+                    {
+                        "id": 223,
+                        "name": "Studiengangsleitung Healthcare Industry",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 395,
+                        "name": "(derzeit vertreten durch Herrn Prof. Dr. Troche)",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 75,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Elke",
+                "surname": "Heizmann",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Elke Heizmann",
+                "fullnamereverse": "Heizmann, Prof. Dr. Elke",
+                "positions": [
+                    {
+                        "id": 77,
+                        "name": "Studiengangsleitung Steuern und Pr\u00fcfungswesen",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 64,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Roland",
+                "surname": "Henn",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Roland Henn",
+                "fullnamereverse": "Henn, Roland",
+                "positions": [
+                    {
+                        "id": 79,
+                        "name": "Haustechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 133,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Elke",
+                "surname": "Hennrich",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Elke Hennrich",
+                "fullnamereverse": "Hennrich, Elke",
+                "positions": [
+                    {
+                        "id": 436,
+                        "name": "Sekretariat Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 193,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Matthias",
+                "surname": "Herb",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Matthias Herb",
+                "fullnamereverse": "Herb, Matthias",
+                "positions": [
+                    {
+                        "id": 322,
+                        "name": "Labor Holztechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Birgit",
+                "surname": "Herhoff",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Birgit Herhoff",
+                "fullnamereverse": "Herhoff, Birgit",
+                "positions": [
+                    {
+                        "id": 57,
+                        "name": "Zentrale Information",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 200,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Marcus",
+                "surname": "Hoffmann",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Marcus Hoffmann",
+                "fullnamereverse": "Hoffmann, Prof. Dr. Marcus",
+                "positions": [
+                    {
+                        "id": 406,
+                        "name": "Professor International Business - Industrial Sales and Marketing",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 424,
+                        "name": "",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 425,
+                        "name": "",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 426,
+                        "name": "",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 84,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Monika",
+                "surname": "Hofmann",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Monika Hofmann",
+                "fullnamereverse": "Hofmann, Monika",
+                "positions": [
+                    {
+                        "id": 306,
+                        "name": "Sekretariat Rektorat",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 120,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Nicole",
+                "surname": "H\u00f6ge",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Nicole H\u00f6ge",
+                "fullnamereverse": "H\u00f6ge, Nicole",
+                "positions": [
+                    {
+                        "id": 82,
+                        "name": "Sekretariat Bauwesen - Fassadentechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 303,
+                        "name": "Sekretariat Bauwesen - Projektmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Horst",
+                "surname": "Holtmann",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Horst Holtmann",
+                "fullnamereverse": "Holtmann, Prof. Dr. Horst",
+                "positions": [
+                    {
+                        "id": 83,
+                        "name": "Studiengangsleitung Wirtschaftsinformatik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Christiane",
+                "surname": "Horsch-Hei\u00df",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Christiane Horsch-Hei\u00df",
+                "fullnamereverse": "Horsch-Hei\u00df, Christiane",
+                "positions": [
+                    {
+                        "id": 84,
+                        "name": "Sekretariat Maschinenbau",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 262,
+                        "name": "Sekretariat Kunststofftechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 275,
+                        "name": "Sekretariat Verfahrenstechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 279,
+                        "name": "Sekretariat Virtual Engineering",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 209,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Benjamin",
+                "surname": "H\u00f6tzel",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Benjamin H\u00f6tzel",
+                "fullnamereverse": "H\u00f6tzel, Benjamin",
+                "positions": [
+                    {
+                        "id": 376,
+                        "name": "Hochschulkommunikation und Organisation",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 135,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Peter",
+                "surname": "H\u00fclsebusch",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Peter H\u00fclsebusch",
+                "fullnamereverse": "H\u00fclsebusch, Peter",
+                "positions": [
+                    {
+                        "id": 85,
+                        "name": "Labor Mechatronik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 220,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Ute",
+                "surname": "Jaeger",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Ute Jaeger",
+                "fullnamereverse": "Jaeger, Ute",
+                "positions": [
+                    {
+                        "id": 417,
+                        "name": "Sekretariat Healthcare Industry",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 210,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Oliver",
+                "surname": "Janz",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Prof. Dr. Oliver Janz",
+                "fullnamereverse": "Janz, Prof. Dr. Oliver",
+                "positions": [
+                    {
+                        "id": 398,
+                        "name": "Studiengangsleitung Konsumg\u00fcter-Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Gabi",
+                "surname": "Jeck-Schlottmann",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Gabi Jeck-Schlottmann",
+                "fullnamereverse": "Jeck-Schlottmann, Prof. Dr. Gabi",
+                "positions": [
+                    {
+                        "id": 87,
+                        "name": "Prorektorin",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 88,
+                        "name": "Dekanin Fakult\u00e4t Wirtschaft",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 83,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Rainer",
+                "surname": "Jochum",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Rainer Jochum",
+                "fullnamereverse": "Jochum, Prof. Dr. Rainer",
+                "positions": [
+                    {
+                        "id": 89,
+                        "name": "Studiengangsleitung International Business - Angewandte Technik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 103,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Tamara",
+                "surname": "Kaiser",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Tamara Kaiser",
+                "fullnamereverse": "Kaiser, Tamara",
+                "positions": [
+                    {
+                        "id": 292,
+                        "name": "Gesch\u00e4ftsstelle Rektorenkonferenz der DHBW",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 148,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Norbert",
+                "surname": "Kallis",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Norbert Kallis",
+                "fullnamereverse": "Kallis, Prof. Dr. Norbert",
+                "positions": [
+                    {
+                        "id": 337,
+                        "name": "Studiengangsleitung Maschinenbau",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 336,
+                        "name": "Studiengangsleitung Verfahrenstechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 92,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Manuela",
+                "surname": "Kapler",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Manuela Kapler",
+                "fullnamereverse": "Kapler, Manuela",
+                "positions": [
+                    {
+                        "id": 95,
+                        "name": "Sekretariat Handel",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 257,
+                        "name": "Sekretariat Holz-Betriebswirtschaft",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 280,
+                        "name": "Sekretariat Warenwirtschaft und Logistik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 332,
+                        "name": "Sekretariat Internationaler Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 156,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Vanessa",
+                "surname": "Kappes",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Vanessa Kappes",
+                "fullnamereverse": "Kappes, Vanessa",
+                "positions": [
+                    {
+                        "id": 96,
+                        "name": "Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 160,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "G\u00fcnter",
+                "surname": "K\u00e4\u00dfer-Pawelka",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Prof. Dr. G\u00fcnter K\u00e4\u00dfer-Pawelka",
+                "fullnamereverse": "K\u00e4\u00dfer-Pawelka, Prof. Dr. G\u00fcnter",
+                "positions": [
+                    {
+                        "id": 92,
+                        "name": "Studiendekan Dienstleistungsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 172,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Alexandra",
+                "surname": "Kass-K\u00f6gel",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Alexandra Kass-K\u00f6gel",
+                "fullnamereverse": "Kass-K\u00f6gel, Alexandra",
+                "positions": [
+                    {
+                        "id": 97,
+                        "name": "Sekretariat Dienstleistungsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 72,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Simone",
+                "surname": "Keller-L\u00f6ser",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Simone Keller-L\u00f6ser",
+                "fullnamereverse": "Keller-L\u00f6ser, Simone",
+                "positions": [
+                    {
+                        "id": 98,
+                        "name": "Sekretariat Rektorat",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 71,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Iris",
+                "surname": "Kilian",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Iris Kilian",
+                "fullnamereverse": "Kilian, Iris",
+                "positions": [
+                    {
+                        "id": 100,
+                        "name": "Auslandsamt",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 169,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Seon-Su",
+                "surname": "Kim",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Seon-Su Kim",
+                "fullnamereverse": "Kim, Prof. Dr. Seon-Su",
+                "positions": [
+                    {
+                        "id": 378,
+                        "name": "Studiengangsleitung Industrie",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 379,
+                        "name": "Studiengangsleitung Industrielles Service Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 52,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Rainer",
+                "surname": "Klein",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Rainer Klein",
+                "fullnamereverse": "Klein, Prof. Dr. Rainer",
+                "positions": [
+                    {
+                        "id": 103,
+                        "name": "Studiengangsleitung Mechatronik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 252,
+                        "name": "Studiengangsleitung Elektromobilit\u00e4t",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 81,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Wolfgang",
+                "surname": "Knapp",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Wolfgang Knapp",
+                "fullnamereverse": "Knapp, Wolfgang",
+                "positions": [
+                    {
+                        "id": 104,
+                        "name": "Labor Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 139,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Gangolf",
+                "surname": "Kohnen",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Gangolf Kohnen",
+                "fullnamereverse": "Kohnen, Prof. Dr. Gangolf",
+                "positions": [
+                    {
+                        "id": 105,
+                        "name": "Studiengangsleitung Maschinenbau",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 335,
+                        "name": "Studiengangsleitung Virtual Engineering",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 118,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Bastian",
+                "surname": "Kratzer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Bastian Kratzer",
+                "fullnamereverse": "Kratzer, Bastian",
+                "positions": [
+                    {
+                        "id": 108,
+                        "name": "Entwickler Webteam",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Doris",
+                "surname": "Kraus",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Doris Kraus",
+                "fullnamereverse": "Kraus, Doris",
+                "positions": [
+                    {
+                        "id": 109,
+                        "name": "Sekretariat Maschinenbau",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 263,
+                        "name": "Sekretariat Kunststofftechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 274,
+                        "name": "Sekretariat Verfahrenstechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 278,
+                        "name": "Sekretariat Virtual Engineering",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 163,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Stefanie",
+                "surname": "Kraus",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Stefanie Kraus",
+                "fullnamereverse": "Kraus, Stefanie",
+                "positions": [
+                    {
+                        "id": 110,
+                        "name": "Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Anita",
+                "surname": "Krug",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Anita Krug",
+                "fullnamereverse": "Krug, Anita",
+                "positions": [
+                    {
+                        "id": 111,
+                        "name": "Sekretariat Bank",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 164,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Sabine",
+                "surname": "Kuhn",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Sabine Kuhn",
+                "fullnamereverse": "Kuhn, Sabine",
+                "positions": [
+                    {
+                        "id": 112,
+                        "name": "Sekretariat Wirtschaftsing. Internationales Technisches Vertriebsmanagement",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 113,
+                        "name": "Sekretariat Wirtschaftsing. Internationale Produktion & Logistik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 157,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Barbara",
+                "surname": "K\u00fchne",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Barbara K\u00fchne",
+                "fullnamereverse": "K\u00fchne, Barbara",
+                "positions": [
+                    {
+                        "id": 231,
+                        "name": "Sekretariat Maschinenbau",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 276,
+                        "name": "Sekretariat Verfahrenstechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 117,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Bernd",
+                "surname": "Kunzmann",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Bernd Kunzmann",
+                "fullnamereverse": "Kunzmann, Bernd",
+                "positions": [
+                    {
+                        "id": 114,
+                        "name": "Haustechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 191,
+                "gender": "Herr",
+                "title": "Dr.",
+                "firstname": "Martin",
+                "surname": "Lang",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Dr. Martin Lang",
+                "fullnamereverse": "Lang, Dr. Martin",
+                "positions": [
+                    {
+                        "id": 318,
+                        "name": "Studiengangsmanagement Gesundheitsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 62,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Andreas",
+                "surname": "Lang",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Andreas Lang",
+                "fullnamereverse": "Lang, Andreas",
+                "positions": [
+                    {
+                        "id": 116,
+                        "name": "Labor Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 175,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Andrea",
+                "surname": "L\u00e4ssing",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Andrea L\u00e4ssing",
+                "fullnamereverse": "L\u00e4ssing, Andrea",
+                "positions": [
+                    {
+                        "id": 115,
+                        "name": "Sekretariat Rektorat",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 128,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Stefan",
+                "surname": "Leukel",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Stefan Leukel",
+                "fullnamereverse": "Leukel, Prof. Dr. Stefan",
+                "positions": [
+                    {
+                        "id": 118,
+                        "name": "Professor Steuern und Pr\u00fcfungswesen",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 198,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Sandra",
+                "surname": "Lin\u00df",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Sandra Lin\u00df",
+                "fullnamereverse": "Lin\u00df, Sandra",
+                "positions": [
+                    {
+                        "id": 341,
+                        "name": "Sekretariat Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 108,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Brigitte",
+                "surname": "Lonscher",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Brigitte Lonscher",
+                "fullnamereverse": "Lonscher, Brigitte",
+                "positions": [
+                    {
+                        "id": 119,
+                        "name": "Sekretariat Food Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 168,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Catrin",
+                "surname": "Luithle",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Catrin Luithle",
+                "fullnamereverse": "Luithle, Catrin",
+                "positions": [
+                    {
+                        "id": 232,
+                        "name": "Programmmanagement Dienstleistungsmanagement",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 304,
+                        "name": "Programmmanagement Konsumg\u00fcter-Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 151,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Martina",
+                "surname": "Mark",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Martina Mark",
+                "fullnamereverse": "Mark, Martina",
+                "positions": [
+                    {
+                        "id": 120,
+                        "name": "Sekretariat Industrie",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 283,
+                        "name": "Sekretariat Industrielles Service Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Arnulf",
+                "surname": "Mester",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Arnulf Mester",
+                "fullnamereverse": "Mester, Prof. Dr. Arnulf",
+                "positions": [
+                    {
+                        "id": 121,
+                        "name": "Studiengangsleitung Onlinemedien",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 219,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Silke",
+                "surname": "Metzger",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Silke Metzger",
+                "fullnamereverse": "Metzger, Silke",
+                "positions": [
+                    {
+                        "id": 416,
+                        "name": "Sekretariat Gesundheitsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Simon",
+                "surname": "M\u00f6hringer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Simon M\u00f6hringer",
+                "fullnamereverse": "M\u00f6hringer, Prof. Dr. Simon",
+                "positions": [
+                    {
+                        "id": 123,
+                        "name": "Studiengangsleitung Wirtschaftsing. Internationales Technisches Vertriebsmanagement",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 124,
+                        "name": "Studiengangsleitung Wirtschaftsing. Internationale Produktion & Logistik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Karl-Heinz",
+                "surname": "Moos",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Karl-Heinz Moos",
+                "fullnamereverse": "Moos, Prof. Dr. Karl-Heinz",
+                "positions": [
+                    {
+                        "id": 125,
+                        "name": "Studiengangsleitung Maschinenbau",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 261,
+                        "name": "Studiengangsleitung Kunststofftechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 173,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Petra",
+                "surname": "Morschheuser",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Petra Morschheuser",
+                "fullnamereverse": "Morschheuser, Prof. Dr. Petra",
+                "positions": [
+                    {
+                        "id": 369,
+                        "name": "Studiengangsleitung Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 196,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Max",
+                "surname": "M\u00fchlh\u00e4user",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Max M\u00fchlh\u00e4user",
+                "fullnamereverse": "M\u00fchlh\u00e4user, Prof. Dr. Max",
+                "positions": [
+                    {
+                        "id": 344,
+                        "name": "Prorektor",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 345,
+                        "name": "Dekan Fakult\u00e4t Technik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 154,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Claudia",
+                "surname": "M\u00fcnch-Dinkel",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Claudia M\u00fcnch-Dinkel",
+                "fullnamereverse": "M\u00fcnch-Dinkel, Claudia",
+                "positions": [
+                    {
+                        "id": 317,
+                        "name": "Studiengangsmanagement Food Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 158,
+                "gender": "Herr",
+                "title": "Dr.",
+                "firstname": "Albrecht",
+                "surname": "Mund",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Dr. Albrecht Mund",
+                "fullnamereverse": "Mund, Dr. Albrecht",
+                "positions": [
+                    {
+                        "id": 128,
+                        "name": "Labor Verfahrenstechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 113,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Marion",
+                "surname": "M\u00fcnig",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Marion M\u00fcnig",
+                "fullnamereverse": "M\u00fcnig, Marion",
+                "positions": [
+                    {
+                        "id": 127,
+                        "name": "Leiterin Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 178,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Igor",
+                "surname": "Naab",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Igor Naab",
+                "fullnamereverse": "Naab, Igor",
+                "positions": [
+                    {
+                        "id": 129,
+                        "name": "Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 216,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Mario van",
+                "surname": "Nassau",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Mario van Nassau",
+                "fullnamereverse": "Nassau, Mario van",
+                "positions": [
+                    {
+                        "id": 401,
+                        "name": "Hausmeister",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Herbert",
+                "surname": "Neuendorf",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Herbert Neuendorf",
+                "fullnamereverse": "Neuendorf, Prof. Dr. Herbert",
+                "positions": [
+                    {
+                        "id": 133,
+                        "name": "Professor Wirtschaftsinformatik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Alexander",
+                "surname": "Neumann",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Alexander Neumann",
+                "fullnamereverse": "Neumann, Prof. Dr. Alexander",
+                "positions": [
+                    {
+                        "id": 130,
+                        "name": "Studiengangsleitung Handel",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 131,
+                        "name": "Studiengangsleitung Vertriebs- und Kooperationsmanagement",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 132,
+                        "name": "QM-Beauftragter",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 195,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Chris",
+                "surname": "Neumann",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Chris Neumann",
+                "fullnamereverse": "Neumann, Chris",
+                "positions": [
+                    {
+                        "id": 338,
+                        "name": "Leiter Bereich Finanzen",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 54,
+                "gender": "Herr",
+                "title": "Prof.",
+                "firstname": "Bernhard",
+                "surname": "Nicolin",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Bernhard Nicolin",
+                "fullnamereverse": "Nicolin, Prof. Bernhard",
+                "positions": [
+                    {
+                        "id": 248,
+                        "name": "Studiengangsleitung Angewandte Informatik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 249,
+                        "name": "Studiengangsleitung Informationstechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 176,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Cornelia",
+                "surname": "Nising",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Cornelia Nising",
+                "fullnamereverse": "Nising, Cornelia",
+                "positions": [
+                    {
+                        "id": 135,
+                        "name": "Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 67,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Claudia",
+                "surname": "\u00d6hlschl\u00e4ger",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Claudia \u00d6hlschl\u00e4ger",
+                "fullnamereverse": "\u00d6hlschl\u00e4ger, Claudia",
+                "positions": [
+                    {
+                        "id": 136,
+                        "name": "Sekretariat Bauwesen - Fassadentechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 137,
+                        "name": "Sekretariat Bauwesen - Projektmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 177,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Christian",
+                "surname": "\u00d6ppling",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Christian \u00d6ppling",
+                "fullnamereverse": "\u00d6ppling, Christian",
+                "positions": [
+                    {
+                        "id": 138,
+                        "name": "Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 49,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Gabriela",
+                "surname": "Oprica",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Gabriela Oprica",
+                "fullnamereverse": "Oprica, Gabriela",
+                "positions": [
+                    {
+                        "id": 139,
+                        "name": "Sekretariat Wirtschaftsinformatik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 140,
+                        "name": "Schwerbehindertenbeauftragte",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 201,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Dirk",
+                "surname": "Palleduhn",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Dirk Palleduhn",
+                "fullnamereverse": "Palleduhn, Prof. Dr. Dirk",
+                "positions": [
+                    {
+                        "id": 350,
+                        "name": "Studiengangsleitung Wirtschaftsinformatik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 170,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Karsten",
+                "surname": "Pflug-Suhr",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Karsten Pflug-Suhr",
+                "fullnamereverse": "Pflug-Suhr, Karsten",
+                "positions": [
+                    {
+                        "id": 234,
+                        "name": "Programmmanagement Dienstleistungsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 43,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Klaus",
+                "surname": "Pfuhl",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Klaus Pfuhl",
+                "fullnamereverse": "Pfuhl, Prof. Dr. Klaus",
+                "positions": [
+                    {
+                        "id": 141,
+                        "name": "Studiengangsleitung Holztechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Dietmar W.",
+                "surname": "Polzin",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Dietmar W. Polzin",
+                "fullnamereverse": "Polzin, Prof. Dr. Dietmar W.",
+                "positions": [
+                    {
+                        "id": 142,
+                        "name": "Studiengangsleitung Handel",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 143,
+                        "name": "Studiengangsleitung Warenwirtschaft und Logistik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 162,
+                "gender": "Herr",
+                "title": "Dr.",
+                "firstname": "Thomas",
+                "surname": "Queisser",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Dr. Thomas Queisser",
+                "fullnamereverse": "Queisser, Dr. Thomas",
+                "positions": [
+                    {
+                        "id": 284,
+                        "name": "Studiengangsleitung Junior Program",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 78,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Inge",
+                "surname": "Rauscher",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Inge Rauscher",
+                "fullnamereverse": "Rauscher, Inge",
+                "positions": [
+                    {
+                        "id": 418,
+                        "name": "Sekretariat Rektorat",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 68,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Bettina",
+                "surname": "Rehle",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Bettina Rehle",
+                "fullnamereverse": "Rehle, Bettina",
+                "positions": [
+                    {
+                        "id": 147,
+                        "name": "Leiterin Bibliothek",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 82,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Diana",
+                "surname": "Reichert",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Diana Reichert",
+                "fullnamereverse": "Reichert, Diana",
+                "positions": [
+                    {
+                        "id": 150,
+                        "name": "Sekretariat Informationstechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 94,
+                "gender": "Frau",
+                "title": "Prof.",
+                "firstname": "Gudrun",
+                "surname": "Reichert",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Gudrun Reichert",
+                "fullnamereverse": "Reichert, Prof. Gudrun",
+                "positions": [
+                    {
+                        "id": 235,
+                        "name": "Professorin Allgemeine BWL Fakult\u00e4t Wirtschaft",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 165,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Andreas",
+                "surname": "Reichert",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Andreas Reichert",
+                "fullnamereverse": "Reichert, Prof. Dr. Andreas",
+                "positions": [
+                    {
+                        "id": 407,
+                        "name": "Studiengangsleitung Wirtschaftsing. Internationales Technisches Vertriebsmanagement",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 408,
+                        "name": "Studiengangsleitung Wirtschaftsing. Internationale Produktion & Logistik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 93,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Reinhard",
+                "surname": "Reimann",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Reinhard Reimann",
+                "fullnamereverse": "Reimann, Prof. Dr. Reinhard",
+                "positions": [
+                    {
+                        "id": 151,
+                        "name": "Studiengangsleitung Mechatronik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 152,
+                        "name": "Studiengangsleitung Mechatronik - Fahrzeugelektronik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 253,
+                        "name": "Studiengangsleitung Elektromobilit\u00e4t",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 145,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Andrea",
+                "surname": "Reinhard",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Andrea Reinhard",
+                "fullnamereverse": "Reinhard, Andrea",
+                "positions": [
+                    {
+                        "id": 153,
+                        "name": "Controlling",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 119,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Joan",
+                "surname": "Repkes",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Joan Repkes",
+                "fullnamereverse": "Repkes, Joan",
+                "positions": [
+                    {
+                        "id": 154,
+                        "name": "Entwicklerin Webteam",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 112,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Caroline",
+                "surname": "Ritter",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Caroline Ritter",
+                "fullnamereverse": "Ritter, Caroline",
+                "positions": [
+                    {
+                        "id": 155,
+                        "name": "Sekretariat Wirtschaftsing. Internationales Technisches Vertriebsmanagement",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 156,
+                        "name": "Sekretariat Wirtschaftsing. Internationale Produktion & Logistik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 76,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Markus",
+                "surname": "Rollwa",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Markus Rollwa",
+                "fullnamereverse": "Rollwa, Markus",
+                "positions": [
+                    {
+                        "id": 5,
+                        "name": "Labor Onlinemedien",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Entwickler Webteam",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Hermann",
+                "surname": "R\u00f6mer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Hermann R\u00f6mer",
+                "fullnamereverse": "R\u00f6mer, Hermann",
+                "positions": [
+                    {
+                        "id": 157,
+                        "name": "Leiter Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 132,
+                "gender": "Frau",
+                "title": "Dipl.-Ing.",
+                "firstname": "Mariana",
+                "surname": "R\u00f6mer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Dipl.-Ing. Mariana R\u00f6mer",
+                "fullnamereverse": "R\u00f6mer, Dipl.-Ing. Mariana",
+                "positions": [
+                    {
+                        "id": 158,
+                        "name": "Labor Elektrotechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 159,
+                        "name": "Labor Mechatronik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 134,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Ren\u00e9",
+                "surname": "Rosche",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Ren\u00e9 Rosche",
+                "fullnamereverse": "Rosche, Ren\u00e9",
+                "positions": [
+                    {
+                        "id": 160,
+                        "name": "Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 159,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Jan",
+                "surname": "Roth",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Jan Roth",
+                "fullnamereverse": "Roth, Jan",
+                "positions": [
+                    {
+                        "id": 4,
+                        "name": "Webmaster",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 187,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Jens",
+                "surname": "Saffenreuther",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Jens Saffenreuther",
+                "fullnamereverse": "Saffenreuther, Prof. Dr. Jens",
+                "positions": [
+                    {
+                        "id": 307,
+                        "name": "Professor Bank",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 203,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Melanie",
+                "surname": "Sch\u00e4fer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Melanie Sch\u00e4fer",
+                "fullnamereverse": "Sch\u00e4fer, Melanie",
+                "positions": [
+                    {
+                        "id": 371,
+                        "name": "Fakult\u00e4tsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 74,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Beate",
+                "surname": "Scheubrein",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Beate Scheubrein",
+                "fullnamereverse": "Scheubrein, Prof. Dr. Beate",
+                "positions": [
+                    {
+                        "id": 161,
+                        "name": "Studiengangsleitung Gesundheitsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 153,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Ralph",
+                "surname": "Scheubrein",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Ralph Scheubrein",
+                "fullnamereverse": "Scheubrein, Prof. Dr. Ralph",
+                "positions": [
+                    {
+                        "id": 356,
+                        "name": "Professor Fakult\u00e4t Wirtschaft",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 197,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Thomas",
+                "surname": "Schmidt",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Prof. Dr. Thomas Schmidt",
+                "fullnamereverse": "Schmidt, Prof. Dr. Thomas",
+                "positions": [
+                    {
+                        "id": 342,
+                        "name": "Studiengangsleitung Konsumg\u00fcter-Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 70,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Johannes",
+                "surname": "Schmidt",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Johannes Schmidt",
+                "fullnamereverse": "Schmidt, Prof. Dr. Johannes",
+                "positions": [
+                    {
+                        "id": 237,
+                        "name": "Professor Volkswirtschaftslehre Fakult\u00e4t Wirtschaft",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 167,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Lisa",
+                "surname": "Schneider",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Lisa Schneider",
+                "fullnamereverse": "Schneider, Lisa",
+                "positions": [
+                    {
+                        "id": 165,
+                        "name": "Sekretariat Rektorat",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 65,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "J\u00fcrgen",
+                "surname": "Schr\u00f6der",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "J\u00fcrgen Schr\u00f6der",
+                "fullnamereverse": "Schr\u00f6der, J\u00fcrgen",
+                "positions": [
+                    {
+                        "id": 166,
+                        "name": "Haustechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 85,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Ursula",
+                "surname": "Sch\u00fcrle",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Ursula Sch\u00fcrle",
+                "fullnamereverse": "Sch\u00fcrle, Ursula",
+                "positions": [
+                    {
+                        "id": 167,
+                        "name": "Leiterin Bibliothek",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 215,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Jens",
+                "surname": "Sch\u00fctte",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Jens Sch\u00fctte",
+                "fullnamereverse": "Sch\u00fctte, Prof. Dr. Jens",
+                "positions": [
+                    {
+                        "id": 431,
+                        "name": "Professor International Business - Finanz- und Rechnungswesen",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 433,
+                        "name": "",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 434,
+                        "name": "",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 435,
+                        "name": "",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 56,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Wolfgang",
+                "surname": "Schwalbe",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Wolfgang Schwalbe",
+                "fullnamereverse": "Schwalbe, Prof. Dr. Wolfgang",
+                "positions": [
+                    {
+                        "id": 168,
+                        "name": "Studiengangsleitung Bauwesen - Fassadentechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 169,
+                        "name": "Studiengangsleitung Bauwesen - Projektmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 213,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Dirk",
+                "surname": "Schwarzer",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Prof. Dr. Dirk Schwarzer",
+                "fullnamereverse": "Schwarzer, Prof. Dr. Dirk",
+                "positions": [
+                    {
+                        "id": 399,
+                        "name": "Studiengangsleitung Sportmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 143,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Heike",
+                "surname": "Schwerdtfeger",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Heike Schwerdtfeger",
+                "fullnamereverse": "Schwerdtfeger, Heike",
+                "positions": [
+                    {
+                        "id": 170,
+                        "name": "Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 102,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Robin",
+                "surname": "Seizinger",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Robin Seizinger",
+                "fullnamereverse": "Seizinger, Robin",
+                "positions": [
+                    {
+                        "id": 172,
+                        "name": "Bibliothek",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Mircea",
+                "surname": "Selariu",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Mircea Selariu",
+                "fullnamereverse": "Selariu, Mircea",
+                "positions": [
+                    {
+                        "id": 173,
+                        "name": "Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 99,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Emel",
+                "surname": "Selek",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Emel Selek",
+                "fullnamereverse": "Selek, Emel",
+                "positions": [
+                    {
+                        "id": 174,
+                        "name": "Sekretariat Holztechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Michael",
+                "surname": "Selent",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Michael Selent",
+                "fullnamereverse": "Selent, Michael",
+                "positions": [
+                    {
+                        "id": 175,
+                        "name": "Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 181,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Cosmin",
+                "surname": "Serbanescu",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Cosmin Serbanescu",
+                "fullnamereverse": "Serbanescu, Cosmin",
+                "positions": [
+                    {
+                        "id": 176,
+                        "name": "Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 166,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Isabelle",
+                "surname": "Simons",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Isabelle Simons",
+                "fullnamereverse": "Simons, Prof. Dr. Isabelle",
+                "positions": [
+                    {
+                        "id": 177,
+                        "name": "Professorin Bauwesen - Fassadentechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 178,
+                        "name": "Professorin Bauwesen - Projektmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 97,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Heiko",
+                "surname": "Sinnhold",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Heiko Sinnhold",
+                "fullnamereverse": "Sinnhold, Prof. Dr. Heiko",
+                "positions": [
+                    {
+                        "id": 180,
+                        "name": "Studiengangsleitung International Business - Change Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Sylvia",
+                "surname": "Smarzly",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Sylvia Smarzly",
+                "fullnamereverse": "Smarzly, Sylvia",
+                "positions": [
+                    {
+                        "id": 289,
+                        "name": "Studiengangsmanagement Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 188,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Sybille",
+                "surname": "Sobczak",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Sybille Sobczak",
+                "fullnamereverse": "Sobczak, Prof. Dr. Sybille",
+                "positions": [
+                    {
+                        "id": 319,
+                        "name": "Professorin Food Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 122,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Diana",
+                "surname": "S\u00f6hner",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Diana S\u00f6hner",
+                "fullnamereverse": "S\u00f6hner, Diana",
+                "positions": [
+                    {
+                        "id": 184,
+                        "name": "Auslandsamt",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 285,
+                        "name": "Sekretariat Junior Program",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 107,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Ruth",
+                "surname": "Sommer",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Ruth Sommer",
+                "fullnamereverse": "Sommer, Ruth",
+                "positions": [
+                    {
+                        "id": 185,
+                        "name": "Bibliothek",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 96,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Hubert",
+                "surname": "Speth",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Hubert Speth",
+                "fullnamereverse": "Speth, Prof. Dr. Hubert",
+                "positions": [
+                    {
+                        "id": 186,
+                        "name": "Studiendekan Handel",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 256,
+                        "name": "Studiengangsleitung Holz-Betriebswirtschaft",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 258,
+                        "name": "Studiengangsleitung Internationaler Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 123,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Volker",
+                "surname": "Stadie",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Volker Stadie",
+                "fullnamereverse": "Stadie, Prof. Dr. Volker",
+                "positions": [
+                    {
+                        "id": 239,
+                        "name": "Professor Recht Fakult\u00e4t Wirtschaft",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 194,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Christian",
+                "surname": "Steurer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Christian Steurer",
+                "fullnamereverse": "Steurer, Prof. Dr. Christian",
+                "positions": [
+                    {
+                        "id": 329,
+                        "name": "Professor Wirtschaftsing. Internationales Technisches Vertriebsmanagement",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 328,
+                        "name": "Professor Wirtschaftsing. Internationale Produktion & Logistik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 149,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Ralf",
+                "surname": "Stiehler",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Ralf Stiehler",
+                "fullnamereverse": "Stiehler, Prof. Dr. Ralf",
+                "positions": [
+                    {
+                        "id": 187,
+                        "name": "Studiengangsleitung Elektrotechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 89,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Cindy",
+                "surname": "St\u00f6ger",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Cindy St\u00f6ger",
+                "fullnamereverse": "St\u00f6ger, Cindy",
+                "positions": [
+                    {
+                        "id": 188,
+                        "name": "Sekretariat Elektrotechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 121,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Karl Albert",
+                "surname": "Strecker",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Karl Albert Strecker",
+                "fullnamereverse": "Strecker, Prof. Dr. Karl Albert",
+                "positions": [
+                    {
+                        "id": 189,
+                        "name": "Studiengangsleitung Bank",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 129,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Ulrike",
+                "surname": "Stroisch",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Ulrike Stroisch",
+                "fullnamereverse": "Stroisch, Ulrike",
+                "positions": [
+                    {
+                        "id": 190,
+                        "name": "Sekretariat Konsumg\u00fcter-Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 150,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Daniela",
+                "surname": "Sturm",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Daniela Sturm",
+                "fullnamereverse": "Sturm, Daniela",
+                "positions": [
+                    {
+                        "id": 191,
+                        "name": "Hochschulkommunikation",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 90,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Josef",
+                "surname": "Teufel",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Josef Teufel",
+                "fullnamereverse": "Teufel, Josef",
+                "positions": [
+                    {
+                        "id": 192,
+                        "name": "Haustechnik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 155,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Nicole",
+                "surname": "Then-Plannasch",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Nicole Then-Plannasch",
+                "fullnamereverse": "Then-Plannasch, Nicole",
+                "positions": [
+                    {
+                        "id": 316,
+                        "name": "Studiengangsmanagement Food Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 147,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Juliett",
+                "surname": "Triller",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Juliett Triller",
+                "fullnamereverse": "Triller, Juliett",
+                "positions": [
+                    {
+                        "id": 194,
+                        "name": "Bibliothek",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 206,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Clemens",
+                "surname": "Troche",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Clemens Troche",
+                "fullnamereverse": "Troche, Prof. Dr. Clemens",
+                "positions": [
+                    {
+                        "id": 366,
+                        "name": "Prorektor",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 367,
+                        "name": "Leiter Campus Bad Mergentheim",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 125,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Bernhard",
+                "surname": "Vilgis",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Bernhard Vilgis",
+                "fullnamereverse": "Vilgis, Bernhard",
+                "positions": [
+                    {
+                        "id": 195,
+                        "name": "Labor Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 171,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Sabine",
+                "surname": "Vogt",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Sabine Vogt",
+                "fullnamereverse": "Vogt, Sabine",
+                "positions": [
+                    {
+                        "id": 196,
+                        "name": "Sekretariat Rektorat",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 53,
+                "gender": "Herr",
+                "title": "Prof.",
+                "firstname": "Thomas",
+                "surname": "Wais",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Thomas Wais",
+                "fullnamereverse": "Wais, Prof. Thomas",
+                "positions": [
+                    {
+                        "id": 240,
+                        "name": "Professor Fakult\u00e4t Technik",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 217,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Caroline",
+                "surname": "Weber",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Caroline Weber",
+                "fullnamereverse": "Weber, Caroline",
+                "positions": [
+                    {
+                        "id": 404,
+                        "name": "Auslandsamt",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 146,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Simone",
+                "surname": "Weber",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Simone Weber",
+                "fullnamereverse": "Weber, Simone",
+                "positions": [
+                    {
+                        "id": 197,
+                        "name": "Sekretariat Bank",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Otto",
+                "surname": "Weidmann",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Otto Weidmann",
+                "fullnamereverse": "Weidmann, Prof. Dr. Otto",
+                "positions": [
+                    {
+                        "id": 198,
+                        "name": "Studiengangsleitung Bank",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Manfred",
+                "surname": "Weigler",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Manfred Weigler",
+                "fullnamereverse": "Weigler, Manfred",
+                "positions": [
+                    {
+                        "id": 295,
+                        "name": "Organisationsmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 115,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "J\u00fcrgen",
+                "surname": "Weiland",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "J\u00fcrgen Weiland",
+                "fullnamereverse": "Weiland, J\u00fcrgen",
+                "positions": [
+                    {
+                        "id": 204,
+                        "name": "Rechenzentrum",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 161,
+                "gender": "Herr",
+                "title": "Prof.",
+                "firstname": "Andreas",
+                "surname": "Wei\u00dfenbach",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Andreas Wei\u00dfenbach",
+                "fullnamereverse": "Wei\u00dfenbach, Prof. Andreas",
+                "positions": [
+                    {
+                        "id": 396,
+                        "name": "Studiengangsleitung Maschinenbau",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 50,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Hartmut",
+                "surname": "Werner",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Hartmut Werner",
+                "fullnamereverse": "Werner, Prof. Dr. Hartmut",
+                "positions": [
+                    {
+                        "id": 201,
+                        "name": "Professor Holztechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 202,
+                        "name": "Professor Bauwesen - Fassadentechnik",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 203,
+                        "name": "Professor Bauwesen - Projektmanagement",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 105,
+                "gender": "Herr",
+                "title": "",
+                "firstname": "Philipp",
+                "surname": "Wettling",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Philipp Wettling",
+                "fullnamereverse": "Wettling, Philipp",
+                "positions": [
+                    {
+                        "id": 205,
+                        "name": "Leiter Pr\u00fcfungsamt",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 73,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Thomas",
+                "surname": "Wirth",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Thomas Wirth",
+                "fullnamereverse": "Wirth, Prof. Dr. Thomas",
+                "positions": [
+                    {
+                        "id": 3,
+                        "name": "Professor Onlinemedien",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 372,
+                        "name": "Medienbeauftragter",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Volkhard",
+                "surname": "Wolf",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Dr. Volkhard Wolf",
+                "fullnamereverse": "Wolf, Prof. Dr. Volkhard",
+                "positions": [
+                    {
+                        "id": 206,
+                        "name": "Studiengangsleitung Industrie",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 207,
+                        "name": "Studiengangsleitung Electronic Business",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 184,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Heike",
+                "surname": "Wolf",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Heike Wolf",
+                "fullnamereverse": "Wolf, Heike",
+                "positions": [
+                    {
+                        "id": 246,
+                        "name": "Sekretariat Konsumg\u00fcter-Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "gender": "Herr",
+                "title": "Prof.",
+                "firstname": "Wolf",
+                "surname": "W\u00f6ssner",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Prof. Wolf W\u00f6ssner",
+                "fullnamereverse": "W\u00f6ssner, Prof. Wolf",
+                "positions": [
+                    {
+                        "id": 209,
+                        "name": "Studiengangsleitung Bank",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 91,
+                "gender": "Frau",
+                "title": "Prof. Dr.",
+                "firstname": "Sabine",
+                "surname": "Woydt",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Prof. Dr. Sabine Woydt",
+                "fullnamereverse": "Woydt, Prof. Dr. Sabine",
+                "positions": [
+                    {
+                        "id": 208,
+                        "name": "Studiengangsleitung Food Management",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Marianne",
+                "surname": "Wyes",
+                "suffix": "",
+                "campus": "Bad Mergentheim",
+                "fullname": "Marianne Wyes",
+                "fullnamereverse": "Wyes, Marianne",
+                "positions": [
+                    {
+                        "id": 210,
+                        "name": "Sekretariat Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "gender": "Herr",
+                "title": "Prof. Dr.",
+                "firstname": "Ulrich",
+                "surname": "Zeyer",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Prof. Dr. Ulrich Zeyer",
+                "fullnamereverse": "Zeyer, Prof. Dr. Ulrich",
+                "positions": [
+                    {
+                        "id": 334,
+                        "name": "Studiendekan Konsumg\u00fcter-Handel",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 114,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Carolin",
+                "surname": "Ziegelhofer",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Carolin Ziegelhofer",
+                "fullnamereverse": "Ziegelhofer, Carolin",
+                "positions": [
+                    {
+                        "id": 370,
+                        "name": "Sekretariat Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 48,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Ivonne",
+                "surname": "Zilling",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Ivonne Zilling",
+                "fullnamereverse": "Zilling, Ivonne",
+                "positions": [
+                    {
+                        "id": 213,
+                        "name": "Auslandsamt",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 144,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Christine",
+                "surname": "Zimmer",
+                "suffix": "",
+                "campus": "Mosbach",
+                "fullname": "Christine Zimmer",
+                "fullnamereverse": "Zimmer, Christine",
+                "positions": [
+                    {
+                        "id": 298,
+                        "name": "Stellvertretende Verwaltungsdirektorin",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 95,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Nicole",
+                "surname": "Zipf",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Nicole Zipf",
+                "fullnamereverse": "Zipf, Nicole",
+                "positions": [
+                    {
+                        "id": 327,
+                        "name": "Leiterin Verwaltung",
+                        "leaf": "true"
+                    }
+                ]
+            },
+            {
+                "id": 185,
+                "gender": "Frau",
+                "title": "",
+                "firstname": "Diana",
+                "surname": "Zwickl",
+                "suffix": "",
+                "campus": "Heilbronn",
+                "fullname": "Diana Zwickl",
+                "fullnamereverse": "Zwickl, Diana",
+                "positions": [
+                    {
+                        "id": 247,
+                        "name": "Sekretariat Dienstleistungsmanagement",
+                        "leaf": "true"
+                    },
+                    {
+                        "id": 313,
+                        "name": "Sekretariat Konsumg\u00fcter-Handel",
+                        "leaf": "true"
+                    }
+                ]
+            }
+        ]
+    }
+}';
 //echo '{"success":false, "errorMsg":"Nix"}';
 ?>

@@ -31,5 +31,18 @@ web2go.controllers.whoiswho = new Ext.Controller({
       web2go.views.whoiswhoPanel.setActiveItem(
           web2go.views.whoiswhoList, options.animation
       );
+  },
+  
+  detail: function(options) {
+      web2go.stores.WiwDetail.load({
+          params: {'id': options.person},
+          callback: function(records, operation, success) {
+            var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
+            web2go.views.whoiswhoDetail.update(html);
+          }
+      });
+      web2go.views.whoiswhoPanel.setActiveItem(
+          web2go.views.whoiswhoDetail, options.animation
+      );
   }
 });
