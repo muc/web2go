@@ -9,7 +9,7 @@ web2go.views.WhoiswhoDetail = Ext.extend(Ext.Panel, {
     initComponent: function() {
         this.tpl = new Ext.XTemplate(
             '<div class="wiw_detail_image clearfix">',
-                '<img src"{image}" />',
+                '<img src="http://www.dhbw-mosbach.de/{image}" />',
             '</div>',
             '<h3>{gender} {title} {fullname}</h3>',
             '<div class="wiw_detail_row clearfix">',
