@@ -35,15 +35,35 @@ web2go.controllers.whoiswho = new Ext.Controller({
   },
   
   detail: function(options) {
-      web2go.stores.WiwDetail.load({
-          params: {'id': options.person},
-          callback: function(records, operation, success) {
-            var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
-            web2go.views.whoiswhoDetail.update(html);
-          }
+      Ext.Ajax.request({
+        method: 'GET',
+        url: 'sample_data/wiw_detail.php',
+        success: function(response, opts) {
+          var obj = Ext.decode(response.responseText);
+          web2go.stores.WiwDetail.loadData(obj.wiwdetails.person);
+
+          console.log(web2go.stores.WiwDetail.first().data);
+          var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
+          web2go.views.whoiswhoDetail.update(html);
+          web2go.views.whoiswhoPanel.setActiveItem(
+                web2go.views.whoiswhoDetail, options.animation
+            );
+        }
       });
-      web2go.views.whoiswhoPanel.setActiveItem(
-          web2go.views.whoiswhoDetail, options.animation
-      );
+      
+//      web2go.stores.WiwDetail.load({
+//          params: {'id': options.person},
+//          callback: function(records, operation, success) {
+//
+//            console.log(web2go.stores.WiwDetail.first().data);
+//
+//            var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
+//            web2go.views.whoiswhoDetail.update(html);
+//            web2go.views.whoiswhoPanel.setActiveItem(
+//                web2go.views.whoiswhoDetail, options.animation
+//            );
+//          }
+//      });
+      
   }
 });

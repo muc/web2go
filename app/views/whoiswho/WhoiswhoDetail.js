@@ -13,7 +13,7 @@ web2go.views.WhoiswhoDetail = Ext.extend(Ext.Panel, {
             '<div class="wiw_detail_image clearfix">',
                 '<img src="http://www.dhbw-mosbach.de/{image}" />',
             '</div>',
-            '<h3>{gender} {title} {fullname}</h3>',
+            '<h3>{gender} {fullname}</h3>',
             '<tpl for="positions">',
                 '<div class="wiw_detail_row clearfix">',
                     '<div class="wiw_detail_label">Position(en):</div>',

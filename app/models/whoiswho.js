@@ -87,16 +87,6 @@ web2go.stores.WiwList = new Ext.data.Store({
 });
 
 web2go.stores.WiwDetail = new Ext.data.Store({
-    model: web2go.models.WiwPerson,
-    proxy: {
-        type: 'ajax',
-        url: 'sample_data/wiw_detail.php',
-        actionMethods: {
-            reader: 'GET'
-        },
-        reader: {
-            type: 'json',
-            root: 'wiwdetails.person'
-        }
-    }
+    model: web2go.models.WiwPerson
+    
 });
