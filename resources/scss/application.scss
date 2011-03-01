@@ -6,7 +6,10 @@
  */
 $base_color: #3C3C3C;
 $base-gradient: 'glossy';
-$active-color: #385373;
+
+$web2go-red: #741820;
+$active-color: $web2go-red;
+/* $active-color: #385373; */
 
 $list-header-color: #111;
 $list-header-bg-color: #ccc;
