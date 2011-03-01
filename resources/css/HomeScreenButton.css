@@ -131,8 +131,6 @@ strong {
 }
 
 .wiw_detail_image {
-    width: 25%;
-    height: 100px;
     background-color: #fff;
     border: 1px solid #aaa;
     padding: .5em;
