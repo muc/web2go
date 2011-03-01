@@ -112,26 +112,38 @@ strong {
 }
 
 .wiw_detail_row {
-    margin-bottom: .2em;
-    background-color: #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f7f7f7;
     width: 100%
 }
 
 .wiw_detail_label {
-    padding: .4em;
+    padding: .7em;
     float: left;
     width: 25%;
     font-weight: bold;
 }
 
 .wiw_detail_content {
-    padding: .4em;
+    padding: .7em;
     float: left;
-    width: 75%
+    width: 75%;
+    background-color: #fff;
+}
+
+.wiw_detail_content p {
+    padding: 0;
+    margin: 0;
 }
 
 .wiw_detail_image {
     margin-bottom: 1em;
+}
+
+.wiw_detail_box {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 
 .clearfix:after {
