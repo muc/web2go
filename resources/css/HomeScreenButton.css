@@ -74,3 +74,39 @@
     width: 1.7em;
     height: 1.7em;
 }
+
+
+
+
+/* ------------------- Styles for Who-Is-Who -------------------- */
+
+.wiw_name {
+
+}
+
+.wiw_campus {
+    padding: .2em;
+    margin-bottom: .2em;
+    width: 95%;
+    font-size: .7em;
+}
+
+.wiw_position {
+    padding: .2em;
+    margin-bottom: .2em;
+    width: 95%;
+    font-size: .7em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.wiw_position ul {
+    margin-left: 2em;
+}
+
+.wiw_position li {
+    list-style-type: square;
+    margin-left: 0;
+}

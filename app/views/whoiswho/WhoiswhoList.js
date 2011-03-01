@@ -7,12 +7,15 @@
 
 web2go.views.WhoiswhoList = Ext.extend(Ext.List, {
     itemTpl: new Ext.XTemplate(
-        '<p>{fullnamereverse}</p>',
-        '<p style="font-size:12px">Campus: {campus}</p>',
-        '<p style="font-size:12px">Position:',
-        '<tpl for="positions">',
-            '<p style="font-size:12px">{name}</p>',
-        '</p></tpl>'
+        '<div class="wiw_name">{fullnamereverse}</div>',
+        '<div class="wiw_campus"><strong>Campus:</strong> {campus}</div>',
+        '<div class="wiw_position"><strong>Position(en):</strong><br />',
+            '<tpl for="positions">',
+                '<ul>',
+                    '<li>{name}</li>',
+                '</ul>',
+            '</tpl>',
+        '</div>'
     ),
     store: web2go.stores.WiwList,
     grouped : true,
@@ -22,3 +25,4 @@ web2go.views.WhoiswhoList = Ext.extend(Ext.List, {
         web2go.views.WhoiswhoList.superclass.initComponent.apply(this, arguments);
     }
 });
+
