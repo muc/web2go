@@ -1,7 +1,7 @@
 /**
  * @class studiengaenge
  * @extends Ext.Controller
- * The mensa modul controller
+ * The studiengaenge modul controller
  */
 
 web2go.controllers.studiengaenge = new Ext.Controller({

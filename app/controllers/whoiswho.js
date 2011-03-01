@@ -1,7 +1,7 @@
 /**
  * @class whoiswho
  * @extends Ext.Controller
- * The mensa modul controller
+ * The whoiswho modul controller
  */
 
 web2go.controllers.whoiswho = new Ext.Controller({
@@ -15,11 +15,7 @@ web2go.controllers.whoiswho = new Ext.Controller({
             web2go.stores.WiwFormDepartments.loadData(obj.wiw.departments);
             web2go.stores.WiwFormCourses.loadData(obj.wiw.courses);
 
-//            web2go.views.whoiswhoForm.setValues({
-//                'location': web2go.stores.WiwFormLocations.last().get('id'),
-//                'department': web2go.stores.WiwFormDepartments.last().get('id')
-//            });
-
+            Ext.defer(web2go.views.whoiswhoPanel.setActiveItem, 1, web2go.views.whoiswhoPanel, 0);
             web2go.views.viewport.setActiveItem(
               web2go.views.whoiswhoPanel, options.animation
             );
@@ -28,9 +24,14 @@ web2go.controllers.whoiswho = new Ext.Controller({
   },
   
   list: function(options) {
+      var listScroller = web2go.views.whoiswhoList.scroller;
+        if (listScroller != undefined) {
+            web2go.views.whoiswhoList.scroller.scrollTo({x:0, y:0});
+        }
       web2go.views.whoiswhoPanel.setActiveItem(
           web2go.views.whoiswhoList, options.animation
       );
+      web2go.views.whoiswhoList.refresh();
   },
   
   detail: function(options) {
