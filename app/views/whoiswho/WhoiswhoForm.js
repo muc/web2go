@@ -6,6 +6,7 @@
 
 web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
    scroll: 'vertical',
+   submitOnAction: false,
    defaults: {
        labelAlign: 'left'
 //       labelWidth: '40%'
@@ -17,14 +18,16 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
            dock: 'bottom',
            ui: 'dark',
            items: [{xtype: 'spacer'}, {
-               text: 'Reset'
+               text: 'Reset',
+               scope: this,
+               handler: function() {
+                   this.reset();
+               }
            }, {
                text: 'Suchen',
                ui: 'confirm',
                scope: this,
-               handler: function() {
-                   console.log(this.getValues());
-               }
+               handler: this.doSubmit
            }]
        });
 
@@ -59,5 +62,25 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
        }];
 
        web2go.views.WhoiswhoForm.superclass.initComponent.apply(this, arguments);
+   },
+   
+   doSubmit: function() {
+      this.submit({
+          url: 'sample_data/wiw_form.php?type=99',
+          method: 'POST',
+          success: function(form, result) {
+              console.log(result);
+              web2go.stores.WiwList.loadData(result.wiwlist.persons);
+              Ext.dispatch({
+                  controller: web2go.controllers.whoiswho,
+                  action: 'list',
+                  animation: {type: 'slide', direction: 'left'}
+              });
+          },
+          failure: function(form, result) {
+              console.log('fail');
+              Ext.Msg.alert('Keine Ergebnisse gefunden.');
+          }
+      });
    }
 });

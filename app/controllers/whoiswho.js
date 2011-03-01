@@ -15,15 +15,21 @@ web2go.controllers.whoiswho = new Ext.Controller({
             web2go.stores.WiwFormDepartments.loadData(obj.wiw.departments);
             web2go.stores.WiwFormCourses.loadData(obj.wiw.courses);
 
-            web2go.views.whoiswhoForm.setValues({
-                'location': web2go.stores.WiwFormLocations.last().get('id'),
-                'department': web2go.stores.WiwFormDepartments.last().get('id')
-            });
+//            web2go.views.whoiswhoForm.setValues({
+//                'location': web2go.stores.WiwFormLocations.last().get('id'),
+//                'department': web2go.stores.WiwFormDepartments.last().get('id')
+//            });
 
             web2go.views.viewport.setActiveItem(
               web2go.views.whoiswhoPanel, options.animation
             );
         }
     });
+  },
+  
+  list: function(options) {
+      web2go.views.whoiswhoPanel.setActiveItem(
+          web2go.views.whoiswhoList, options.animation
+      );
   }
 });

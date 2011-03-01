@@ -17,7 +17,7 @@ web2go.views.WhoiswhoPanel = Ext.extend(Ext.Panel, {
             scope: this,
             handler: function() {
                 var currCard = this.getCardIndex();
-                currCard == 0 ? this.switchToHome() : this.setActiveItem(currCard - 1);
+                currCard == 0 ? this.switchToHome() : this.setActiveItem(currCard - 1, {type: 'slide', direction: 'right'});
             }
         };
 
@@ -53,11 +53,13 @@ web2go.views.WhoiswhoPanel = Ext.extend(Ext.Panel, {
         this.dockedItems = [this.toolBar];
 
         Ext.apply(web2go.views, {
-            whoiswhoForm: new web2go.views.WhoiswhoForm()
+            whoiswhoForm: new web2go.views.WhoiswhoForm(),
+            whoiswhoList: new web2go.views.WhoiswhoList()
         });
         Ext.apply(this, {
             items: [
-                web2go.views.whoiswhoForm
+                web2go.views.whoiswhoForm,
+                web2go.views.whoiswhoList
             ]
         });
         
