@@ -1,6 +1,7 @@
 /**
  * @class web2go.views.WhoiswhoForm
  * @extends Ext.FormPanel
+ * Who-is-who search form
  */
 
 
@@ -25,7 +26,7 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
                }
            }, {
                text: 'Suchen',
-               ui: 'confirm',
+               ui: 'action',
                scope: this,
                handler: this.doSubmit
            }]
@@ -69,7 +70,6 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
           url: 'sample_data/wiw_form.php?type=99',
           method: 'POST',
           success: function(form, result) {
-              console.log(result);
               web2go.stores.WiwList.loadData(result.wiwlist.persons);
               Ext.dispatch({
                   controller: web2go.controllers.whoiswho,

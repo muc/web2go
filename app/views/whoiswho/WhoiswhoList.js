@@ -19,7 +19,7 @@ web2go.views.WhoiswhoList = Ext.extend(Ext.List, {
     ),
     store: web2go.stores.WiwList,
     grouped : true,
-    indexBar: true,
+//    indexBar: true,
     
     initComponent: function() {
         this.listeners = {

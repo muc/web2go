@@ -80,7 +80,7 @@ web2go.models.WiwPosition = Ext.regModel("web2go.models.WiwPosition", {
 
 web2go.stores.WiwList = new Ext.data.Store({
     model: web2go.models.WiwPersons,
-    sorters: 'surname',
+//    sorters: 'surname',
     getGroupString : function(record) {
         return record.get('surname')[0];
     }

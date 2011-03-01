@@ -1,7 +1,6 @@
 /**
  * @class web2go.views.WhoiswhoPanel
  * @extends Ext.Panel
- * Campus selection for mensa
  */
 
 
