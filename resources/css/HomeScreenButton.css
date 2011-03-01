@@ -80,18 +80,18 @@
 
 /* ------------------- Styles for Who-Is-Who -------------------- */
 
-.wiw_name {
+.wiw_list_name {
 
 }
 
-.wiw_campus {
+.wiw_list_campus {
     padding: .2em;
     margin-bottom: .2em;
     width: 95%;
     font-size: .7em;
 }
 
-.wiw_position {
+.wiw_list_position {
     padding: .2em;
     margin-bottom: .2em;
     width: 95%;
@@ -102,11 +102,47 @@ strong {
     font-weight: bold;
 }
 
-.wiw_position ul {
+.wiw_list_position ul {
     margin-left: 2em;
 }
 
-.wiw_position li {
+.wiw_list_position li {
     list-style-type: square;
     margin-left: 0;
 }
+
+.wiw_detail_row {
+    margin-bottom: .4em;
+    background-color: #ddd;
+    width: 100%
+}
+
+.wiw_detail_label {
+    padding: .4em;
+    float: left;
+    width: 25%;
+    font-weight: bold;
+}
+
+.wiw_detail_content {
+    padding: .4em;
+    float: left;
+    width: 75%
+}
+
+.wiw_detail_image {
+    width: 25%;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
