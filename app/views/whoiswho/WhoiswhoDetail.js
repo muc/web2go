@@ -6,6 +6,8 @@
 
 web2go.views.WhoiswhoDetail = Ext.extend(Ext.Panel, {
     styleHtmlContent: true,
+    scroll: 'vertical',
+    
     initComponent: function() {
         this.tpl = new Ext.XTemplate(
             '<div class="wiw_detail_image clearfix">',
