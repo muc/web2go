@@ -5,7 +5,7 @@ echo '{
             {
                 "id": 159,
                 "gender": "Herr",
-                "title": "",
+                "title": "Dr.",
                 "firstname": "Jan",
                 "surname": "Roth",
                 "suffix": "",

@@ -7,9 +7,9 @@
 
 web2go.views.WhoiswhoList = Ext.extend(Ext.List, {
     itemTpl: new Ext.XTemplate(
-        '<div class="wiw_name">{fullnamereverse}</div>',
-        '<div class="wiw_campus"><strong>Campus:</strong> {campus}</div>',
-        '<div class="wiw_position"><strong>Position(en):</strong><br />',
+        '<div class="wiw_list_name">{fullnamereverse}</div>',
+        '<div class="wiw_list_campus"><strong>Campus:</strong> {campus}</div>',
+        '<div class="wiw_list_position"><strong>Position(en):</strong><br />',
             '<tpl for="positions">',
                 '<ul>',
                     '<li>{name}</li>',
