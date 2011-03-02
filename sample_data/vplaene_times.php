@@ -13,7 +13,7 @@ while ($inThisYear) {
     $time_end = strtotime('next Friday', strtotime('+3 weeks', $time_start));
     
     $times[] = array(
-        'time' => date('d.m.Y', $time_start) . '-' . date('d.m.Y', $time_end),
+        'time' => date('d.m.Y', $time_start) . ' - ' . date('d.m.Y', $time_end),
         'kw' => date('Y', $time_start) . '-' . date('W', $time_start),
         'curr' => time() >= $time_start && time() <= $time_end
     );
