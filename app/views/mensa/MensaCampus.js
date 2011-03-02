@@ -10,20 +10,20 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
     useToolbar: false,
     onItemDisclosure: true,
     store: web2go.stores.campus,
+    getDetailCard: function(record, parentRecord) {
+        return record.id == 'MOS' ? 
+              new web2go.views.MensaDetail()
+            : new Ext.Panel({styleHtmlContent: true});
+    },
     
     initComponent: function() {
         this.backBtn = {
             xtype: 'button',
             ui: 'back',
             text: 'Zurück',
-            listeners: {
-                'tap': function() {
-                    Ext.dispatch({
-                        controller: web2go.controllers.web2go,
-                        action: 'home',
-                        animation: {type: 'slide', direction: 'right'}
-                    });
-                }
+            scope: this,
+            handler: function() {
+                this.getListIndex() == 0 ? this.switchToHome() : this.onBackTap();
             }
         };
         
@@ -32,15 +32,7 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
             iconMask: true,
             ui: 'plain',
             iconCls: 'home',
-            listeners: {
-                'tap': function() {
-                    Ext.dispatch({
-                        controller: web2go.controllers.web2go,
-                        action: 'home',
-                        animation: {type: 'slide', direction: 'right'}
-                    });
-                }
-            }
+            handler: this.switchToHome
         };
         
         this.modulMenu = this.createModulMenu('Mensa');
@@ -67,15 +59,18 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
         this.dockedItems = [this.toolBar];
     
         this.listeners = {
-            'leafitemtap': function(subList, subIdx, el, e, detailCard) {
-                var selModel = subList.getSelectionModel();
-                Ext.defer(selModel.deselectAll, 1, selModel);
-                Ext.dispatch({
-                    controller: web2go.controllers.mensa,
-                    action: 'detail',
-                    animation: {type: 'slide', direction: 'left'},
-                    campus: subList.getStore().getAt(subIdx)
-                });
+            leafitemtap: function(subList, subIdx, el, e, detailCard) {
+                var ds = subList.getStore(),
+                    id = ds.getAt(subIdx).get('id'),
+                    campus = ds.getAt(subIdx).get('name');
+
+                if (id == 'MOS') {
+                    detailCard.setCampus(id);
+                }
+                else {
+                    detailCard.update('<h2>Nix zu Futtern in ' + ds.getAt(subIdx).get('name') + '</h2>');
+                    detailCard.update('<br/><br/><br/><div style="text-align: center;text-shadow: rgba(0, 0, 0, 0.3) 0.2em .2em 0.2em;"><h3>Nix zu Futtern in</h3><h1>' + ds.getAt(subIdx).get('name') + '</h1></div>');
+                }
             }
         };
         
@@ -103,5 +98,26 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
             });
         });
         return mm;
+    },
+
+    getListIndex: function() {
+        return this.items.indexOf(this.getActiveItem());
+    },
+
+    switchToList: function(index) {
+        if (index >= 0 && index < this.items.getCount()) {
+            var list = this.items.getAt(index),
+                selModel = list.getSelectionModel();
+            Ext.defer(selModel.deselectAll, 1, selModel);
+            Ext.defer(this.setActiveItem, 1, this, index);
+        }
+    },
+
+    switchToHome: function() {
+        Ext.dispatch({
+            controller: web2go.controllers.web2go,
+            action: 'home',
+            animation: {type: 'slide', direction: 'right'}
+        });
     }
 });

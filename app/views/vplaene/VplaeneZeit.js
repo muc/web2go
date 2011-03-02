@@ -21,7 +21,7 @@ web2go.views.VplaeneZeit = Ext.extend(Ext.form.FormPanel, {
             items: [{
                 xtype: 'spacer'
             }, {
-                text: 'Anzeigen',
+                text: 'PDF Anzeigen',
                 ui: 'action',
                 scope: this,
                 handler: this.showPDF

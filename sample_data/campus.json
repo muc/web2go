@@ -1,0 +1,19 @@
+{
+    "campus": [
+        {
+            "name": "Mosbach",
+            "id"  : "MOS",
+            "leaf": true
+        },
+        {
+            "name": "Heilbronn",
+            "id"  : "HN",
+            "leaf": true
+        },
+        {
+            "name": "Bad Mergentheim",
+            "id"  : "MGH",
+            "leaf": true
+        }
+    ]
+}

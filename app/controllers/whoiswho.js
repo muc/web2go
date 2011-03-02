@@ -42,7 +42,6 @@ web2go.controllers.whoiswho = new Ext.Controller({
           var obj = Ext.decode(response.responseText);
           web2go.stores.WiwDetail.loadData(obj.wiwdetails.person);
 
-          console.log(web2go.stores.WiwDetail.first().data);
           var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
           web2go.views.whoiswhoDetail.update(html);
           web2go.views.whoiswhoPanel.setActiveItem(
