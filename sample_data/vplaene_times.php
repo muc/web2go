@@ -18,7 +18,7 @@ while ($inThisYear) {
         'curr' => time() >= $time_start && time() <= $time_end
     );
     $next = strtotime('next Monday', $time_end);
-    $inThisYear = date('Y', $next) <= date(Y);
+    $inThisYear = date('Y', $next) <= date('Y');
 }
     
 echo json_encode(array(
