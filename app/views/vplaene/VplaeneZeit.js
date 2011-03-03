@@ -38,7 +38,6 @@ web2go.views.VplaeneZeit = Ext.extend(Ext.form.FormPanel, {
         web2go.stores.vplaeneTimes.load({
             scope   : this,
             callback: function() {
-                var index = web2go.stores.vplaeneTimes.find('curr', true);
                 this.setValues({
                     'timeframe': web2go.stores.vplaeneTimes.findRecord('curr', true).get('kw')
                 });
