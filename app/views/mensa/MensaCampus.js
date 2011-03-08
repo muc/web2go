@@ -13,7 +13,7 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
     getDetailCard: function(record, parentRecord) {
         return record.id == 'MOS' ? 
               new web2go.views.MensaDetail()
-            : new Ext.Panel({styleHtmlContent: true});
+            : new Ext.Panel({styleHtmlContent: true, scroll: 'vertical'});
     },
     
     initComponent: function() {
@@ -67,9 +67,19 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
                 if (id == 'MOS') {
                     detailCard.setCampus(id);
                 }
-                else {
+                else if (id == 'HN') {
+                    Ext.Ajax.request({
+                        method: 'GET',
+                        url: 'sample_data/mensa_hn.json',
+                        success: function(response, opts) {
+//                            var obj = Ext.decode(response.responseText);
+//                            console.log(response.responseText);
+                            detailCard.update(response.responseText);
+                        }
+                    });
+                }
+                else if (id == 'MGH') {
                     detailCard.update('<h2>Nix zu Futtern in ' + ds.getAt(subIdx).get('name') + '</h2>');
-                    detailCard.update('<br/><br/><br/><div style="text-align: center;text-shadow: rgba(0, 0, 0, 0.3) 0.2em .2em 0.2em;"><h3>Nix zu Futtern in</h3><h1>' + ds.getAt(subIdx).get('name') + '</h1></div>');
                 }
             }
         };
