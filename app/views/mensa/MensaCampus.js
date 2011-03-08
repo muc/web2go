@@ -69,8 +69,8 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
                 }
                 else if (id == 'HN') {
                     Ext.Ajax.request({
-                        method: 'GET',
-                        url: 'sample_data/mensa_hn.json',
+                        method: web2go.Urls.mensa_hn.method,
+                        url: web2go.Urls.mensa_hn.url,
                         success: function(response, opts) {
                             detailCard.update(response.responseText);
                         }
@@ -78,8 +78,8 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
                 }
                 else if (id == 'MGH') {
                     Ext.Ajax.request({
-                        method: 'GET',
-                        url: 'sample_data/mensa_mgh.json',
+                        method: web2go.Urls.mensa_mgh.method,
+                        url: web2go.Urls.mensa_mgh.url,
                         success: function(response, opts) {
                             detailCard.update(response.responseText);
                         }

@@ -152,4 +152,12 @@ strong {
     height: 0;
     clear: both;
     visibility: hidden;
-    }
+}
+
+.x-html h1 {
+    font-size: 1.5em;
+}
+
+.x-html h3 {
+    font-size: 1.3em;
+}

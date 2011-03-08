@@ -20,8 +20,8 @@ web2go.Urls = {
     'vplaene_zeit' : { url: 'sample_data/vplaene_times.php' },
 
     'mensa': { url: 'sample_data/mensa.php', method: 'POST' },
-    'mensa_hn': { url: 'sample_data/mensa_hn.json' },
-    'mensa_mgh': { url: 'sample_data/mensa_mgh.json' },
+    'mensa_hn': { url: 'sample_data/mensa_hn.json', method: 'GET'  },
+    'mensa_mgh': { url: 'sample_data/mensa_mgh.json', method: 'GET'  },
 
     'wiw_form_data': { url: 'sample_data/wiwformdata.json', method: 'GET' },
     'wiw_form': { url: 'sample_data/wiw_form.php?type=99', method: 'POST'},
