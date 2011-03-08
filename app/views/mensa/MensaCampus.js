@@ -72,14 +72,18 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
                         method: 'GET',
                         url: 'sample_data/mensa_hn.json',
                         success: function(response, opts) {
-//                            var obj = Ext.decode(response.responseText);
-//                            console.log(response.responseText);
                             detailCard.update(response.responseText);
                         }
                     });
                 }
                 else if (id == 'MGH') {
-                    detailCard.update('<h2>Nix zu Futtern in ' + ds.getAt(subIdx).get('name') + '</h2>');
+                    Ext.Ajax.request({
+                        method: 'GET',
+                        url: 'sample_data/mensa_mgh.json',
+                        success: function(response, opts) {
+                            detailCard.update(response.responseText);
+                        }
+                    });
                 }
             }
         };
