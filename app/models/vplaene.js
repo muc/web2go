@@ -13,7 +13,7 @@ web2go.stores.vplaene = new Ext.data.TreeStore({
     },
     proxy: {
         type: 'ajax',
-        url: 'sample_data/vplaene.json',
+        url: web2go.Urls.vplaene.url,
         reader: {
             type: 'tree',
             root: 'items'
@@ -33,7 +33,7 @@ web2go.stores.vplaeneTimes = new Ext.data.JsonStore({
       model: 'web2go.models.VplaeneTime',
       proxy: {
         type: 'ajax',
-        url: 'sample_data/vplaene_times.php',
+        url: web2go.Urls.vplaene_zeit.url,
         reader: {
             type: 'json',
             root: 'data'

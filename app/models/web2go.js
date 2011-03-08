@@ -10,7 +10,7 @@ web2go.stores.campus = new Ext.data.TreeStore({
     autoLoad: false,
     proxy: {
         type: 'ajax',
-        url: 'sample_data/campus.json',
+        url: web2go.Urls.campus.url,
         reader: {
             type: 'json',
             root: 'campus'

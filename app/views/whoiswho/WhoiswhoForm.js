@@ -67,8 +67,8 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
    
    doSubmit: function() {
       this.submit({
-          url: 'sample_data/wiw_form.php?type=99',
-          method: 'POST',
+          url: web2go.Urls.wiw_form.url,
+          method: web2go.Urls.wiw_form.method,
           success: function(form, result) {
               web2go.stores.WiwList.loadData(result.wiwlist.persons);
               Ext.dispatch({

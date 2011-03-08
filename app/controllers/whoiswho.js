@@ -7,8 +7,8 @@
 web2go.controllers.whoiswho = new Ext.Controller({
   index: function(options) {
     Ext.Ajax.request({
-        method: 'GET',
-        url: 'sample_data/wiwformdata.json',
+        method: web2go.Urls.wiw_form_data.method,
+        url: web2go.Urls.wiw_form_data.url,
         success: function(response, opts) {
             var obj = Ext.decode(response.responseText);
             web2go.stores.WiwFormLocations.loadData(obj.wiw.locations);
@@ -36,8 +36,8 @@ web2go.controllers.whoiswho = new Ext.Controller({
   
   detail: function(options) {
       Ext.Ajax.request({
-        method: 'GET',
-        url: 'sample_data/wiw_detail.php',
+        method: web2go.Urls.wiw_details.method,
+        url: web2go.Urls.wiw_details.url,
         success: function(response, opts) {
           var obj = Ext.decode(response.responseText);
           web2go.stores.WiwDetail.loadData(obj.wiwdetails.person);
