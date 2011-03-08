@@ -4,16 +4,6 @@
  * This panel is the web2go home screen.
  */
 
-web2go.Modules = [
-  {name: 'Vorlesungspläne', controller: 'web2go.controllers.vplaene', action: 'index', icon: 'icon_vorlesungsplaene.png'},
-  {name: 'Mensa', controller: 'web2go.controllers.mensa', action: 'index', icon: 'icon_mensaplaene.png'},
-  {name: 'Who-is-Who', controller: 'web2go.controllers.whoiswho', action: 'index', icon: 'icon_who-is-who.png'},
-  {name: 'Zimmerbörse', controller: 'web2go.controllers.zimmerboerse', action: 'index', icon: 'icon_zimmerboerse.png'},
-  {name: 'Firmenliste', controller: 'web2go.controllers.firmenliste', action: 'index', icon: 'icon_firmenliste.png'},
-  {name: 'Dokumente', controller: 'web2go.controllers.dokumente', action: 'index', icon: 'icon_dokumente.png'},
-  {name: 'Studiengänge', controller: 'web2go.controllers.studiengaenge', action: 'index', icon: 'icon_studiengaenge.png'},
-];
-
 web2go.views.HomePanel = Ext.extend(Ext.Panel, {
     scroll: 'vertical',
     cls: 'HomeScreenBg',
