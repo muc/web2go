@@ -6,21 +6,36 @@
 
 web2go.controllers.whoiswho = new Ext.Controller({
   index: function(options) {
-    Ext.Ajax.request({
-        method: web2go.Urls.wiw_form_data.method,
-        url: web2go.Urls.wiw_form_data.url,
-        success: function(response, opts) {
-            var obj = Ext.decode(response.responseText);
-            web2go.stores.WiwFormLocations.loadData(obj.wiw.locations);
-            web2go.stores.WiwFormDepartments.loadData(obj.wiw.departments);
-            web2go.stores.WiwFormCourses.loadData(obj.wiw.courses);
+//    Ext.Ajax.request({
+//        method: web2go.Urls.wiw_form_data.method,
+//        url: web2go.Urls.wiw_form_data.url,
+//        success: function(response, opts) {
+//            var obj = Ext.decode(response.responseText);
+//            web2go.stores.WiwFormLocations.loadData(obj.wiw.locations);
+//            web2go.stores.WiwFormDepartments.loadData(obj.wiw.departments);
+//            web2go.stores.WiwFormCourses.loadData(obj.wiw.courses);
+//
+//            Ext.defer(web2go.views.whoiswhoPanel.setActiveItem, 1, web2go.views.whoiswhoPanel, 0);
+//            web2go.views.viewport.setActiveItem(
+//              web2go.views.whoiswhoPanel, options.animation
+//            );
+//        }
+//    });
+        Ext.util.JSONP.request({
+            url: web2go.Urls.wiw_form_data.url,
+            callbackKey: 'callback',
+            callback: function(result) {
+                var data = result.wiw;
+                web2go.stores.WiwFormLocations.loadData(data.locations);
+                web2go.stores.WiwFormDepartments.loadData(data.departments);
+                web2go.stores.WiwFormCourses.loadData(data.courses);
 
-            Ext.defer(web2go.views.whoiswhoPanel.setActiveItem, 1, web2go.views.whoiswhoPanel, 0);
-            web2go.views.viewport.setActiveItem(
-              web2go.views.whoiswhoPanel, options.animation
-            );
-        }
-    });
+                Ext.defer(web2go.views.whoiswhoPanel.setActiveItem, 1, web2go.views.whoiswhoPanel, 0);
+                web2go.views.viewport.setActiveItem(
+                  web2go.views.whoiswhoPanel, options.animation
+                );
+            }
+        });
   },
   
   list: function(options) {
@@ -35,34 +50,42 @@ web2go.controllers.whoiswho = new Ext.Controller({
   },
   
   detail: function(options) {
-      Ext.Ajax.request({
-        method: web2go.Urls.wiw_details.method,
-        url: web2go.Urls.wiw_details.url,
-        success: function(response, opts) {
-          var obj = Ext.decode(response.responseText);
-          web2go.stores.WiwDetail.loadData(obj.wiwdetails.person);
-
-          var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
-          web2go.views.whoiswhoDetail.update(html);
-          web2go.views.whoiswhoPanel.setActiveItem(
-                web2go.views.whoiswhoDetail, options.animation
-            );
-        }
-      });
-      
-//      web2go.stores.WiwDetail.load({
-//          params: {'id': options.person},
-//          callback: function(records, operation, success) {
+//      Ext.Ajax.request({
+//        method: web2go.Urls.wiw_details.method,
+//        url: web2go.Urls.wiw_details.url,
+//        success: function(response, opts) {
+//          var obj = Ext.decode(response.responseText);
+//          web2go.stores.WiwDetail.loadData(obj.wiwdetails.person);
 //
-//            console.log(web2go.stores.WiwDetail.first().data);
-//
-//            var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
-//            web2go.views.whoiswhoDetail.update(html);
-//            web2go.views.whoiswhoPanel.setActiveItem(
+//          var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
+//          web2go.views.whoiswhoDetail.update(html);
+//          web2go.views.whoiswhoPanel.setActiveItem(
 //                web2go.views.whoiswhoDetail, options.animation
 //            );
-//          }
+//        }
 //      });
+
+        Ext.util.JSONP.request({
+            url: web2go.Urls.wiw_details.url,
+            callbackKey: 'callback',
+            // tx_dhbwcontactswhoiswho_pi1%5Blayout%5D=1&tx_dhbwcontactswhoiswho_pi1%5Bperson%5D=140&tx_dhbwcontactswhoiswho_pi1%5Baction%5D=index&tx_dhbwcontactswhoiswho_pi1%5Bcontroller%5D=Index
+            params: {
+                'tx_dhbwcontactswhoiswho_pi1[layout]': 1,
+                'tx_dhbwcontactswhoiswho_pi1[person]': options.person,
+                'tx_dhbwcontactswhoiswho_pi1[action]': 'detail',
+                'tx_dhbwcontactswhoiswho_pi1[controller]': 'Mobile'
+            },
+            callback: function(result) {
+                var data = result.wiwdetails.person;
+                web2go.stores.WiwDetail.loadData(data);
+
+                var html = web2go.views.whoiswhoDetail.tpl.apply(web2go.stores.WiwDetail.first().data);
+                web2go.views.whoiswhoDetail.update(html);
+                web2go.views.whoiswhoPanel.setActiveItem(
+                    web2go.views.whoiswhoDetail, options.animation
+                );
+            }
+        });
       
   }
 });

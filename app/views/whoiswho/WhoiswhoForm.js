@@ -69,6 +69,10 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
       this.submit({
           url: web2go.Urls.wiw_form.url,
           method: web2go.Urls.wiw_form.method,
+          params: {
+              'tx_dhbwcontactsmobile_pi1[action]': 'results',
+              'tx_dhbwcontactsmobile_pi1[controller]': 'Mobile'
+          },
           success: function(form, result) {
               web2go.stores.WiwList.loadData(result.wiwlist.persons);
               Ext.dispatch({

@@ -17,7 +17,7 @@ web2go.views.VplaeneList = Ext.extend(Ext.List, {
                     controller: web2go.controllers.vplaene,
                     action: 'course',
                     animation: {type: 'slide', direction: 'left'},
-                    uri: uri
+                    id: record.get('id')
                 });
             }
         };

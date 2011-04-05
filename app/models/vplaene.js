@@ -9,8 +9,11 @@ web2go.models.Vplaene = Ext.regModel("web2go.models.Vplaene", {
 web2go.stores.vplaene = new Ext.data.Store({
     model: 'web2go.models.Vplaene',
     autoLoad: false,
+    sorters: 'name',
     proxy: {
-        type: 'ajax',
+        type: 'scripttag',
+        callbackParam: 'callback',
+        callbackPrefix: 'web2goCallback',
         url: web2go.Urls.vplaene.url,
         actionMethods: {
             reader: web2go.Urls.vplaene.method
