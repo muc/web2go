@@ -113,7 +113,7 @@
         {
             "id": 94,
             "name": "Onlinemedien",
-            "uri": "http:\/\/m.dhbw-mosbach.de\/no_cache\/complain.html?tx_dhbwcomplainmobile_pi1%5Bcourse%5D=94&tx_dhbwcomplainmobile_pi1%5Baction%5D=course&tx_dhbwcomplainmobile_pi1%5Bcontroller%5D=Mobile"
+            "uri": "sample_data\/complain_on.json"
         },
         {
             "id": 89,

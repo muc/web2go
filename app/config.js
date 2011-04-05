@@ -16,7 +16,7 @@ web2go.Modules = [
 web2go.Urls = {
     'campus': { url: 'sample_data/campus.json' },
 
-    'vplaene' : { url: 'sample_data/vplaene.json' },
+    'vplaene' : { url: 'sample_data/complain.json' },
     'vplaene_zeit' : { url: 'sample_data/vplaene_times.php' },
 
     'mensa': { url: 'sample_data/mensa.php', method: 'POST' },

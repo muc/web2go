@@ -25,9 +25,9 @@ web2go.controllers.whoiswho = new Ext.Controller({
   
   list: function(options) {
       var listScroller = web2go.views.whoiswhoList.scroller;
-        if (listScroller != undefined) {
-            web2go.views.whoiswhoList.scroller.scrollTo({x:0, y:0});
-        }
+      if (listScroller != undefined) {
+        web2go.views.whoiswhoList.scroller.scrollTo({x:0, y:0});
+      }
       web2go.views.whoiswhoPanel.setActiveItem(
           web2go.views.whoiswhoList, options.animation
       );
