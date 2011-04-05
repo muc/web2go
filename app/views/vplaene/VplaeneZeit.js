@@ -56,9 +56,28 @@ web2go.views.VplaeneZeit = Ext.extend(Ext.form.FormPanel, {
     },
     
     showPDF: function() {
-        var url = "http://pollux.dhbw-mosbach.de/cmos_extern_kurs_ext/",
-            kw  = this.timeSelectField.getValue()
-        window.location.href=url + this.course.toLowerCase() + '-' + kw + '.pdf';
+        var url  = "http://pollux.dhbw-mosbach.de/cmos_extern_kurs_ext/",
+            kw   = this.timeSelectField.getValue(),
+            href = url + this.course.toLowerCase() + '-' + kw + '.pdf';
+//            window.open(href);
+        if (!this.pdfPanel) {
+            this.pdfPanel = new Ext.Panel({
+                floating: true,
+                modal: true,
+                centered: true,
+                styleHtmlContent: true,
+                fullscreen: true,
+                scroll: 'both',
+                html: '<iframe src="' + href + '" width="1000" height="2000"></iframe>',
+//                html: '<a href="' + href + '" target="_blank">PDF</a>',
+                dockedItems: [ new Ext.Toolbar({
+                        items: {text: 'Zurück', ui: 'back', scope: this, handler: function() {this.pdfPanel.hide();}}
+                })
+                ]
+            });
+        }
+        this.pdfPanel.show();
+//        window.location.href=href;
     }
 
 });
