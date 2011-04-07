@@ -81,6 +81,7 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
           },
           scope: this,
           success: function(result) {
+              this.setLoading(false);
               var obj  = Ext.decode(result.responseText),
                   data = obj.wiwlist.persons;
               if (data) {
@@ -94,7 +95,6 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
               else {
                   Ext.Msg.alert('Keine Ergebnisse gefunden.');
               }
-              this.setLoading(false);
           }
       });
       
