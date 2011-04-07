@@ -94,6 +94,7 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
               else {
                   Ext.Msg.alert('Keine Ergebnisse gefunden.');
               }
+              this.setLoading(false);
           }
       });
       
