@@ -10,7 +10,6 @@ Ext.regApplication('web2go', {
     phoneStartupScreen: "resources/img/loading_screen.png",
     glossOnIcon: false,
     useHistory   : true,
-//    defaultUrl   : 'web2go/home',
     
     launch: function() {
         this.views.viewport = new web2go.views.Viewport({

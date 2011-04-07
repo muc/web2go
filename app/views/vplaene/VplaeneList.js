@@ -13,8 +13,7 @@ web2go.views.VplaeneList = Ext.extend(Ext.List, {
     initComponent: function() {
         this.listeners = {
             'itemtap': function(list, index) {
-                var record = list.getStore().getAt(index),
-                    uri = record.get('uri');
+                var record = list.getStore().getAt(index);
                 Ext.dispatch({
                     controller: web2go.controllers.vplaene,
                     action: 'course',

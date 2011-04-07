@@ -67,9 +67,10 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
    doSubmit: function() {
       this.setLoading(true);
       var values = this.getValues();
-      Ext.util.JSONP.request({
+      
+      Ext.Ajax.request({
           url: web2go.Urls.wiw_form.url,
-          callbackKey: 'callback',
+          method: web2go.Urls.wiw_form.method,
           params: {
               'tx_dhbwcontactsmobile_pi1[action]': 'results',
               'tx_dhbwcontactsmobile_pi1[controller]': 'Mobile',
@@ -79,9 +80,9 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
               'tx_dhbwcontactsmobile_pi1[search][name]': values.name
           },
           scope: this,
-          callback: function(result) {
-              this.setLoading(false);
-              var data = result.wiwlist.persons;
+          success: function() {
+              var obj  = Ext.decode(response.responseText),
+                  data = obj.wiwlist.persons;
               if (data) {
                   web2go.stores.WiwList.loadData(data);
                   Ext.dispatch({
@@ -94,8 +95,37 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
                   Ext.Msg.alert('Keine Ergebnisse gefunden.');
               }
           }
-          
       });
+      
+//      Ext.util.JSONP.request({
+//          url: web2go.Urls.wiw_form.url,
+//          callbackKey: 'callback',
+//          params: {
+//              'tx_dhbwcontactsmobile_pi1[action]': 'results',
+//              'tx_dhbwcontactsmobile_pi1[controller]': 'Mobile',
+//              'tx_dhbwcontactsmobile_pi1[search][location]': values.location,
+//              'tx_dhbwcontactsmobile_pi1[search][department]': values.department,
+//              'tx_dhbwcontactsmobile_pi1[search][course]': values.course,
+//              'tx_dhbwcontactsmobile_pi1[search][name]': values.name
+//          },
+//          scope: this,
+//          callback: function(result) {
+//              this.setLoading(false);
+//              var data = result.wiwlist.persons;
+//              if (data) {
+//                  web2go.stores.WiwList.loadData(data);
+//                  Ext.dispatch({
+//                      controller: web2go.controllers.whoiswho,
+//                      action: 'list',
+//                      animation: {type: 'slide', direction: 'left'}
+//                  });
+//              }
+//              else {
+//                  Ext.Msg.alert('Keine Ergebnisse gefunden.');
+//              }
+//          }
+//          
+//      });
       
 //      this.submit({
 //          url: web2go.Urls.wiw_form.url,
