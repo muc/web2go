@@ -1,2 +1,7 @@
 nbproject
 resources/scss/.sass-cache
+test/
+sencha
+lib/Command/
+lib/jasmine/
+lib/sencha-jasmine/
