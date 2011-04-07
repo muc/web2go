@@ -80,8 +80,8 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
               'tx_dhbwcontactsmobile_pi1[search][name]': values.name
           },
           scope: this,
-          success: function() {
-              var obj  = Ext.decode(response.responseText),
+          success: function(result) {
+              var obj  = Ext.decode(result.responseText),
                   data = obj.wiwlist.persons;
               if (data) {
                   web2go.stores.WiwList.loadData(data);
