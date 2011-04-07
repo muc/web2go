@@ -61,11 +61,24 @@ web2go.controllers.vplaene = new Ext.Controller({
     
     time: function(options) {
         web2go.stores.vpCourseItems.loadData(options.items);
-        web2go.views.vplaeneTime.setValues({
-            'timeframe': web2go.stores.vpCourseItems.findRecord('kw', '2011-13').get('uri')
+        Ext.Ajax.request({
+            url: 'sample_data/vplaene_times.php',
+            success: function(response) {
+                var data   = Ext.decode(response.responseText),
+                    kw     = data.kw,
+                    record = null;
+
+                while (record == null) {
+                    record = web2go.stores.vpCourseItems.findRecord('kw', data.year+'-'+kw);
+                    kw--;
+                }
+                web2go.views.vplaeneTime.setValues({
+                    'timeframe': record.get('uri')
+                });
+                web2go.views.vplaenePanel.setActiveItem(
+                    web2go.views.vplaeneTime, options.animation
+                );
+            }
         });
-        web2go.views.vplaenePanel.setActiveItem(
-            web2go.views.vplaeneTime, options.animation
-        );
     }
 });
