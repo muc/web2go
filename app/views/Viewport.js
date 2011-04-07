@@ -20,10 +20,6 @@ web2go.views.Viewport = Ext.extend(Ext.Panel, {
       mensaCampus: new web2go.views.MensaCampus(),
       mensaDetail: new web2go.views.MensaDetail(),
       whoiswhoPanel: new web2go.views.WhoiswhoPanel()
-//      studiengaengePanel: new web2go.views.StudiengaengePanel(),
-//      firmenlistePanel: new web2go.views.FirmenlistePanel(),
-//      dokumentePanel: new web2go.views.DokumentePanel(),
-//      zimmerboersePanel: new web2go.views.ZimmerboersePanel(),
     });
     
     //put instances of cards into viewport
@@ -34,10 +30,6 @@ web2go.views.Viewport = Ext.extend(Ext.Panel, {
         web2go.views.mensaCampus,
         web2go.views.mensaDetail,
         web2go.views.whoiswhoPanel
-//        web2go.views.firmenlistePanel,
-//        web2go.views.studiengaengePanel,
-//        web2go.views.dokumentePanel,
-//        web2go.views.zimmerboersePanel,
       ]
     });
     web2go.views.Viewport.superclass.initComponent.apply(this, arguments);
