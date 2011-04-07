@@ -22,7 +22,7 @@ web2go.controllers.vplaene = new Ext.Controller({
         
         Ext.Ajax.request({
             method: 'POST',
-            url: options.uri,
+            url: web2go.Urls.vplaene.url,
             params: {
                 'tx_dhbwcomplainmobile_pi1[course]': options.id,
                 'tx_dhbwcomplainmobile_pi1[action]': 'course',
