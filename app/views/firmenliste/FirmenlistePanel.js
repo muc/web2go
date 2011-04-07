@@ -1,14 +1,11 @@
 /**
- * @class web2go.views.StudiengaengePanel
+ * @class web2go.views.FirmenlistePanel
  * @extends Ext.Panel
- * Campus selection for mensa
  */
 
 
 web2go.views.FirmenlistePanel = Ext.extend(Ext.Panel, {
-    
-    styleHtmlContent: true,
-    html: '<br/><br/><br/><div style="text-align: center;text-shadow: rgba(0, 0, 0, 0.3) 0.2em .2em 0.2em;"><h3>work in progress&hellip;</h3></div>',
+    layout: 'card',
     
     initComponent: function() {
         
@@ -16,14 +13,10 @@ web2go.views.FirmenlistePanel = Ext.extend(Ext.Panel, {
             xtype: 'button',
             ui: 'back',
             text: 'Zurück',
-            listeners: {
-                'tap': function() {
-                    Ext.dispatch({
-                        controller: web2go.controllers.web2go,
-                        action: 'home',
-                        animation: {type: 'slide', direction: 'right'}
-                    });
-                }
+            scope: this,
+            handler: function() {
+                var currCard = this.getCardIndex();
+                currCard == 0 ? this.switchToHome() : this.setActiveItem(currCard - 1, {type: 'slide', direction: 'right'});
             }
         };
         
@@ -32,15 +25,7 @@ web2go.views.FirmenlistePanel = Ext.extend(Ext.Panel, {
             iconMask: true,
             ui: 'plain',
             iconCls: 'home',
-            listeners: {
-                'tap': function() {
-                    Ext.dispatch({
-                        controller: web2go.controllers.web2go,
-                        action: 'home',
-                        animation: {type: 'slide', direction: 'right'}
-                    });
-                }
-            }
+            handler: this.switchToHome
         };
         
         this.modulMenu = this.createModulMenu('Firmenliste');
@@ -61,10 +46,23 @@ web2go.views.FirmenlistePanel = Ext.extend(Ext.Panel, {
             xtype: 'toolbar',
             dock: 'top',
             ui: 'dark',
-            items: [this.backBtn, {xtype: 'spacer'}, this.titleBtn, {xtype: 'spacer'}, this.homeBtn]
+            items: [this.backBtn, {
+                xtype: 'spacer'
+            }, this.titleBtn, {
+                xtype: 'spacer'
+            }, this.homeBtn]
         };
 
         this.dockedItems = [this.toolBar];
+        
+        Ext.apply(web2go.views, {
+            flCoursesList: new web2go.views.FlCoursesList()
+        });
+        Ext.apply(this, {
+            items: [
+                web2go.views.flCoursesList
+            ]
+        });
         
         web2go.views.FirmenlistePanel.superclass.initComponent.apply(this, arguments);
     },
@@ -91,5 +89,20 @@ web2go.views.FirmenlistePanel = Ext.extend(Ext.Panel, {
             });
         });
         return mm;
+    },
+    
+    getCardIndex: function() {
+        return this.items.indexOf(this.getActiveItem());
+    },
+    
+    switchToHome: function() {
+        Ext.dispatch({
+            controller: web2go.controllers.web2go,
+            action: 'home',
+            animation: {
+                type: 'slide', 
+                direction: 'right'
+            }
+        });
     }
 });

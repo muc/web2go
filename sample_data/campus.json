@@ -1,8 +1,8 @@
 {
     "campus": [
         {
-            "name": "Mosbach",
-            "id"  : "MOS",
+            "name": "Bad Mergentheim",
+            "id"  : "MGH",
             "leaf": true
         },
         {
@@ -11,8 +11,8 @@
             "leaf": true
         },
         {
-            "name": "Bad Mergentheim",
-            "id"  : "MGH",
+            "name": "Mosbach",
+            "id"  : "MOS",
             "leaf": true
         }
     ]

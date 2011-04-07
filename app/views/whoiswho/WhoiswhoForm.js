@@ -10,7 +10,6 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
    submitOnAction: false,
    defaults: {
        labelAlign: 'left'
-//       labelWidth: '40%'
    },
 
    initComponent: function() {
@@ -66,25 +65,57 @@ web2go.views.WhoiswhoForm = Ext.extend(Ext.form.FormPanel, {
    },
    
    doSubmit: function() {
-      this.submit({
+      this.setLoading(true);
+      var values = this.getValues();
+      Ext.util.JSONP.request({
           url: web2go.Urls.wiw_form.url,
-          method: web2go.Urls.wiw_form.method,
+          callbackKey: 'callback',
           params: {
               'tx_dhbwcontactsmobile_pi1[action]': 'results',
-              'tx_dhbwcontactsmobile_pi1[controller]': 'Mobile'
+              'tx_dhbwcontactsmobile_pi1[controller]': 'Mobile',
+              'tx_dhbwcontactsmobile_pi1[search][location]': values.location,
+              'tx_dhbwcontactsmobile_pi1[search][department]': values.department,
+              'tx_dhbwcontactsmobile_pi1[search][course]': values.course,
+              'tx_dhbwcontactsmobile_pi1[search][name]': values.name
           },
-          success: function(form, result) {
-              web2go.stores.WiwList.loadData(result.wiwlist.persons);
-              Ext.dispatch({
-                  controller: web2go.controllers.whoiswho,
-                  action: 'list',
-                  animation: {type: 'slide', direction: 'left'}
-              });
-          },
-          failure: function(form, result) {
-              console.log('fail');
-              Ext.Msg.alert('Keine Ergebnisse gefunden.');
+          scope: this,
+          callback: function(result) {
+              this.setLoading(false);
+              var data = result.wiwlist.persons;
+              if (data) {
+                  web2go.stores.WiwList.loadData(data);
+                  Ext.dispatch({
+                      controller: web2go.controllers.whoiswho,
+                      action: 'list',
+                      animation: {type: 'slide', direction: 'left'}
+                  });
+              }
+              else {
+                  Ext.Msg.alert('Keine Ergebnisse gefunden.');
+              }
           }
+          
       });
+      
+//      this.submit({
+//          url: web2go.Urls.wiw_form.url,
+//          method: web2go.Urls.wiw_form.method,
+//          params: {
+//              'tx_dhbwcontactsmobile_pi1[action]': 'results',
+//              'tx_dhbwcontactsmobile_pi1[controller]': 'Mobile'
+//          },
+//          success: function(form, result) {
+//              web2go.stores.WiwList.loadData(result.wiwlist.persons);
+//              Ext.dispatch({
+//                  controller: web2go.controllers.whoiswho,
+//                  action: 'list',
+//                  animation: {type: 'slide', direction: 'left'}
+//              });
+//          },
+//          failure: function(form, result) {
+//              console.log('fail');
+//              Ext.Msg.alert('Keine Ergebnisse gefunden.');
+//          }
+//      });
    }
 });

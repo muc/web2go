@@ -10,6 +10,9 @@ web2go.stores.vplaene = new Ext.data.Store({
     model: 'web2go.models.Vplaene',
     autoLoad: false,
     sorters: 'name',
+    getGroupString : function(record) {
+        return record.get('name')[0];
+    },
     proxy: {
         type: 'scripttag',
         callbackParam: 'callback',

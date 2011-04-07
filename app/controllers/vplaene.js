@@ -31,7 +31,7 @@ web2go.controllers.vplaene = new Ext.Controller({
 //        });
         web2go.views.vplaenePanel.setLoading(true);
         Ext.util.JSONP.request({
-            url: "http://m.dhbw-mosbach.de/no_cache/complain.html",
+            url: web2go.Urls.vplaene.url,
             callbackKey: 'callback',
             params: {
                 'tx_dhbwcomplainmobile_pi1[course]': options.id,

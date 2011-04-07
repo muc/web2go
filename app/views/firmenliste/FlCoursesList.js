@@ -1,14 +1,12 @@
 /**
- * @class web2go.views.VplaeneList
+ * @class web2go.views.FirmenlisteCoursesList
  * @extends Ext.List
  */
 
-web2go.views.VplaeneList = Ext.extend(Ext.List, {
+web2go.views.FlCoursesList = Ext.extend(Ext.List, {
     itemTpl: '{name}', 
     onItemDisclosure: true,
-    store: web2go.stores.vplaene,
-    grouped : true,
-    indexBar: true,
+    store: web2go.stores.flCourses,
     
     initComponent: function() {
         this.listeners = {
@@ -16,15 +14,15 @@ web2go.views.VplaeneList = Ext.extend(Ext.List, {
                 var record = list.getStore().getAt(index),
                     uri = record.get('uri');
                 Ext.dispatch({
-                    controller: web2go.controllers.vplaene,
-                    action: 'course',
+                    controller: web2go.controllers.firmenliste,
+                    action: 'list',
                     animation: {type: 'slide', direction: 'left'},
                     id: record.get('id')
                 });
             }
         };
         
-        web2go.views.VplaeneList.superclass.initComponent.apply(this, arguments);
+        web2go.views.FlCoursesList.superclass.initComponent.apply(this, arguments);
     }
     
 });
