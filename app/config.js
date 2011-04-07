@@ -1,6 +1,6 @@
 
 web2go.Modules = [
-  {name: 'Vorlesungspl‰ne', controller: 'web2go.controllers.vplaene', action: 'index', icon: 'icon_vorlesungsplaene.png'},
+  {name: 'Vorlesungspl√§ne', controller: 'web2go.controllers.vplaene', action: 'index', icon: 'icon_vorlesungsplaene.png'},
   {name: 'Mensa', controller: 'web2go.controllers.mensa', action: 'index', icon: 'icon_mensaplaene.png'},
   {name: 'Who-is-Who', controller: 'web2go.controllers.whoiswho', action: 'index', icon: 'icon_who-is-who.png'}
 ];

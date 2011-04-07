@@ -1,3 +1,7 @@
+/**
+ * web2go vplaene models
+ */
+
 web2go.models.Vplaene = Ext.regModel("web2go.models.Vplaene", {
     fields: [
         {name: "id", type: "int"},
@@ -5,6 +9,26 @@ web2go.models.Vplaene = Ext.regModel("web2go.models.Vplaene", {
         {name: "uri", type: "string"}
     ]
 });
+
+web2go.models.VplaeneCourse = Ext.regModel("web2go.models.VplaeneCourse", {
+    fields: [
+        {name: "name", type: "string"},
+        {name: "items", type: "array"}
+    ]
+});
+
+web2go.models.VplaeneCourseItems = Ext.regModel("web2go.models.VplaeneCourseItems", {
+    fields: [
+        {name: "datum", type: "string"},
+        {name: "kw", type: "string"},
+        {name: "uri", type: "string"}
+    ]
+});
+
+
+/**
+ * web2go vplaene stores
+ */
 
 web2go.stores.vplaene = new Ext.data.Store({
     model: 'web2go.models.Vplaene',
@@ -14,9 +38,10 @@ web2go.stores.vplaene = new Ext.data.Store({
         return record.get('name')[0];
     },
     proxy: {
-        type: 'scripttag',
-        callbackParam: 'callback',
-        callbackPrefix: 'web2goCallback',
+        type: 'ajax',
+//        type: 'scripttag',
+//        callbackParam: 'callback',
+//        callbackPrefix: 'web2goCallback',
         url: web2go.Urls.vplaene.url,
         actionMethods: {
             reader: web2go.Urls.vplaene.method
@@ -28,24 +53,9 @@ web2go.stores.vplaene = new Ext.data.Store({
     }
 });
 
-web2go.models.VplaeneCourse = Ext.regModel("web2go.models.VplaeneCourse", {
-    fields: [
-        {name: "name", type: "string"},
-        {name: "items", type: "array"}
-    ]
-});
-
 web2go.stores.vpCourse = new Ext.data.Store({
     model: 'web2go.models.VplaeneCourse',
     autoLoad: false
-});
-
-web2go.models.VplaeneCourseItems = Ext.regModel("web2go.models.VplaeneCourseItems", {
-    fields: [
-        {name: "datum", type: "string"},
-        {name: "kw", type: "string"},
-        {name: "uri", type: "string"}
-    ]
 });
 
 web2go.stores.vpCourseItems = new Ext.data.Store({
