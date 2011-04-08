@@ -3,14 +3,8 @@
  * @extends Ext.Panel
  */
 
- web2go.views.VplaenePanel = Ext.extend(Ext.NestedList, {
-    displayField: 'name',
-    onItemDisclosure: true,
-    useToolbar: false,
-    store: web2go.stores.vplaene,
-    getDetailCard: function(record, parentRecord) {
-      return new web2go.views.VplaeneZeit();
-    },
+web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
+    layout: 'card',
     
     initComponent: function() {
         this.backBtn = {
@@ -19,7 +13,8 @@
             text: 'Zurück',
             scope: this,
             handler: function() {
-                this.getListIndex() == 0 ? this.switchToHome() : this.onBackTap();
+                var currCard = this.getCardIndex();
+                currCard == 0 ? this.switchToHome() : this.setActiveItem(currCard - 1, {type: 'slide', direction: 'right'});
             }
         };
 
@@ -49,18 +44,28 @@
             xtype: 'toolbar',
             dock: 'top',
             ui: 'dark',
-            items: [this.backBtn, {xtype: 'spacer'}, this.titleBtn, {xtype: 'spacer'}, this.homeBtn]
+            items: [this.backBtn, {
+                xtype: 'spacer'
+            }, this.titleBtn, {
+                xtype: 'spacer'
+            }, this.homeBtn]
         };
 
         this.dockedItems = [this.toolBar];
-
-        this.listeners = {
-          leafitemtap: function(subList, subIdx, el, e, detailCard) {
-            var ds = subList.getStore(),
-                r  = ds.getAt(subIdx).get('name');
-            detailCard.setCourse(r);
-          }
-        };
+        
+        Ext.apply(web2go.views, {
+            vplaeneList: new web2go.views.VplaeneList(),
+            vplaeneCourse: new web2go.views.VplaeneCourse(),
+            vplaeneTime: new web2go.views.VplaeneTime()
+        });
+        Ext.apply(this, {
+            items: [
+                web2go.views.vplaeneList,
+                web2go.views.vplaeneCourse,
+                web2go.views.vplaeneTime
+            ]
+        });
+        
 
         web2go.views.VplaenePanel.superclass.initComponent.apply(this, arguments);
     },
@@ -81,7 +86,10 @@
                     Ext.dispatch({
                         controller: this.dispatchController,
                         action: this.dispatchAction,
-                        animation: {type: 'slide', direction: 'down'}
+                        animation: {
+                            type: 'slide', 
+                            direction: 'down'
+                        }
                     });
                 }
             });
@@ -89,25 +97,19 @@
         return mm;
     },
     
-    getListIndex: function() {
+    getCardIndex: function() {
         return this.items.indexOf(this.getActiveItem());
-    },
-    
-    switchToList: function(index) {
-        if (index >= 0 && index < this.items.getCount()) {
-            var list = this.items.getAt(index),
-                selModel = list.getSelectionModel();
-            Ext.defer(selModel.deselectAll, 1, selModel);
-            Ext.defer(this.setActiveItem, 1, this, index);
-        }
     },
     
     switchToHome: function() {
         Ext.dispatch({
             controller: web2go.controllers.web2go,
             action: 'home',
-            animation: {type: 'slide', direction: 'right'}
+            animation: {
+                type: 'slide', 
+                direction: 'right'
+            }
         });
     }
     
- });
+});

@@ -15,7 +15,7 @@ web2go.views.MensaDetail = Ext.extend(Ext.List, {
         this.listeners = {
             'itemtap': function(list, index) {
                 var record = list.getStore().getAt(index);
-                Ext.Msg.alert('Tap', 'PDF for ' + record.get('name'));
+                window.location.href=record.get('link');
             }
         };
         
