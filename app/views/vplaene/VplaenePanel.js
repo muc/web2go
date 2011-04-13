@@ -1,7 +1,7 @@
 /**
  * @class web2go.views.VplaenePanel
  * @extends Ext.Panel
- *
+ * Vorlesungspläne card-container. Contains all the other vplaene modul views.
  */
 
 web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
@@ -9,7 +9,7 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
     
     initComponent: function() {
         /*
-         * The back button
+         * The back button.
          * If we are on the first card , switch to homescreen,
          * else show the previous card
          */
@@ -92,7 +92,7 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
     },
 
     /**
-     * Create and return the modules menu
+     * Creates and returns the modules menu
      */
     createModulMenu: function(currentModul) {
         var mm = new Ext.ActionSheet({
@@ -131,7 +131,7 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
     },
 
     /**
-     * call the index action in the web2go controller, to switch to homescreen
+     * Calls the index action in the web2go controller, to switch to homescreen
      */
     switchToHome: function() {
         Ext.dispatch({

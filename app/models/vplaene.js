@@ -1,5 +1,5 @@
 /**
- * web2go vplaene models
+ * Vplaene Models
  */
 
 web2go.models.Vplaene = Ext.regModel("web2go.models.Vplaene", {
@@ -27,7 +27,7 @@ web2go.models.VplaeneCourseItems = Ext.regModel("web2go.models.VplaeneCourseItem
 
 
 /**
- * web2go vplaene stores
+ * Vplaene Stores
  */
 
 web2go.stores.vplaene = new Ext.data.Store({
@@ -39,9 +39,6 @@ web2go.stores.vplaene = new Ext.data.Store({
     },
     proxy: {
         type: 'ajax',
-//        type: 'scripttag',
-//        callbackParam: 'callback',
-//        callbackPrefix: 'web2goCallback',
         url: web2go.Urls.vplaene.url,
         actionMethods: {
             reader: web2go.Urls.vplaene.method

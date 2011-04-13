@@ -1,3 +1,6 @@
+/**
+ * Mensa Model
+ */
 web2go.models.Mensa = Ext.regModel("web2go.models.Mensa", {
     fields: [
         {name: "name", type: "string"},
@@ -6,6 +9,9 @@ web2go.models.Mensa = Ext.regModel("web2go.models.Mensa", {
     ]
 });
 
+/**
+ * Mensa Store
+ */
 web2go.stores.mensa = new Ext.data.Store({
     model: 'web2go.models.Mensa',
     sorters: 'name',
