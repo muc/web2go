@@ -1,11 +1,12 @@
 /**
  * @class web2go.views.WhoiswhoList
  * @extends Ext.Panel
- * Who-is-Who Result List
+ * Who-is-Who search result list
  */
 
 
 web2go.views.WhoiswhoList = Ext.extend(Ext.List, {
+    
     itemTpl: new Ext.XTemplate(
         '<div class="wiw_list_name">{fullnamereverse}</div>',
         '<div class="wiw_list_campus"><strong>Campus:</strong> {campus}</div>',
@@ -19,9 +20,13 @@ web2go.views.WhoiswhoList = Ext.extend(Ext.List, {
     ),
     store: web2go.stores.WiwList,
     grouped : true,
-//    indexBar: true,
     
     initComponent: function() {
+
+        /*
+         * Event handler for itemtap.
+         * Dispatches the whoiswho detail view with the id of the selected person
+         */
         this.listeners = {
             itemtap: function(dataview, index) {
                 Ext.dispatch({

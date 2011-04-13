@@ -9,6 +9,11 @@ web2go.views.WhoiswhoDetail = Ext.extend(Ext.Panel, {
     scroll: 'vertical',
     
     initComponent: function() {
+
+        /*
+         * A simple template function, that renders the person details
+         * from the store into the html content.
+         */
         this.tpl = new Ext.XTemplate(
             '<tpl if="image != null">',
                 '<div class="wiw_detail_image clearfix">',

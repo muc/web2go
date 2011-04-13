@@ -1,6 +1,7 @@
 /**
  * @class web2go.views.VplaeneList
  * @extends Ext.List
+ * Vorlesungspläne - List of all study courses
  */
 
 web2go.views.VplaeneList = Ext.extend(Ext.List, {
@@ -11,6 +12,10 @@ web2go.views.VplaeneList = Ext.extend(Ext.List, {
     indexBar: true,
     
     initComponent: function() {
+        /*
+         * Catch the itemtap event
+         * Get selected item id and dispatch vplaene controller's course action
+         */
         this.listeners = {
             'itemtap': function(list, index) {
                 var record = list.getStore().getAt(index);

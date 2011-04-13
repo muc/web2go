@@ -1,5 +1,5 @@
 /**
- * web2go who-is-who models
+ * Who-is-who Models
  */
 
 web2go.models.WiwFormData = Ext.regModel("web2go.models.WiwFormData", {
@@ -59,7 +59,7 @@ web2go.models.WiwPosition = Ext.regModel("web2go.models.WiwPosition", {
 
 
 /**
- * web2go who-is-who stores
+ * Who-is-who Stores
  */
 
 web2go.stores.WiwFormLocations = new Ext.data.Store({

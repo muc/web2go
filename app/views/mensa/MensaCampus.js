@@ -1,7 +1,8 @@
 /**
  * @class web2go.views.MensaCampus
  * @extends Ext.Panel
- * Campus selection for mensa
+ * Campus selection for mensa modul.
+ * With NestedList the MensaDetail view will be rendered dependent on the selected campus.
  */
 
 
@@ -10,6 +11,12 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
     useToolbar: false,
     onItemDisclosure: true,
     store: web2go.stores.campus,
+
+    /*
+     * Returns the type of detail view.
+     * For campus Mosbach the MensaDetail view will be returned.
+     * For all other campus a simple Ext.Panel with html content will be returned.
+     */
     getDetailCard: function(record, parentRecord) {
         return record.id == 'MOS' ? 
               new web2go.views.MensaDetail()
@@ -17,6 +24,12 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
     },
     
     initComponent: function() {
+
+        /*
+         * The back button
+         * If we are on the first card , switch to homescreen,
+         * else show the previous card
+         */
         this.backBtn = {
             xtype: 'button',
             ui: 'back',
@@ -26,7 +39,10 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
                 this.getListIndex() == 0 ? this.switchToHome() : this.onBackTap();
             }
         };
-        
+
+        /*
+         * The home button, to switch to the homescreen view
+         */
         this.homeBtn = {
             xtype: 'button',
             iconMask: true,
@@ -34,9 +50,15 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
             iconCls: 'home',
             handler: this.switchToHome
         };
-        
+
+        /*
+         * Initiate the actionsheet modules menu
+         */
         this.modulMenu = this.createModulMenu('Mensa');
-        
+
+        /*
+         * The modul title with tap handler to show the modules menu
+         */
         this.titleBtn = {
             xtype: 'button',
             text: 'Mensapläne',
@@ -48,21 +70,25 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
                 this.modulMenu.show();
             }
         };
-        
+
+        /*
+         * The toolbar with back button, home button and the title
+         */
         this.toolBar = {
             xtype: 'toolbar',
             dock: 'top',
             ui: 'dark',
             items: [this.backBtn, {xtype: 'spacer'}, this.titleBtn, {xtype: 'spacer'}, this.homeBtn]
         };
-        
+
+        //add the toolbar to this view
         this.dockedItems = [this.toolBar];
-    
+
+        //Event listener for leafitemtap. Dependent on the selected campus the detail card will be rendere.
         this.listeners = {
             leafitemtap: function(subList, subIdx, el, e, detailCard) {
                 var ds = subList.getStore(),
-                    id = ds.getAt(subIdx).get('id'),
-                    campus = ds.getAt(subIdx).get('name');
+                    id = ds.getAt(subIdx).get('id');
 
                 if (id == 'MOS') {
                     detailCard.setCampus(id);
@@ -90,6 +116,10 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
         
         web2go.views.MensaCampus.superclass.initComponent.apply(this, arguments);
     },
+
+    /**
+     * Creates and returns the modules menu
+     */
     createModulMenu: function(currentModul) {
         var mm = new Ext.ActionSheet({
             hideOnMaskTap: true,
@@ -114,10 +144,16 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
         return mm;
     },
 
+    /**
+     * Returns the active card index
+     */
     getListIndex: function() {
         return this.items.indexOf(this.getActiveItem());
     },
 
+    /**
+     * Helper-function to change the active card view.
+     */
     switchToList: function(index) {
         if (index >= 0 && index < this.items.getCount()) {
             var list = this.items.getAt(index),
@@ -127,6 +163,9 @@ web2go.views.MensaCampus = Ext.extend(Ext.NestedList, {
         }
     },
 
+    /**
+     * Calls the index action in the web2go controller, to switch to homescreen
+     */
     switchToHome: function() {
         Ext.dispatch({
             controller: web2go.controllers.web2go,
