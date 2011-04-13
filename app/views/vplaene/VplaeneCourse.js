@@ -9,6 +9,11 @@ web2go.views.VplaeneCourse = Ext.extend(Ext.List, {
     store: web2go.stores.vpCourse,
     
     initComponent: function() {
+
+        /*
+         * Catch the itemtap event.
+         * Get the selected item record and dispatch vplaene controllers time action
+         */
         this.listeners = {
             'itemtap': function(list, index) {
                 var record = list.getStore().getAt(index);

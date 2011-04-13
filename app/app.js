@@ -1,8 +1,8 @@
 /**
- * This file sets application-wide settings and launches the application when everything has
- * been loaded onto the page. By default we just render the application's Viewport inside the
- * launch method (see app/views/Viewport.js).
- */ 
+ * This file registers the Web2Go App, generating the namespace "web2go"
+ * and renders the application's Viewport (see app/views/Viewport.js)
+ * inside the launch method when everything has been loaded onto the page.
+ */
 Ext.regApplication('web2go', {
     defaultTarget: "viewport",
     name         : "web2go",

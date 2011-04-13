@@ -1,12 +1,18 @@
 /**
  * @class web2go.views.VplaenePanel
  * @extends Ext.Panel
+ *
  */
 
 web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
     layout: 'card',
     
     initComponent: function() {
+        /*
+         * The back button
+         * If we are on the first card , switch to homescreen,
+         * else show the previous card
+         */
         this.backBtn = {
             xtype: 'button',
             ui: 'back',
@@ -18,6 +24,9 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
             }
         };
 
+        /*
+         * The home button, to switch to the homescreen view
+         */
         this.homeBtn = {
             xtype: 'button',
             iconMask: true,
@@ -25,9 +34,15 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
             iconCls: 'home',
             handler: this.switchToHome
         };
-        
+
+        /*
+         * Initiate the actionsheet modules menu
+         */
         this.modulMenu = this.createModulMenu('Vorlesungspläne');
-        
+
+        /*
+         * The modul title with tap handler to show the modules menu
+         */
         this.titleBtn = {
             xtype: 'button',
             text: 'Vorlesungspläne',
@@ -39,7 +54,10 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
                 this.modulMenu.show();
             }
         };
-        
+
+        /*
+         * The toolbar with back button, home button and the title
+         */
         this.toolBar = {
             xtype: 'toolbar',
             dock: 'top',
@@ -51,13 +69,17 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
             }, this.homeBtn]
         };
 
+        //add the toolbar to this view
         this.dockedItems = [this.toolBar];
-        
+
+        //put instances of cards into web2go.views namespace
         Ext.apply(web2go.views, {
             vplaeneList: new web2go.views.VplaeneList(),
             vplaeneCourse: new web2go.views.VplaeneCourse(),
             vplaeneTime: new web2go.views.VplaeneTime()
         });
+
+        //put instances of cards into VplaenePanel
         Ext.apply(this, {
             items: [
                 web2go.views.vplaeneList,
@@ -65,16 +87,20 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
                 web2go.views.vplaeneTime
             ]
         });
-        
 
         web2go.views.VplaenePanel.superclass.initComponent.apply(this, arguments);
     },
-    
+
+    /**
+     * Create and return the modules menu
+     */
     createModulMenu: function(currentModul) {
         var mm = new Ext.ActionSheet({
             hideOnMaskTap: true,
             enter: 'bottom'
         });
+
+        //add all modules to the actionsheet menu
         Ext.each(web2go.Modules, function(module) {
             mm.add({
                 text: module.name,
@@ -96,11 +122,17 @@ web2go.views.VplaenePanel = Ext.extend(Ext.Panel, {
         });
         return mm;
     },
-    
+
+    /**
+     * Returns the active card index
+     */
     getCardIndex: function() {
         return this.items.indexOf(this.getActiveItem());
     },
-    
+
+    /**
+     * call the index action in the web2go controller, to switch to homescreen
+     */
     switchToHome: function() {
         Ext.dispatch({
             controller: web2go.controllers.web2go,
