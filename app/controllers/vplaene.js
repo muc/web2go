@@ -5,7 +5,7 @@
  */
 
 web2go.controllers.vplaene = new Ext.Controller({
-    //Studiengänge list
+    //study courses list
     index: function(options) {
         //reset card view for VplaenePanel
         Ext.defer(web2go.views.vplaenePanel.setActiveItem, 1, web2go.views.vplaenePanel, 0);
@@ -30,7 +30,7 @@ web2go.controllers.vplaene = new Ext.Controller({
         //show loading mask
         web2go.views.vplaenePanel.setLoading(true);
 
-        //get a list of all courses for the submitted studiengänge id
+        //get a list of all courses for the submitted study course id
         Ext.Ajax.request({
             method: 'POST',
             url: web2go.Urls.vplaene.url,

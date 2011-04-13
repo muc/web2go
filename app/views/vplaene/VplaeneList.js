@@ -1,7 +1,7 @@
 /**
  * @class web2go.views.VplaeneList
  * @extends Ext.List
- * Vorlesungspläne - List of all Studiengänge
+ * Vorlesungspläne - List of all study courses
  */
 
 web2go.views.VplaeneList = Ext.extend(Ext.List, {
